@@ -18,5 +18,7 @@ public struct JSONEncodingOptions {
   /// Always print enums as ints. By default they are printed as strings.
   public var alwaysPrintEnumsAsInts: Bool = false
 
+  public var alwaysPrintProtoFieldNames: Bool = false
+
   public init() {}
 }
