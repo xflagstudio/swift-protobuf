@@ -87,9 +87,19 @@ internal struct JSONEncodingVisitor: Visitor {
     encoder.putFloatValue(value: value)
   }
 
+  mutating func visitSingularFloatField(value: Float, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularFloatField(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitSingularDoubleField(value: Double, fieldNumber: Int) throws {
     try startField(for: fieldNumber)
     encoder.putDoubleValue(value: value)
+  }
+
+  mutating func visitSingularDoubleField(value: Double, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularDoubleField(value: value, fieldNumber: fieldNumber)
   }
 
   mutating func visitSingularInt32Field(value: Int32, fieldNumber: Int) throws {
@@ -97,9 +107,19 @@ internal struct JSONEncodingVisitor: Visitor {
     encoder.putInt32(value: value)
   }
 
+  mutating func visitSingularInt32Field(value: Int32, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularInt32Field(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitSingularInt64Field(value: Int64, fieldNumber: Int) throws {
     try startField(for: fieldNumber)
     encoder.putInt64(value: value)
+  }
+
+  mutating func visitSingularInt64Field(value: Int64, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
   mutating func visitSingularUInt32Field(value: UInt32, fieldNumber: Int) throws {
@@ -107,9 +127,19 @@ internal struct JSONEncodingVisitor: Visitor {
     encoder.putUInt32(value: value)
   }
 
+  mutating func visitSingularUInt32Field(value: UInt32, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularUInt32Field(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitSingularUInt64Field(value: UInt64, fieldNumber: Int) throws {
     try startField(for: fieldNumber)
     encoder.putUInt64(value: value)
+  }
+
+  mutating func visitSingularUInt64Field(value: UInt64, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularUInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
   mutating func visitSingularFixed32Field(value: UInt32, fieldNumber: Int) throws {
@@ -117,9 +147,19 @@ internal struct JSONEncodingVisitor: Visitor {
     encoder.putUInt32(value: value)
   }
 
+  mutating func visitSingularFixed32Field(value: UInt32, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularFixed32Field(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitSingularSFixed32Field(value: Int32, fieldNumber: Int) throws {
     try startField(for: fieldNumber)
     encoder.putInt32(value: value)
+  }
+
+  mutating func visitSingularSFixed32Field(value: Int32, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularSFixed32Field(value: value, fieldNumber: fieldNumber)
   }
 
   mutating func visitSingularBoolField(value: Bool, fieldNumber: Int) throws {
@@ -127,14 +167,29 @@ internal struct JSONEncodingVisitor: Visitor {
     encoder.putBoolValue(value: value)
   }
 
+  mutating func visitSingularBoolField(value: Bool, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularBoolField(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitSingularStringField(value: String, fieldNumber: Int) throws {
     try startField(for: fieldNumber)
     encoder.putStringValue(value: value)
   }
 
+  mutating func visitSingularStringField(value: String, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularStringField(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitSingularBytesField(value: Data, fieldNumber: Int) throws {
     try startField(for: fieldNumber)
     encoder.putBytesValue(value: value)
+  }
+
+  mutating func visitSingularBytesField(value: Data, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularBytesField(value: value, fieldNumber: fieldNumber)
   }
 
   private mutating func _visitRepeated<T>(
@@ -164,14 +219,29 @@ internal struct JSONEncodingVisitor: Visitor {
     }
   }
 
+  mutating func visitSingularEnumField<E: Enum>(value: E, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularEnumField(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitSingularMessageField<M: Message>(value: M, fieldNumber: Int) throws {
     try startField(for: fieldNumber)
     let json = try value.jsonUTF8Data(options: options)
     encoder.append(utf8Data: json)
   }
 
+  mutating func visitSingularMessageField<M: Message>(value: M, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularMessageField(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitSingularGroupField<G: Message>(value: G, fieldNumber: Int) throws {
     // Google does not serialize groups into JSON
+  }
+
+  mutating func visitSingularGroupField<G: Message>(value: G, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularGroupField(value: value, fieldNumber: fieldNumber)
   }
 
   mutating func visitRepeatedFloatField(value: [Float], fieldNumber: Int) throws {
@@ -181,11 +251,21 @@ internal struct JSONEncodingVisitor: Visitor {
     }
   }
 
+  mutating func visitRepeatedFloatField(value: [Float], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedFloatField(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitRepeatedDoubleField(value: [Double], fieldNumber: Int) throws {
     try _visitRepeated(value: value, fieldNumber: fieldNumber) {
       (encoder: inout JSONEncoder, v: Double) in
       encoder.putDoubleValue(value: v)
     }
+  }
+
+  mutating func visitRepeatedDoubleField(value: [Double], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedDoubleField(value: value, fieldNumber: fieldNumber)
   }
 
   mutating func visitRepeatedInt32Field(value: [Int32], fieldNumber: Int) throws {
@@ -195,11 +275,21 @@ internal struct JSONEncodingVisitor: Visitor {
     }
   }
 
+  mutating func visitRepeatedInt32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedInt32Field(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitRepeatedInt64Field(value: [Int64], fieldNumber: Int) throws {
     try _visitRepeated(value: value, fieldNumber: fieldNumber) {
       (encoder: inout JSONEncoder, v: Int64) in
       encoder.putInt64(value: v)
     }
+  }
+
+  mutating func visitRepeatedInt64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
    mutating func visitRepeatedUInt32Field(value: [UInt32], fieldNumber: Int) throws {
@@ -209,6 +299,11 @@ internal struct JSONEncodingVisitor: Visitor {
     }
   }
 
+  mutating func visitRepeatedUInt32Field(value: [UInt32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedUInt32Field(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitRepeatedUInt64Field(value: [UInt64], fieldNumber: Int) throws {
     try _visitRepeated(value: value, fieldNumber: fieldNumber) {
       (encoder: inout JSONEncoder, v: UInt64) in
@@ -216,28 +311,63 @@ internal struct JSONEncodingVisitor: Visitor {
     }
   }
 
-   mutating func visitRepeatedSInt32Field(value: [Int32], fieldNumber: Int) throws {
+  mutating func visitRepeatedUInt64Field(value: [UInt64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedUInt64Field(value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitRepeatedSInt32Field(value: [Int32], fieldNumber: Int) throws {
     try visitRepeatedInt32Field(value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitRepeatedSInt32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedSInt32Field(value: value, fieldNumber: fieldNumber)
   }
 
   mutating func visitRepeatedSInt64Field(value: [Int64], fieldNumber: Int) throws {
     try visitRepeatedInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
+  mutating func visitRepeatedSInt64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedSInt64Field(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitRepeatedFixed32Field(value: [UInt32], fieldNumber: Int) throws {
     try visitRepeatedUInt32Field(value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitRepeatedFixed32Field(value: [UInt32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedFixed32Field(value: value, fieldNumber: fieldNumber)
   }
 
   mutating func visitRepeatedFixed64Field(value: [UInt64], fieldNumber: Int) throws {
     try visitRepeatedUInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
-   mutating func visitRepeatedSFixed32Field(value: [Int32], fieldNumber: Int) throws {
+  mutating func visitRepeatedFixed64Field(value: [UInt64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedFixed64Field(value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitRepeatedSFixed32Field(value: [Int32], fieldNumber: Int) throws {
     try visitRepeatedInt32Field(value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitRepeatedSFixed32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedSFixed32Field(value: value, fieldNumber: fieldNumber)
   }
 
   mutating func visitRepeatedSFixed64Field(value: [Int64], fieldNumber: Int) throws {
     try visitRepeatedInt64Field(value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitRepeatedSFixed64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedSFixed64Field(value: value, fieldNumber: fieldNumber)
   }
 
   mutating func visitRepeatedBoolField(value: [Bool], fieldNumber: Int) throws {
@@ -247,6 +377,11 @@ internal struct JSONEncodingVisitor: Visitor {
     }
   }
 
+  mutating func visitRepeatedBoolField(value: [Bool], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedBoolField(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitRepeatedStringField(value: [String], fieldNumber: Int) throws {
     try _visitRepeated(value: value, fieldNumber: fieldNumber) {
       (encoder: inout JSONEncoder, v: String) in
@@ -254,11 +389,21 @@ internal struct JSONEncodingVisitor: Visitor {
     }
   }
 
+  mutating func visitRepeatedStringField(value: [String], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedStringField(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitRepeatedBytesField(value: [Data], fieldNumber: Int) throws {
     try _visitRepeated(value: value, fieldNumber: fieldNumber) {
       (encoder: inout JSONEncoder, v: Data) in
       encoder.putBytesValue(value: v)
     }
+  }
+
+  mutating func visitRepeatedBytesField(value: [Data], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedBytesField(value: value, fieldNumber: fieldNumber)
   }
 
   mutating func visitRepeatedEnumField<E: Enum>(value: [E], fieldNumber: Int) throws {
@@ -273,6 +418,11 @@ internal struct JSONEncodingVisitor: Visitor {
     }
   }
 
+  mutating func visitRepeatedEnumField<E: Enum>(value: [E], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedEnumField(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitRepeatedMessageField<M: Message>(value: [M], fieldNumber: Int) throws {
     let localOptions = options
     try _visitRepeated(value: value, fieldNumber: fieldNumber) {
@@ -282,8 +432,18 @@ internal struct JSONEncodingVisitor: Visitor {
     }
   }
 
+  mutating func visitRepeatedMessageField<M: Message>(value: [M], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedMessageField(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitRepeatedGroupField<G: Message>(value: [G], fieldNumber: Int) throws {
     // Google does not serialize groups into JSON
+  }
+
+  mutating func visitRepeatedGroupField<G: Message>(value: [G], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitRepeatedGroupField(value: value, fieldNumber: fieldNumber)
   }
 
   // Packed fields are handled the same as non-packed fields, so JSON just
@@ -303,6 +463,11 @@ internal struct JSONEncodingVisitor: Visitor {
     encoder.append(text: "}")
   }
 
+  mutating func visitMapField<KeyType, ValueType: MapValueType>(fieldType: _ProtobufMap<KeyType, ValueType>.Type, value: _ProtobufMap<KeyType, ValueType>.BaseType, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitMapField(fieldType: fieldType, value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitMapField<KeyType, ValueType>(fieldType: _ProtobufEnumMap<KeyType, ValueType>.Type, value: _ProtobufEnumMap<KeyType, ValueType>.BaseType, fieldNumber: Int) throws  where ValueType.RawValue == Int {
     try startField(for: fieldNumber)
     encoder.append(text: "{")
@@ -315,6 +480,11 @@ internal struct JSONEncodingVisitor: Visitor {
     encoder.append(text: "}")
   }
 
+  mutating func visitMapField<KeyType, ValueType>(fieldType: _ProtobufEnumMap<KeyType, ValueType>.Type, value: _ProtobufEnumMap<KeyType, ValueType>.BaseType, fieldNumber: Int, isDefaultValue: Bool) throws  where ValueType.RawValue == Int {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitMapField(fieldType: fieldType, value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitMapField<KeyType, ValueType>(fieldType: _ProtobufMessageMap<KeyType, ValueType>.Type, value: _ProtobufMessageMap<KeyType, ValueType>.BaseType, fieldNumber: Int) throws {
     try startField(for: fieldNumber)
     encoder.append(text: "{")
@@ -325,6 +495,11 @@ internal struct JSONEncodingVisitor: Visitor {
     }
     encoder = mapVisitor.encoder
     encoder.append(text: "}")
+  }
+
+  mutating func visitMapField<KeyType, ValueType>(fieldType: _ProtobufMessageMap<KeyType, ValueType>.Type, value: _ProtobufMessageMap<KeyType, ValueType>.BaseType, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitMapField(fieldType: fieldType, value: value, fieldNumber: fieldNumber)
   }
 
   /// Called for each extension range.

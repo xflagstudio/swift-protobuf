@@ -22,5 +22,7 @@ public struct JSONEncodingOptions {
   /// By default they are converted to JSON(lowerCamelCase) names.
   public var preserveProtoFieldNames: Bool = false
 
+  public var alwaysPrintFieldsWithDefaultValues: Bool = false
+
   public init() {}
 }

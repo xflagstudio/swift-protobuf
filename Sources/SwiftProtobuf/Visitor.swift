@@ -37,94 +37,111 @@ public protocol Visitor {
   /// A default implementation is provided that just widens the value
   /// and calls `visitSingularDoubleField`
   mutating func visitSingularFloatField(value: Float, fieldNumber: Int) throws
+  mutating func visitSingularFloatField(value: Float, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated double field
   ///
   /// There is no default implementation.  This must be implemented.
   mutating func visitSingularDoubleField(value: Double, fieldNumber: Int) throws
+  mutating func visitSingularDoubleField(value: Double, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated int32 field
   ///
   /// A default implementation is provided that just widens the value
   /// and calls `visitSingularInt64Field`
   mutating func visitSingularInt32Field(value: Int32, fieldNumber: Int) throws
+  mutating func visitSingularInt32Field(value: Int32, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated int64 field
   ///
   /// There is no default implementation.  This must be implemented.
   mutating func visitSingularInt64Field(value: Int64, fieldNumber: Int) throws
+  mutating func visitSingularInt64Field(value: Int64, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated uint32 field
   ///
   /// A default implementation is provided that just widens the value
   /// and calls `visitSingularUInt64Field`
   mutating func visitSingularUInt32Field(value: UInt32, fieldNumber: Int) throws
+  mutating func visitSingularUInt32Field(value: UInt32, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated uint64 field
   ///
   /// There is no default implementation.  This must be implemented.
   mutating func visitSingularUInt64Field(value: UInt64, fieldNumber: Int) throws
+  mutating func visitSingularUInt64Field(value: UInt64, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated sint32 field
   ///
   /// A default implementation is provided that just forwards to
   /// `visitSingularInt32Field`
   mutating func visitSingularSInt32Field(value: Int32, fieldNumber: Int) throws
+  mutating func visitSingularSInt32Field(value: Int32, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated sint64 field
   ///
   /// A default implementation is provided that just forwards to
   /// `visitSingularInt64Field`
   mutating func visitSingularSInt64Field(value: Int64, fieldNumber: Int) throws
+  mutating func visitSingularSInt64Field(value: Int64, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated fixed32 field
   ///
   /// A default implementation is provided that just forwards to
   /// `visitSingularUInt32Field`
   mutating func visitSingularFixed32Field(value: UInt32, fieldNumber: Int) throws
+  mutating func visitSingularFixed32Field(value: UInt32, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated fixed64 field
   ///
   /// A default implementation is provided that just forwards to
   /// `visitSingularUInt64Field`
   mutating func visitSingularFixed64Field(value: UInt64, fieldNumber: Int) throws
+  mutating func visitSingularFixed64Field(value: UInt64, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated sfixed32 field
   ///
   /// A default implementation is provided that just forwards to
   /// `visitSingularInt32Field`
   mutating func visitSingularSFixed32Field(value: Int32, fieldNumber: Int) throws
+  mutating func visitSingularSFixed32Field(value: Int32, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated sfixed64 field
   ///
   /// A default implementation is provided that just forwards to
   /// `visitSingularInt64Field`
   mutating func visitSingularSFixed64Field(value: Int64, fieldNumber: Int) throws
+  mutating func visitSingularSFixed64Field(value: Int64, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated bool field
   ///
   /// There is no default implementation.  This must be implemented.
   mutating func visitSingularBoolField(value: Bool, fieldNumber: Int) throws
+  mutating func visitSingularBoolField(value: Bool, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated string field
   ///
   /// There is no default implementation.  This must be implemented.
   mutating func visitSingularStringField(value: String, fieldNumber: Int) throws
+  mutating func visitSingularStringField(value: String, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated bytes field
   ///
   /// There is no default implementation.  This must be implemented.
   mutating func visitSingularBytesField(value: Data, fieldNumber: Int) throws
+  mutating func visitSingularBytesField(value: Data, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated enum field
   ///
   /// There is no default implementation.  This must be implemented.
   mutating func visitSingularEnumField<E: Enum>(value: E, fieldNumber: Int) throws
+  mutating func visitSingularEnumField<E: Enum>(value: E, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated nested message field.
   ///
   /// There is no default implementation.  This must be implemented.
   mutating func visitSingularMessageField<M: Message>(value: M, fieldNumber: Int) throws
+  mutating func visitSingularMessageField<M: Message>(value: M, fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each non-repeated proto2 group field.
   ///
@@ -133,6 +150,7 @@ public protocol Visitor {
   /// differently than nested messages can override this and provide distinct
   /// implementations.
   mutating func visitSingularGroupField<G: Message>(value: G, fieldNumber: Int) throws
+  mutating func visitSingularGroupField<G: Message>(value: G, fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated float field.
   /// The method is called once with the complete array of values for
@@ -141,6 +159,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularFloatField` once for each item in the array.
   mutating func visitRepeatedFloatField(value: [Float], fieldNumber: Int) throws
+  mutating func visitRepeatedFloatField(value: [Float], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated double field.
   /// The method is called once with the complete array of values for
@@ -149,6 +168,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularDoubleField` once for each item in the array.
   mutating func visitRepeatedDoubleField(value: [Double], fieldNumber: Int) throws
+  mutating func visitRepeatedDoubleField(value: [Double], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated int32 field.
   /// The method is called once with the complete array of values for
@@ -157,6 +177,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularInt32Field` once for each item in the array.
   mutating func visitRepeatedInt32Field(value: [Int32], fieldNumber: Int) throws
+  mutating func visitRepeatedInt32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated int64 field.
   /// The method is called once with the complete array of values for
@@ -165,6 +186,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularInt64Field` once for each item in the array.
   mutating func visitRepeatedInt64Field(value: [Int64], fieldNumber: Int) throws
+  mutating func visitRepeatedInt64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated uint32 field.
   /// The method is called once with the complete array of values for
@@ -173,6 +195,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularUInt32Field` once for each item in the array.
   mutating func visitRepeatedUInt32Field(value: [UInt32], fieldNumber: Int) throws
+  mutating func visitRepeatedUInt32Field(value: [UInt32], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated uint64 field.
   /// The method is called once with the complete array of values for
@@ -181,6 +204,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularUInt64Field` once for each item in the array.
   mutating func visitRepeatedUInt64Field(value: [UInt64], fieldNumber: Int) throws
+  mutating func visitRepeatedUInt64Field(value: [UInt64], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated sint32 field.
   /// The method is called once with the complete array of values for
@@ -189,6 +213,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularSInt32Field` once for each item in the array.
   mutating func visitRepeatedSInt32Field(value: [Int32], fieldNumber: Int) throws
+  mutating func visitRepeatedSInt32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated sint64 field.
   /// The method is called once with the complete array of values for
@@ -197,6 +222,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularSInt64Field` once for each item in the array.
   mutating func visitRepeatedSInt64Field(value: [Int64], fieldNumber: Int) throws
+  mutating func visitRepeatedSInt64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated fixed32 field.
   /// The method is called once with the complete array of values for
@@ -205,6 +231,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularFixed32Field` once for each item in the array.
   mutating func visitRepeatedFixed32Field(value: [UInt32], fieldNumber: Int) throws
+  mutating func visitRepeatedFixed32Field(value: [UInt32], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated fixed64 field.
   /// The method is called once with the complete array of values for
@@ -213,6 +240,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularFixed64Field` once for each item in the array.
   mutating func visitRepeatedFixed64Field(value: [UInt64], fieldNumber: Int) throws
+  mutating func visitRepeatedFixed64Field(value: [UInt64], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated sfixed32 field.
   /// The method is called once with the complete array of values for
@@ -221,6 +249,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularSFixed32Field` once for each item in the array.
   mutating func visitRepeatedSFixed32Field(value: [Int32], fieldNumber: Int) throws
+  mutating func visitRepeatedSFixed32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated sfixed64 field.
   /// The method is called once with the complete array of values for
@@ -229,6 +258,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularSFixed64Field` once for each item in the array.
   mutating func visitRepeatedSFixed64Field(value: [Int64], fieldNumber: Int) throws
+  mutating func visitRepeatedSFixed64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated bool field.
   /// The method is called once with the complete array of values for
@@ -237,6 +267,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularBoolField` once for each item in the array.
   mutating func visitRepeatedBoolField(value: [Bool], fieldNumber: Int) throws
+  mutating func visitRepeatedBoolField(value: [Bool], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated string field.
   /// The method is called once with the complete array of values for
@@ -245,6 +276,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularStringField` once for each item in the array.
   mutating func visitRepeatedStringField(value: [String], fieldNumber: Int) throws
+  mutating func visitRepeatedStringField(value: [String], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each non-packed repeated bytes field.
   /// The method is called once with the complete array of values for
@@ -253,6 +285,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularBytesField` once for each item in the array.
   mutating func visitRepeatedBytesField(value: [Data], fieldNumber: Int) throws
+  mutating func visitRepeatedBytesField(value: [Data], fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each repeated, unpacked enum field.
   /// The method is called once with the complete array of values for
@@ -261,6 +294,7 @@ public protocol Visitor {
   /// A default implementation is provided that simply calls
   /// `visitSingularEnumField` once for each item in the array.
   mutating func visitRepeatedEnumField<E: Enum>(value: [E], fieldNumber: Int) throws
+  mutating func visitRepeatedEnumField<E: Enum>(value: [E], fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each repeated nested message field. The method is called once
   /// with the complete array of values for the field.
@@ -269,12 +303,16 @@ public protocol Visitor {
   /// `visitSingularMessageField` once for each item in the array.
   mutating func visitRepeatedMessageField<M: Message>(value: [M],
                                                       fieldNumber: Int) throws
+  mutating func visitRepeatedMessageField<M: Message>(value: [M],
+                                                      fieldNumber: Int,
+                                                      isDefaultValue: Bool) throws
 
   /// Called for each repeated proto2 group field.
   ///
   /// A default implementation is provided that simply calls
   /// `visitSingularGroupField` once for each item in the array.
   mutating func visitRepeatedGroupField<G: Message>(value: [G], fieldNumber: Int) throws
+  mutating func visitRepeatedGroupField<G: Message>(value: [G], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated float field.
   ///
@@ -284,6 +322,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedFloatField(value: [Float], fieldNumber: Int) throws
+  mutating func visitPackedFloatField(value: [Float], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated double field.
   ///
@@ -293,6 +332,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedDoubleField(value: [Double], fieldNumber: Int) throws
+  mutating func visitPackedDoubleField(value: [Double], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated int32 field.
   ///
@@ -302,6 +342,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedInt32Field(value: [Int32], fieldNumber: Int) throws
+  mutating func visitPackedInt32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated int64 field.
   ///
@@ -311,6 +352,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedInt64Field(value: [Int64], fieldNumber: Int) throws
+  mutating func visitPackedInt64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated uint32 field.
   ///
@@ -320,6 +362,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedUInt32Field(value: [UInt32], fieldNumber: Int) throws
+  mutating func visitPackedUInt32Field(value: [UInt32], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated uint64 field.
   ///
@@ -329,6 +372,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedUInt64Field(value: [UInt64], fieldNumber: Int) throws
+  mutating func visitPackedUInt64Field(value: [UInt64], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated sint32 field.
   ///
@@ -338,6 +382,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedSInt32Field(value: [Int32], fieldNumber: Int) throws
+  mutating func visitPackedSInt32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated sint64 field.
   ///
@@ -347,6 +392,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedSInt64Field(value: [Int64], fieldNumber: Int) throws
+  mutating func visitPackedSInt64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated fixed32 field.
   ///
@@ -356,6 +402,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedFixed32Field(value: [UInt32], fieldNumber: Int) throws
+  mutating func visitPackedFixed32Field(value: [UInt32], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated fixed64 field.
   ///
@@ -365,6 +412,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedFixed64Field(value: [UInt64], fieldNumber: Int) throws
+  mutating func visitPackedFixed64Field(value: [UInt64], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated sfixed32 field.
   ///
@@ -374,6 +422,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedSFixed32Field(value: [Int32], fieldNumber: Int) throws
+  mutating func visitPackedSFixed32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated sfixed64 field.
   ///
@@ -383,6 +432,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedSFixed64Field(value: [Int64], fieldNumber: Int) throws
+  mutating func visitPackedSFixed64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws
 
   // Called for each packed, repeated bool field.
   ///
@@ -392,6 +442,7 @@ public protocol Visitor {
   /// There is a default implementation that forwards to the non-packed
   /// function.
   mutating func visitPackedBoolField(value: [Bool], fieldNumber: Int) throws
+  mutating func visitPackedBoolField(value: [Bool], fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each repeated, packed enum field.
   /// The method is called once with the complete array of values for
@@ -402,6 +453,7 @@ public protocol Visitor {
   /// differently than unpacked fields can override this and provide distinct
   /// implementations.
   mutating func visitPackedEnumField<E: Enum>(value: [E], fieldNumber: Int) throws
+  mutating func visitPackedEnumField<E: Enum>(value: [E], fieldNumber: Int, isDefaultValue: Bool) throws
 
   /// Called for each map field with primitive values. The method is
   /// called once with the complete dictionary of keys/values for the
@@ -412,6 +464,11 @@ public protocol Visitor {
     fieldType: _ProtobufMap<KeyType, ValueType>.Type,
     value: _ProtobufMap<KeyType, ValueType>.BaseType,
     fieldNumber: Int) throws
+  mutating func visitMapField<KeyType, ValueType: MapValueType>(
+    fieldType: _ProtobufMap<KeyType, ValueType>.Type,
+    value: _ProtobufMap<KeyType, ValueType>.BaseType,
+    fieldNumber: Int,
+    isDefaultValue: Bool) throws
 
   /// Called for each map field with enum values. The method is called
   /// once with the complete dictionary of keys/values for the field.
@@ -421,6 +478,11 @@ public protocol Visitor {
     fieldType: _ProtobufEnumMap<KeyType, ValueType>.Type,
     value: _ProtobufEnumMap<KeyType, ValueType>.BaseType,
     fieldNumber: Int) throws where ValueType.RawValue == Int
+  mutating func visitMapField<KeyType, ValueType>(
+    fieldType: _ProtobufEnumMap<KeyType, ValueType>.Type,
+    value: _ProtobufEnumMap<KeyType, ValueType>.BaseType,
+    fieldNumber: Int,
+    isDefaultValue: Bool) throws where ValueType.RawValue == Int
 
   /// Called for each map field with message values. The method is
   /// called once with the complete dictionary of keys/values for the
@@ -431,6 +493,11 @@ public protocol Visitor {
     fieldType: _ProtobufMessageMap<KeyType, ValueType>.Type,
     value: _ProtobufMessageMap<KeyType, ValueType>.BaseType,
     fieldNumber: Int) throws
+  mutating func visitMapField<KeyType, ValueType>(
+    fieldType: _ProtobufMessageMap<KeyType, ValueType>.Type,
+    value: _ProtobufMessageMap<KeyType, ValueType>.BaseType,
+    fieldNumber: Int,
+    isDefaultValue: Bool) throws
 
   /// Called for each extension range.
   mutating func visitExtensionFields(fields: ExtensionFieldValueSet, start: Int, end: Int) throws
@@ -461,30 +528,79 @@ extension Visitor {
   public mutating func visitSingularFloatField(value: Float, fieldNumber: Int) throws {
     try visitSingularDoubleField(value: Double(value), fieldNumber: fieldNumber)
   }
+  public mutating func visitSingularFloatField(value: Float, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularFloatField(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitSingularDoubleField(value: Double, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularDoubleField(value: value, fieldNumber: fieldNumber)
+  }
   public mutating func visitSingularInt32Field(value: Int32, fieldNumber: Int) throws {
     try visitSingularInt64Field(value: Int64(value), fieldNumber: fieldNumber)
+  }
+  public mutating func visitSingularInt32Field(value: Int32, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularInt32Field(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitSingularInt64Field(value: Int64, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularInt64Field(value: value, fieldNumber: fieldNumber)
   }
   public mutating func visitSingularUInt32Field(value: UInt32, fieldNumber: Int) throws {
     try visitSingularUInt64Field(value: UInt64(value), fieldNumber: fieldNumber)
   }
+  public mutating func visitSingularUInt32Field(value: UInt32, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularUInt32Field(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitSingularUInt64Field(value: UInt64, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularUInt64Field(value: value, fieldNumber: fieldNumber)
+  }
   public mutating func visitSingularSInt32Field(value: Int32, fieldNumber: Int) throws {
     try visitSingularInt32Field(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitSingularSInt32Field(value: Int32, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularSInt32Field(value: value, fieldNumber: fieldNumber)
   }
   public mutating func visitSingularSInt64Field(value: Int64, fieldNumber: Int) throws {
     try visitSingularInt64Field(value: value, fieldNumber: fieldNumber)
   }
+  public mutating func visitSingularSInt64Field(value: Int64, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularSInt64Field(value: value, fieldNumber: fieldNumber)
+  }
   public mutating func visitSingularFixed32Field(value: UInt32, fieldNumber: Int) throws {
     try visitSingularUInt32Field(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitSingularFixed32Field(value: UInt32, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularFixed32Field(value: value, fieldNumber: fieldNumber)
   }
   public mutating func visitSingularFixed64Field(value: UInt64, fieldNumber: Int) throws {
     try visitSingularUInt64Field(value: value, fieldNumber: fieldNumber)
   }
+  public mutating func visitSingularFixed64Field(value: UInt64, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularFixed64Field(value: value, fieldNumber: fieldNumber)
+  }
   public mutating func visitSingularSFixed32Field(value: Int32, fieldNumber: Int) throws {
     try visitSingularInt32Field(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitSingularSFixed32Field(value: Int32, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularSFixed32Field(value: value, fieldNumber: fieldNumber)
   }
   public mutating func visitSingularSFixed64Field(value: Int64, fieldNumber: Int) throws {
     try visitSingularInt64Field(value: value, fieldNumber: fieldNumber)
   }
+  public mutating func visitSingularSFixed64Field(value: Int64, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularSFixed64Field(value: value, fieldNumber: fieldNumber)
+  }
+
 
   // Default definitions of repeated serializations that just iterate and
   // invoke the singular encoding.  These "just work" for Protobuf Binary (encoder
@@ -496,11 +612,19 @@ extension Visitor {
       try visitSingularFloatField(value: v, fieldNumber: fieldNumber)
     }
   }
+  public mutating func visitRepeatedFloatField(value: [Float], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedFloatField(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitRepeatedDoubleField(value: [Double], fieldNumber: Int) throws {
     for v in value {
       try visitSingularDoubleField(value: v, fieldNumber: fieldNumber)
     }
+  }
+  public mutating func visitRepeatedDoubleField(value: [Double], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedDoubleField(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitRepeatedInt32Field(value: [Int32], fieldNumber: Int) throws {
@@ -508,11 +632,19 @@ extension Visitor {
       try visitSingularInt32Field(value: v, fieldNumber: fieldNumber)
     }
   }
+  public mutating func visitRepeatedInt32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedInt32Field(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitRepeatedInt64Field(value: [Int64], fieldNumber: Int) throws {
     for v in value {
       try visitSingularInt64Field(value: v, fieldNumber: fieldNumber)
     }
+  }
+  public mutating func visitRepeatedInt64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitRepeatedUInt32Field(value: [UInt32], fieldNumber: Int) throws {
@@ -520,11 +652,19 @@ extension Visitor {
       try visitSingularUInt32Field(value: v, fieldNumber: fieldNumber)
     }
   }
+  public mutating func visitRepeatedUInt32Field(value: [UInt32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedUInt32Field(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitRepeatedUInt64Field(value: [UInt64], fieldNumber: Int) throws {
     for v in value {
       try visitSingularUInt64Field(value: v, fieldNumber: fieldNumber)
     }
+  }
+  public mutating func visitRepeatedUInt64Field(value: [UInt64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedUInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitRepeatedSInt32Field(value: [Int32], fieldNumber: Int) throws {
@@ -532,11 +672,19 @@ extension Visitor {
           try visitSingularSInt32Field(value: v, fieldNumber: fieldNumber)
       }
   }
+  public mutating func visitRepeatedSInt32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedSInt32Field(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitRepeatedSInt64Field(value: [Int64], fieldNumber: Int) throws {
       for v in value {
           try visitSingularSInt64Field(value: v, fieldNumber: fieldNumber)
       }
+  }
+  public mutating func visitRepeatedSInt64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedSInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitRepeatedFixed32Field(value: [UInt32], fieldNumber: Int) throws {
@@ -544,11 +692,19 @@ extension Visitor {
           try visitSingularFixed32Field(value: v, fieldNumber: fieldNumber)
       }
   }
+  public mutating func visitRepeatedFixed32Field(value: [UInt32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedFixed32Field(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitRepeatedFixed64Field(value: [UInt64], fieldNumber: Int) throws {
       for v in value {
           try visitSingularFixed64Field(value: v, fieldNumber: fieldNumber)
       }
+  }
+  public mutating func visitRepeatedFixed64Field(value: [UInt64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedFixed64Field(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitRepeatedSFixed32Field(value: [Int32], fieldNumber: Int) throws {
@@ -556,11 +712,19 @@ extension Visitor {
           try visitSingularSFixed32Field(value: v, fieldNumber: fieldNumber)
       }
   }
+  public mutating func visitRepeatedSFixed32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedSFixed32Field(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitRepeatedSFixed64Field(value: [Int64], fieldNumber: Int) throws {
       for v in value {
           try visitSingularSFixed64Field(value: v, fieldNumber: fieldNumber)
       }
+  }
+  public mutating func visitRepeatedSFixed64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedSFixed64Field(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitRepeatedBoolField(value: [Bool], fieldNumber: Int) throws {
@@ -568,11 +732,19 @@ extension Visitor {
       try visitSingularBoolField(value: v, fieldNumber: fieldNumber)
     }
   }
+  public mutating func visitRepeatedBoolField(value: [Bool], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedBoolField(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitRepeatedStringField(value: [String], fieldNumber: Int) throws {
     for v in value {
       try visitSingularStringField(value: v, fieldNumber: fieldNumber)
     }
+  }
+  public mutating func visitRepeatedStringField(value: [String], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedStringField(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitRepeatedBytesField(value: [Data], fieldNumber: Int) throws {
@@ -580,11 +752,19 @@ extension Visitor {
       try visitSingularBytesField(value: v, fieldNumber: fieldNumber)
     }
   }
+  public mutating func visitRepeatedBytesField(value: [Data], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedBytesField(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitRepeatedEnumField<E: Enum>(value: [E], fieldNumber: Int) throws {
     for v in value {
         try visitSingularEnumField(value: v, fieldNumber: fieldNumber)
     }
+  }
+  public mutating func visitRepeatedEnumField<E: Enum>(value: [E], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedEnumField(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitRepeatedMessageField<M: Message>(value: [M], fieldNumber: Int) throws {
@@ -592,11 +772,19 @@ extension Visitor {
       try visitSingularMessageField(value: v, fieldNumber: fieldNumber)
     }
   }
+  public mutating func visitRepeatedMessageField<M: Message>(value: [M], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedMessageField(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitRepeatedGroupField<G: Message>(value: [G], fieldNumber: Int) throws {
     for v in value {
       try visitSingularGroupField(value: v, fieldNumber: fieldNumber)
     }
+  }
+  public mutating func visitRepeatedGroupField<G: Message>(value: [G], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitRepeatedGroupField(value: value, fieldNumber: fieldNumber)
   }
 
   // Default definitions of packed serialization just defer to the
@@ -607,58 +795,168 @@ extension Visitor {
   public mutating func visitPackedFloatField(value: [Float], fieldNumber: Int) throws {
     try visitRepeatedFloatField(value: value, fieldNumber: fieldNumber)
   }
+  public mutating func visitPackedFloatField(value: [Float], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedFloatField(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitPackedDoubleField(value: [Double], fieldNumber: Int) throws {
     try visitRepeatedDoubleField(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitPackedDoubleField(value: [Double], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedDoubleField(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitPackedInt32Field(value: [Int32], fieldNumber: Int) throws {
     try visitRepeatedInt32Field(value: value, fieldNumber: fieldNumber)
   }
+  public mutating func visitPackedInt32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedInt32Field(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitPackedInt64Field(value: [Int64], fieldNumber: Int) throws {
     try visitRepeatedInt64Field(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitPackedInt64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitPackedUInt32Field(value: [UInt32], fieldNumber: Int) throws {
     try visitRepeatedUInt32Field(value: value, fieldNumber: fieldNumber)
   }
+  public mutating func visitPackedUInt32Field(value: [UInt32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedUInt32Field(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitPackedUInt64Field(value: [UInt64], fieldNumber: Int) throws {
     try visitRepeatedUInt64Field(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitPackedUInt64Field(value: [UInt64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedUInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitPackedSInt32Field(value: [Int32], fieldNumber: Int) throws {
     try visitPackedInt32Field(value: value, fieldNumber: fieldNumber)
   }
+  public mutating func visitPackedSInt32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedSInt32Field(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitPackedSInt64Field(value: [Int64], fieldNumber: Int) throws {
     try visitPackedInt64Field(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitPackedSInt64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedSInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitPackedFixed32Field(value: [UInt32], fieldNumber: Int) throws {
     try visitPackedUInt32Field(value: value, fieldNumber: fieldNumber)
   }
+  public mutating func visitPackedFixed32Field(value: [UInt32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedFixed32Field(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitPackedFixed64Field(value: [UInt64], fieldNumber: Int) throws {
     try visitPackedUInt64Field(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitPackedFixed64Field(value: [UInt64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedFixed64Field(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitPackedSFixed32Field(value: [Int32], fieldNumber: Int) throws {
     try visitPackedInt32Field(value: value, fieldNumber: fieldNumber)
   }
+  public mutating func visitPackedSFixed32Field(value: [Int32], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedSFixed32Field(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitPackedSFixed64Field(value: [Int64], fieldNumber: Int) throws {
     try visitPackedInt64Field(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitPackedSFixed64Field(value: [Int64], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedSFixed64Field(value: value, fieldNumber: fieldNumber)
   }
 
   public mutating func visitPackedBoolField(value: [Bool], fieldNumber: Int) throws {
     try visitRepeatedBoolField(value: value, fieldNumber: fieldNumber)
   }
+  public mutating func visitPackedBoolField(value: [Bool], fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedBoolField(value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitSingularBoolField(value: Bool, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularBoolField(value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitSingularStringField(value: String, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularStringField(value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitSingularBytesField(value: Data, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularBytesField(value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitSingularEnumField<E: Enum>(value: E, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularEnumField(value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitSingularMessageField<M: Message>(value: M, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularMessageField(value: value, fieldNumber: fieldNumber)
+  }
 
   public mutating func visitPackedEnumField<E: Enum>(value: [E],
                                             fieldNumber: Int) throws {
     try visitRepeatedEnumField(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitPackedEnumField<E: Enum>(value: [E],
+                                            fieldNumber: Int,
+                                            isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitPackedEnumField(value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitMapField<KeyType, ValueType: MapValueType>(
+    fieldType: _ProtobufMap<KeyType, ValueType>.Type,
+    value: _ProtobufMap<KeyType, ValueType>.BaseType,
+    fieldNumber: Int,
+    isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitMapField(fieldType: fieldType, value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitMapField<KeyType, ValueType>(
+    fieldType: _ProtobufEnumMap<KeyType, ValueType>.Type,
+    value: _ProtobufEnumMap<KeyType, ValueType>.BaseType,
+    fieldNumber: Int,
+    isDefaultValue: Bool) throws where ValueType.RawValue == Int {
+    if isDefaultValue { return }
+    try visitMapField(fieldType: fieldType, value: value, fieldNumber: fieldNumber)
+  }
+
+  mutating func visitMapField<KeyType, ValueType>(
+    fieldType: _ProtobufMessageMap<KeyType, ValueType>.Type,
+    value: _ProtobufMessageMap<KeyType, ValueType>.BaseType,
+    fieldNumber: Int,
+    isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitMapField(fieldType: fieldType, value: value, fieldNumber: fieldNumber)
   }
 
   // Default handling for Groups is to treat them just like messages.
@@ -669,6 +967,12 @@ extension Visitor {
   public mutating func visitSingularGroupField<G: Message>(value: G,
                                                   fieldNumber: Int) throws {
     try visitSingularMessageField(value: value, fieldNumber: fieldNumber)
+  }
+  public mutating func visitSingularGroupField<G: Message>(value: G,
+                                                  fieldNumber: Int,
+                                                  isDefaultValue: Bool) throws {
+    if isDefaultValue { return }
+    try visitSingularGroupField(value: value, fieldNumber: fieldNumber)
   }
 
   // Default handling of Extensions as a MessageSet to handing them just
