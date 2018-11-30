@@ -196,27 +196,30 @@ class MessageFieldGenerator: FieldGeneratorBase, FieldGenerator {
 
         let varName = hasFieldPresence ? "v" : storedProperty
 
-        let conditional: String
+        let additionalArg: String
         if isRepeated {  // Also covers maps
-            conditional = "!\(varName).isEmpty"
+            additionalArg = ", isDefaultValue: \(varName).isEmpty"
         } else if hasFieldPresence {
-            conditional = "let v = \(storedProperty)"
+            p.print("if let v = \(storedProperty) {\n")
+            p.indent()
+            additionalArg = ""
         } else {
             // At this point, the fields would be a primative type, and should only
             // be visted if it is the non default value.
             assert(fieldDescriptor.file.syntax == .proto3)
             switch fieldDescriptor.type {
             case .string, .bytes:
-                conditional = ("!\(varName).isEmpty")
+                additionalArg = (", isDefaultValue: \(varName).isEmpty")
             default:
-                conditional = ("\(varName) != \(swiftDefaultValue)")
+                additionalArg = (", isDefaultValue: \(varName) == \(swiftDefaultValue)")
             }
         }
 
-        p.print("if \(conditional) {\n")
-        p.indent()
-        p.print("try visitor.\(visitMethod)(\(traitsArg)value: \(varName), fieldNumber: \(number))\n")
-        p.outdent()
-        p.print("}\n")
+        p.print("try visitor.\(visitMethod)(\(traitsArg)value: \(varName), fieldNumber: \(number)\(additionalArg))\n")
+
+        if hasFieldPresence {
+            p.outdent()
+            p.print("}\n")
+        }
     }
 }
