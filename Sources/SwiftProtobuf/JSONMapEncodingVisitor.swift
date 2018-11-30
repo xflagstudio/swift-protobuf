@@ -49,12 +49,22 @@ internal struct JSONMapEncodingVisitor: SelectiveVisitor {
       encoder.putFloatValue(value: value)
   }
 
+  mutating func visitSingularFloatField(value: Float, fieldNumber: Int, isDefaultValue: Bool) throws {
+    if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+    try visitSingularFloatField(value: value, fieldNumber: fieldNumber)
+  }
+
   mutating func visitSingularDoubleField(value: Double, fieldNumber: Int) throws {
       // Doubles/Floats can never be map keys, only values
       assert(fieldNumber == 2)
       startValue()
       encoder.putDoubleValue(value: value)
   }
+
+    mutating func visitSingularDoubleField(value: Double, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularDoubleField(value: value, fieldNumber: fieldNumber)
+    }
 
   mutating func visitSingularInt32Field(value: Int32, fieldNumber: Int) throws {
       if fieldNumber == 1 {
@@ -66,6 +76,11 @@ internal struct JSONMapEncodingVisitor: SelectiveVisitor {
       }
   }
 
+    mutating func visitSingularInt32Field(value: Int32, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularInt32Field(value: value, fieldNumber: fieldNumber)
+    }
+
   mutating func visitSingularInt64Field(value: Int64, fieldNumber: Int) throws {
       if fieldNumber == 1 {
           startKey()
@@ -75,6 +90,11 @@ internal struct JSONMapEncodingVisitor: SelectiveVisitor {
       // Int64 fields are always quoted anyway
       encoder.putInt64(value: value)
   }
+
+    mutating func visitSingularInt64Field(value: Int64, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularInt64Field(value: value, fieldNumber: fieldNumber)
+    }
 
   mutating func visitSingularUInt32Field(value: UInt32, fieldNumber: Int) throws {
       if fieldNumber == 1 {
@@ -86,6 +106,11 @@ internal struct JSONMapEncodingVisitor: SelectiveVisitor {
       }
   }
 
+    mutating func visitSingularUInt32Field(value: UInt32, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularUInt32Field(value: value, fieldNumber: fieldNumber)
+    }
+
   mutating func visitSingularUInt64Field(value: UInt64, fieldNumber: Int) throws {
       if fieldNumber == 1 {
           startKey()
@@ -95,29 +120,64 @@ internal struct JSONMapEncodingVisitor: SelectiveVisitor {
       encoder.putUInt64(value: value)
   }
 
+    mutating func visitSingularUInt64Field(value: UInt64, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularUInt64Field(value: value, fieldNumber: fieldNumber)
+    }
+
   mutating func visitSingularSInt32Field(value: Int32, fieldNumber: Int) throws {
       try visitSingularInt32Field(value: value, fieldNumber: fieldNumber)
   }
+
+    mutating func visitSingularSInt32Field(value: Int32, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularSInt32Field(value: value, fieldNumber: fieldNumber)
+    }
 
   mutating func visitSingularSInt64Field(value: Int64, fieldNumber: Int) throws {
       try visitSingularInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
+    mutating func visitSingularSInt64Field(value: Int64, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularSInt64Field(value: value, fieldNumber: fieldNumber)
+    }
+
   mutating func visitSingularFixed32Field(value: UInt32, fieldNumber: Int) throws {
       try visitSingularUInt32Field(value: value, fieldNumber: fieldNumber)
   }
+
+    mutating func visitSingularFixed32Field(value: UInt32, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularFixed32Field(value: value, fieldNumber: fieldNumber)
+    }
 
   mutating func visitSingularFixed64Field(value: UInt64, fieldNumber: Int) throws {
       try visitSingularUInt64Field(value: value, fieldNumber: fieldNumber)
   }
 
+    mutating func visitSingularFixed64Field(value: UInt64, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularFixed64Field(value: value, fieldNumber: fieldNumber)
+    }
+
   mutating func visitSingularSFixed32Field(value: Int32, fieldNumber: Int) throws {
       try visitSingularInt32Field(value: value, fieldNumber: fieldNumber)
   }
 
+    mutating func visitSingularSFixed32Field(value: Int32, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularSFixed32Field(value: value, fieldNumber: fieldNumber)
+    }
+
   mutating func visitSingularSFixed64Field(value: Int64, fieldNumber: Int) throws {
       try visitSingularInt64Field(value: value, fieldNumber: fieldNumber)
   }
+
+    mutating func visitSingularSFixed64Field(value: Int64, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularSFixed64Field(value: value, fieldNumber: fieldNumber)
+    }
 
   mutating func visitSingularBoolField(value: Bool, fieldNumber: Int) throws {
       if fieldNumber == 1 {
@@ -129,6 +189,11 @@ internal struct JSONMapEncodingVisitor: SelectiveVisitor {
       }
   }
 
+    mutating func visitSingularBoolField(value: Bool, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularBoolField(value: value, fieldNumber: fieldNumber)
+    }
+
   mutating func visitSingularStringField(value: String, fieldNumber: Int) throws {
       if fieldNumber == 1 {
           startKey()
@@ -138,12 +203,22 @@ internal struct JSONMapEncodingVisitor: SelectiveVisitor {
       encoder.putStringValue(value: value)
   }
 
+    mutating func visitSingularStringField(value: String, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularStringField(value: value, fieldNumber: fieldNumber)
+    }
+
   mutating func visitSingularBytesField(value: Data, fieldNumber: Int) throws {
       // Bytes can only be map values, never keys
       assert(fieldNumber == 2)
       startValue()
       encoder.putBytesValue(value: value)
   }
+
+    mutating func visitSingularBytesField(value: Data, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularBytesField(value: value, fieldNumber: fieldNumber)
+    }
 
   mutating func visitSingularEnumField<E: Enum>(value: E, fieldNumber: Int) throws {
       // Enums can only be map values, never keys
@@ -156,6 +231,11 @@ internal struct JSONMapEncodingVisitor: SelectiveVisitor {
       }
   }
 
+    mutating func visitSingularEnumField<E: Enum>(value: E, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularEnumField(value: value, fieldNumber: fieldNumber)
+    }
+
   mutating func visitSingularMessageField<M: Message>(value: M, fieldNumber: Int) throws {
       // Messages can only be map values, never keys
       assert(fieldNumber == 2)
@@ -163,6 +243,11 @@ internal struct JSONMapEncodingVisitor: SelectiveVisitor {
       let json = try value.jsonString(options: options)
       encoder.append(text: json)
   }
+
+    mutating func visitSingularMessageField<M: Message>(value: M, fieldNumber: Int, isDefaultValue: Bool) throws {
+        if isDefaultValue, !options.alwaysPrintFieldsWithDefaultValues { return }
+        try visitSingularMessageField(value: value, fieldNumber: fieldNumber)
+    }
 
   // SelectiveVisitor will block:
   // - single Groups

@@ -20,5 +20,7 @@ public struct JSONEncodingOptions {
 
   public var alwaysPrintProtoFieldNames: Bool = false
 
+  public var alwaysPrintFieldsWithDefaultValues: Bool = false
+
   public init() {}
 }
