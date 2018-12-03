@@ -377,9 +377,7 @@ extension ProtobufUnittest_RawMessageSet: SwiftProtobuf.Message, SwiftProtobuf._
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.item.isEmpty {
-      try visitor.visitRepeatedGroupField(value: self.item, fieldNumber: 1)
-    }
+    try visitor.visitRepeatedGroupField(value: self.item, fieldNumber: 1, isDefaultValue: self.item.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 

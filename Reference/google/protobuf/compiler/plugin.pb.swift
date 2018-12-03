@@ -411,18 +411,14 @@ extension Google_Protobuf_Compiler_CodeGeneratorRequest: SwiftProtobuf.Message, 
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try withExtendedLifetime(_storage) { (_storage: _StorageClass) in
-      if !_storage._fileToGenerate.isEmpty {
-        try visitor.visitRepeatedStringField(value: _storage._fileToGenerate, fieldNumber: 1)
-      }
+      try visitor.visitRepeatedStringField(value: _storage._fileToGenerate, fieldNumber: 1, isDefaultValue: _storage._fileToGenerate.isEmpty)
       if let v = _storage._parameter {
         try visitor.visitSingularStringField(value: v, fieldNumber: 2)
       }
       if let v = _storage._compilerVersion {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 3)
       }
-      if !_storage._protoFile.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._protoFile, fieldNumber: 15)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._protoFile, fieldNumber: 15, isDefaultValue: _storage._protoFile.isEmpty)
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -466,9 +462,7 @@ extension Google_Protobuf_Compiler_CodeGeneratorResponse: SwiftProtobuf.Message,
     if let v = self._error {
       try visitor.visitSingularStringField(value: v, fieldNumber: 1)
     }
-    if !self.file.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.file, fieldNumber: 15)
-    }
+    try visitor.visitRepeatedMessageField(value: self.file, fieldNumber: 15, isDefaultValue: self.file.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 

@@ -222,9 +222,7 @@ extension Google_Protobuf_DoubleValue: SwiftProtobuf.Message, SwiftProtobuf._Mes
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.value != 0 {
-      try visitor.visitSingularDoubleField(value: self.value, fieldNumber: 1)
-    }
+    try visitor.visitSingularDoubleField(value: self.value, fieldNumber: 1, isDefaultValue: self.value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -251,9 +249,7 @@ extension Google_Protobuf_FloatValue: SwiftProtobuf.Message, SwiftProtobuf._Mess
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.value != 0 {
-      try visitor.visitSingularFloatField(value: self.value, fieldNumber: 1)
-    }
+    try visitor.visitSingularFloatField(value: self.value, fieldNumber: 1, isDefaultValue: self.value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -280,9 +276,7 @@ extension Google_Protobuf_Int64Value: SwiftProtobuf.Message, SwiftProtobuf._Mess
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.value != 0 {
-      try visitor.visitSingularInt64Field(value: self.value, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt64Field(value: self.value, fieldNumber: 1, isDefaultValue: self.value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -309,9 +303,7 @@ extension Google_Protobuf_UInt64Value: SwiftProtobuf.Message, SwiftProtobuf._Mes
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.value != 0 {
-      try visitor.visitSingularUInt64Field(value: self.value, fieldNumber: 1)
-    }
+    try visitor.visitSingularUInt64Field(value: self.value, fieldNumber: 1, isDefaultValue: self.value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -338,9 +330,7 @@ extension Google_Protobuf_Int32Value: SwiftProtobuf.Message, SwiftProtobuf._Mess
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.value != 0 {
-      try visitor.visitSingularInt32Field(value: self.value, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.value, fieldNumber: 1, isDefaultValue: self.value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -367,9 +357,7 @@ extension Google_Protobuf_UInt32Value: SwiftProtobuf.Message, SwiftProtobuf._Mes
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.value != 0 {
-      try visitor.visitSingularUInt32Field(value: self.value, fieldNumber: 1)
-    }
+    try visitor.visitSingularUInt32Field(value: self.value, fieldNumber: 1, isDefaultValue: self.value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -396,9 +384,7 @@ extension Google_Protobuf_BoolValue: SwiftProtobuf.Message, SwiftProtobuf._Messa
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.value != false {
-      try visitor.visitSingularBoolField(value: self.value, fieldNumber: 1)
-    }
+    try visitor.visitSingularBoolField(value: self.value, fieldNumber: 1, isDefaultValue: self.value == false)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -425,9 +411,7 @@ extension Google_Protobuf_StringValue: SwiftProtobuf.Message, SwiftProtobuf._Mes
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.value.isEmpty {
-      try visitor.visitSingularStringField(value: self.value, fieldNumber: 1)
-    }
+    try visitor.visitSingularStringField(value: self.value, fieldNumber: 1, isDefaultValue: self.value.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -454,9 +438,7 @@ extension Google_Protobuf_BytesValue: SwiftProtobuf.Message, SwiftProtobuf._Mess
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.value.isEmpty {
-      try visitor.visitSingularBytesField(value: self.value, fieldNumber: 1)
-    }
+    try visitor.visitSingularBytesField(value: self.value, fieldNumber: 1, isDefaultValue: self.value.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 

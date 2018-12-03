@@ -141,9 +141,7 @@ extension ProtobufUnittest_TestEmbedOptimizedForSize: SwiftProtobuf.Message, Swi
       if let v = _storage._optionalMessage {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 1)
       }
-      if !_storage._repeatedMessage.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._repeatedMessage, fieldNumber: 2)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._repeatedMessage, fieldNumber: 2, isDefaultValue: _storage._repeatedMessage.isEmpty)
     }
     try unknownFields.traverse(visitor: &visitor)
   }

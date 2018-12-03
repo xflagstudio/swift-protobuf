@@ -371,9 +371,7 @@ extension SwiftUnittest_TestParsingMerge: SwiftProtobuf.Message, SwiftProtobuf._
       if let v = _storage._optionalMessage {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 1)
       }
-      if !_storage._repeatedMessage.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._repeatedMessage, fieldNumber: 2)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._repeatedMessage, fieldNumber: 2, isDefaultValue: _storage._repeatedMessage.isEmpty)
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -412,12 +410,8 @@ extension SwiftUnittest_TestParsingMerge.RepeatedFieldsGenerator: SwiftProtobuf.
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.field1.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.field1, fieldNumber: 1)
-    }
-    if !self.field2.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.field2, fieldNumber: 2)
-    }
+    try visitor.visitRepeatedMessageField(value: self.field1, fieldNumber: 1, isDefaultValue: self.field1.isEmpty)
+    try visitor.visitRepeatedMessageField(value: self.field2, fieldNumber: 2, isDefaultValue: self.field2.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 

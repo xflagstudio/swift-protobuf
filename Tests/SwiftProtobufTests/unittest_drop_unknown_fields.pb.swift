@@ -193,12 +193,8 @@ extension UnittestDropUnknownFields_Foo: SwiftProtobuf.Message, SwiftProtobuf._M
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.int32Value != 0 {
-      try visitor.visitSingularInt32Field(value: self.int32Value, fieldNumber: 1)
-    }
-    if self.enumValue != .foo {
-      try visitor.visitSingularEnumField(value: self.enumValue, fieldNumber: 2)
-    }
+    try visitor.visitSingularInt32Field(value: self.int32Value, fieldNumber: 1, isDefaultValue: self.int32Value == 0)
+    try visitor.visitSingularEnumField(value: self.enumValue, fieldNumber: 2, isDefaultValue: self.enumValue == .foo)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -238,15 +234,9 @@ extension UnittestDropUnknownFields_FooWithExtraFields: SwiftProtobuf.Message, S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.int32Value != 0 {
-      try visitor.visitSingularInt32Field(value: self.int32Value, fieldNumber: 1)
-    }
-    if self.enumValue != .foo {
-      try visitor.visitSingularEnumField(value: self.enumValue, fieldNumber: 2)
-    }
-    if self.extraInt32Value != 0 {
-      try visitor.visitSingularInt32Field(value: self.extraInt32Value, fieldNumber: 3)
-    }
+    try visitor.visitSingularInt32Field(value: self.int32Value, fieldNumber: 1, isDefaultValue: self.int32Value == 0)
+    try visitor.visitSingularEnumField(value: self.enumValue, fieldNumber: 2, isDefaultValue: self.enumValue == .foo)
+    try visitor.visitSingularInt32Field(value: self.extraInt32Value, fieldNumber: 3, isDefaultValue: self.extraInt32Value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 

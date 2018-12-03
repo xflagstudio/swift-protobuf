@@ -131,15 +131,11 @@ extension ProtobufUnittest_TestAny: SwiftProtobuf.Message, SwiftProtobuf._Messag
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try withExtendedLifetime(_storage) { (_storage: _StorageClass) in
-      if _storage._int32Value != 0 {
-        try visitor.visitSingularInt32Field(value: _storage._int32Value, fieldNumber: 1)
-      }
+      try visitor.visitSingularInt32Field(value: _storage._int32Value, fieldNumber: 1, isDefaultValue: _storage._int32Value == 0)
       if let v = _storage._anyValue {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 2)
       }
-      if !_storage._repeatedAnyValue.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._repeatedAnyValue, fieldNumber: 3)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._repeatedAnyValue, fieldNumber: 3, isDefaultValue: _storage._repeatedAnyValue.isEmpty)
     }
     try unknownFields.traverse(visitor: &visitor)
   }

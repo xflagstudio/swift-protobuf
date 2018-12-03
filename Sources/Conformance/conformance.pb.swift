@@ -404,15 +404,9 @@ extension Conformance_ConformanceRequest: SwiftProtobuf.Message, SwiftProtobuf._
       try visitor.visitSingularStringField(value: v, fieldNumber: 2)
     case nil: break
     }
-    if self.requestedOutputFormat != .unspecified {
-      try visitor.visitSingularEnumField(value: self.requestedOutputFormat, fieldNumber: 3)
-    }
-    if !self.messageType.isEmpty {
-      try visitor.visitSingularStringField(value: self.messageType, fieldNumber: 4)
-    }
-    if self.testCategory != .unspecifiedTest {
-      try visitor.visitSingularEnumField(value: self.testCategory, fieldNumber: 5)
-    }
+    try visitor.visitSingularEnumField(value: self.requestedOutputFormat, fieldNumber: 3, isDefaultValue: self.requestedOutputFormat == .unspecified)
+    try visitor.visitSingularStringField(value: self.messageType, fieldNumber: 4, isDefaultValue: self.messageType.isEmpty)
+    try visitor.visitSingularEnumField(value: self.testCategory, fieldNumber: 5, isDefaultValue: self.testCategory == .unspecifiedTest)
     try unknownFields.traverse(visitor: &visitor)
   }
 

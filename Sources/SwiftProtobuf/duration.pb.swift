@@ -151,12 +151,8 @@ extension Google_Protobuf_Duration: SwiftProtobuf.Message, SwiftProtobuf._Messag
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.seconds != 0 {
-      try visitor.visitSingularInt64Field(value: self.seconds, fieldNumber: 1)
-    }
-    if self.nanos != 0 {
-      try visitor.visitSingularInt32Field(value: self.nanos, fieldNumber: 2)
-    }
+    try visitor.visitSingularInt64Field(value: self.seconds, fieldNumber: 1, isDefaultValue: self.seconds == 0)
+    try visitor.visitSingularInt32Field(value: self.nanos, fieldNumber: 2, isDefaultValue: self.nanos == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 

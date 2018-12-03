@@ -8,6 +8,8 @@ message GeneratedSwiftReservedMessages {
   message allCases { int32 allCases = 1; }
   message allocate { int32 allocate = 1; }
   message alwaysPrintEnumsAsInts { int32 alwaysPrintEnumsAsInts = 1; }
+  message alwaysPrintFieldsWithDefaultValues { int32 alwaysPrintFieldsWithDefaultValues = 1; }
+  message alwaysPrintProtoFieldNames { int32 alwaysPrintProtoFieldNames = 1; }
   message any { int32 any = 1; }
   message AnyExtensionField { int32 AnyExtensionField = 1; }
   message AnyMessageExtension { int32 AnyMessageExtension = 1; }
@@ -277,6 +279,7 @@ message GeneratedSwiftReservedMessages {
   message into { int32 into = 1; }
   message ints { int32 ints = 1; }
   message isA { int32 isA = 1; }
+  message isDefaultValue { int32 isDefaultValue = 1; }
   message isEqual { int32 isEqual = 1; }
   message isEqualTo { int32 isEqualTo = 1; }
   message isInitialized { int32 isInitialized = 1; }

@@ -329,27 +329,15 @@ extension Google_Protobuf_Api: SwiftProtobuf.Message, SwiftProtobuf._MessageImpl
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try withExtendedLifetime(_storage) { (_storage: _StorageClass) in
-      if !_storage._name.isEmpty {
-        try visitor.visitSingularStringField(value: _storage._name, fieldNumber: 1)
-      }
-      if !_storage._methods.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._methods, fieldNumber: 2)
-      }
-      if !_storage._options.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._options, fieldNumber: 3)
-      }
-      if !_storage._version.isEmpty {
-        try visitor.visitSingularStringField(value: _storage._version, fieldNumber: 4)
-      }
+      try visitor.visitSingularStringField(value: _storage._name, fieldNumber: 1, isDefaultValue: _storage._name.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._methods, fieldNumber: 2, isDefaultValue: _storage._methods.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._options, fieldNumber: 3, isDefaultValue: _storage._options.isEmpty)
+      try visitor.visitSingularStringField(value: _storage._version, fieldNumber: 4, isDefaultValue: _storage._version.isEmpty)
       if let v = _storage._sourceContext {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 5)
       }
-      if !_storage._mixins.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._mixins, fieldNumber: 6)
-      }
-      if _storage._syntax != .proto2 {
-        try visitor.visitSingularEnumField(value: _storage._syntax, fieldNumber: 7)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._mixins, fieldNumber: 6, isDefaultValue: _storage._mixins.isEmpty)
+      try visitor.visitSingularEnumField(value: _storage._syntax, fieldNumber: 7, isDefaultValue: _storage._syntax == .proto2)
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -403,27 +391,13 @@ extension Google_Protobuf_Method: SwiftProtobuf.Message, SwiftProtobuf._MessageI
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.name.isEmpty {
-      try visitor.visitSingularStringField(value: self.name, fieldNumber: 1)
-    }
-    if !self.requestTypeURL.isEmpty {
-      try visitor.visitSingularStringField(value: self.requestTypeURL, fieldNumber: 2)
-    }
-    if self.requestStreaming != false {
-      try visitor.visitSingularBoolField(value: self.requestStreaming, fieldNumber: 3)
-    }
-    if !self.responseTypeURL.isEmpty {
-      try visitor.visitSingularStringField(value: self.responseTypeURL, fieldNumber: 4)
-    }
-    if self.responseStreaming != false {
-      try visitor.visitSingularBoolField(value: self.responseStreaming, fieldNumber: 5)
-    }
-    if !self.options.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.options, fieldNumber: 6)
-    }
-    if self.syntax != .proto2 {
-      try visitor.visitSingularEnumField(value: self.syntax, fieldNumber: 7)
-    }
+    try visitor.visitSingularStringField(value: self.name, fieldNumber: 1, isDefaultValue: self.name.isEmpty)
+    try visitor.visitSingularStringField(value: self.requestTypeURL, fieldNumber: 2, isDefaultValue: self.requestTypeURL.isEmpty)
+    try visitor.visitSingularBoolField(value: self.requestStreaming, fieldNumber: 3, isDefaultValue: self.requestStreaming == false)
+    try visitor.visitSingularStringField(value: self.responseTypeURL, fieldNumber: 4, isDefaultValue: self.responseTypeURL.isEmpty)
+    try visitor.visitSingularBoolField(value: self.responseStreaming, fieldNumber: 5, isDefaultValue: self.responseStreaming == false)
+    try visitor.visitRepeatedMessageField(value: self.options, fieldNumber: 6, isDefaultValue: self.options.isEmpty)
+    try visitor.visitSingularEnumField(value: self.syntax, fieldNumber: 7, isDefaultValue: self.syntax == .proto2)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -458,12 +432,8 @@ extension Google_Protobuf_Mixin: SwiftProtobuf.Message, SwiftProtobuf._MessageIm
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.name.isEmpty {
-      try visitor.visitSingularStringField(value: self.name, fieldNumber: 1)
-    }
-    if !self.root.isEmpty {
-      try visitor.visitSingularStringField(value: self.root, fieldNumber: 2)
-    }
+    try visitor.visitSingularStringField(value: self.name, fieldNumber: 1, isDefaultValue: self.name.isEmpty)
+    try visitor.visitSingularStringField(value: self.root, fieldNumber: 2, isDefaultValue: self.root.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
