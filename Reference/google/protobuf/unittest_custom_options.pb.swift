@@ -2183,9 +2183,7 @@ extension ProtobufUnittest_ComplexOptionType1: SwiftProtobuf.Message, SwiftProto
     if let v = self._foo3 {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 3)
     }
-    if !self.foo4.isEmpty {
-      try visitor.visitRepeatedInt32Field(value: self.foo4, fieldNumber: 4)
-    }
+    try visitor.visitRepeatedInt32Field(value: self.foo4, fieldNumber: 4, isDefaultValue: self.foo4.isEmpty)
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 100, end: 536870912)
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -2271,9 +2269,7 @@ extension ProtobufUnittest_ComplexOptionType2: SwiftProtobuf.Message, SwiftProto
       if let v = _storage._fred {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 3)
       }
-      if !_storage._barney.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._barney, fieldNumber: 4)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._barney, fieldNumber: 4, isDefaultValue: _storage._barney.isEmpty)
       try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 100, end: 536870912)
     }
     try unknownFields.traverse(visitor: &visitor)

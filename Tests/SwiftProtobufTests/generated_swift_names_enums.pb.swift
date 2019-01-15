@@ -130,6 +130,56 @@ struct ProtobufUnittestGenerated_GeneratedSwiftReservedEnums {
 
   }
 
+  enum alwaysPrintFieldsWithDefaultValues: SwiftProtobuf.Enum {
+    typealias RawValue = Int
+    case noneAlwaysPrintFieldsWithDefaultValues // = 0
+    case UNRECOGNIZED(Int)
+
+    init() {
+      self = .noneAlwaysPrintFieldsWithDefaultValues
+    }
+
+    init?(rawValue: Int) {
+      switch rawValue {
+      case 0: self = .noneAlwaysPrintFieldsWithDefaultValues
+      default: self = .UNRECOGNIZED(rawValue)
+      }
+    }
+
+    var rawValue: Int {
+      switch self {
+      case .noneAlwaysPrintFieldsWithDefaultValues: return 0
+      case .UNRECOGNIZED(let i): return i
+      }
+    }
+
+  }
+
+  enum alwaysPrintProtoFieldNames: SwiftProtobuf.Enum {
+    typealias RawValue = Int
+    case noneAlwaysPrintProtoFieldNames // = 0
+    case UNRECOGNIZED(Int)
+
+    init() {
+      self = .noneAlwaysPrintProtoFieldNames
+    }
+
+    init?(rawValue: Int) {
+      switch rawValue {
+      case 0: self = .noneAlwaysPrintProtoFieldNames
+      default: self = .UNRECOGNIZED(rawValue)
+      }
+    }
+
+    var rawValue: Int {
+      switch self {
+      case .noneAlwaysPrintProtoFieldNames: return 0
+      case .UNRECOGNIZED(let i): return i
+      }
+    }
+
+  }
+
   enum any: SwiftProtobuf.Enum {
     typealias RawValue = Int
     case noneAny // = 0
@@ -6824,6 +6874,31 @@ struct ProtobufUnittestGenerated_GeneratedSwiftReservedEnums {
     var rawValue: Int {
       switch self {
       case .noneIsA: return 0
+      case .UNRECOGNIZED(let i): return i
+      }
+    }
+
+  }
+
+  enum isDefaultValue: SwiftProtobuf.Enum {
+    typealias RawValue = Int
+    case noneIsDefaultValue // = 0
+    case UNRECOGNIZED(Int)
+
+    init() {
+      self = .noneIsDefaultValue
+    }
+
+    init?(rawValue: Int) {
+      switch rawValue {
+      case 0: self = .noneIsDefaultValue
+      default: self = .UNRECOGNIZED(rawValue)
+      }
+    }
+
+    var rawValue: Int {
+      switch self {
+      case .noneIsDefaultValue: return 0
       case .UNRECOGNIZED(let i): return i
       }
     }
@@ -15488,6 +15563,20 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.alwaysPrintEnums
   ]
 }
 
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.alwaysPrintFieldsWithDefaultValues: CaseIterable {
+  // The compiler won't synthesize support with the UNRECOGNIZED case.
+  static var allCases: [ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.alwaysPrintFieldsWithDefaultValues] = [
+    .noneAlwaysPrintFieldsWithDefaultValues,
+  ]
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.alwaysPrintProtoFieldNames: CaseIterable {
+  // The compiler won't synthesize support with the UNRECOGNIZED case.
+  static var allCases: [ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.alwaysPrintProtoFieldNames] = [
+    .noneAlwaysPrintProtoFieldNames,
+  ]
+}
+
 extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.any: CaseIterable {
   // The compiler won't synthesize support with the UNRECOGNIZED case.
   static var allCases: [ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.any] = [
@@ -17361,6 +17450,13 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.isA: CaseIterabl
   // The compiler won't synthesize support with the UNRECOGNIZED case.
   static var allCases: [ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.isA] = [
     .noneIsA,
+  ]
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.isDefaultValue: CaseIterable {
+  // The compiler won't synthesize support with the UNRECOGNIZED case.
+  static var allCases: [ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.isDefaultValue] = [
+    .noneIsDefaultValue,
   ]
 }
 
@@ -19828,6 +19924,18 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.alwaysPrintEnums
   ]
 }
 
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.alwaysPrintFieldsWithDefaultValues: SwiftProtobuf._ProtoNameProviding {
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    0: .same(proto: "NONE_alwaysPrintFieldsWithDefaultValues"),
+  ]
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.alwaysPrintProtoFieldNames: SwiftProtobuf._ProtoNameProviding {
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    0: .same(proto: "NONE_alwaysPrintProtoFieldNames"),
+  ]
+}
+
 extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.any: SwiftProtobuf._ProtoNameProviding {
   static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
     0: .same(proto: "NONE_any"),
@@ -21433,6 +21541,12 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.ints: SwiftProto
 extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.isA: SwiftProtobuf._ProtoNameProviding {
   static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
     0: .same(proto: "NONE_isA"),
+  ]
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums.isDefaultValue: SwiftProtobuf._ProtoNameProviding {
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    0: .same(proto: "NONE_isDefaultValue"),
   ]
 }
 

@@ -500,9 +500,7 @@ extension SwiftTestNestingGroupsMessage: SwiftProtobuf.Message, SwiftProtobuf._M
       if let v = _storage._subGroup1 {
         try visitor.visitSingularGroupField(value: v, fieldNumber: 2)
       }
-      if !_storage._subGroup3.isEmpty {
-        try visitor.visitRepeatedGroupField(value: _storage._subGroup3, fieldNumber: 3)
-      }
+      try visitor.visitRepeatedGroupField(value: _storage._subGroup3, fieldNumber: 3, isDefaultValue: _storage._subGroup3.isEmpty)
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -643,9 +641,7 @@ extension SwiftTestNestingGroupsMessage.SubGroup3: SwiftProtobuf.Message, SwiftP
     if let v = self._sub3A {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    if !self.subGroup4.isEmpty {
-      try visitor.visitRepeatedGroupField(value: self.subGroup4, fieldNumber: 2)
-    }
+    try visitor.visitRepeatedGroupField(value: self.subGroup4, fieldNumber: 2, isDefaultValue: self.subGroup4.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 

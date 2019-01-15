@@ -299,18 +299,10 @@ extension Proto3PreserveUnknownEnumUnittest_MyMessage: SwiftProtobuf.Message, Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.e != .foo {
-      try visitor.visitSingularEnumField(value: self.e, fieldNumber: 1)
-    }
-    if !self.repeatedE.isEmpty {
-      try visitor.visitPackedEnumField(value: self.repeatedE, fieldNumber: 2)
-    }
-    if !self.repeatedPackedE.isEmpty {
-      try visitor.visitPackedEnumField(value: self.repeatedPackedE, fieldNumber: 3)
-    }
-    if !self.repeatedPackedUnexpectedE.isEmpty {
-      try visitor.visitPackedEnumField(value: self.repeatedPackedUnexpectedE, fieldNumber: 4)
-    }
+    try visitor.visitSingularEnumField(value: self.e, fieldNumber: 1, isDefaultValue: self.e == .foo)
+    try visitor.visitPackedEnumField(value: self.repeatedE, fieldNumber: 2, isDefaultValue: self.repeatedE.isEmpty)
+    try visitor.visitPackedEnumField(value: self.repeatedPackedE, fieldNumber: 3, isDefaultValue: self.repeatedPackedE.isEmpty)
+    try visitor.visitPackedEnumField(value: self.repeatedPackedUnexpectedE, fieldNumber: 4, isDefaultValue: self.repeatedPackedUnexpectedE.isEmpty)
     switch self.o {
     case .oneofE1(let v)?:
       try visitor.visitSingularEnumField(value: v, fieldNumber: 5)
@@ -366,18 +358,10 @@ extension Proto3PreserveUnknownEnumUnittest_MyMessagePlusExtra: SwiftProtobuf.Me
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.e != .eFoo {
-      try visitor.visitSingularEnumField(value: self.e, fieldNumber: 1)
-    }
-    if !self.repeatedE.isEmpty {
-      try visitor.visitPackedEnumField(value: self.repeatedE, fieldNumber: 2)
-    }
-    if !self.repeatedPackedE.isEmpty {
-      try visitor.visitPackedEnumField(value: self.repeatedPackedE, fieldNumber: 3)
-    }
-    if !self.repeatedPackedUnexpectedE.isEmpty {
-      try visitor.visitPackedEnumField(value: self.repeatedPackedUnexpectedE, fieldNumber: 4)
-    }
+    try visitor.visitSingularEnumField(value: self.e, fieldNumber: 1, isDefaultValue: self.e == .eFoo)
+    try visitor.visitPackedEnumField(value: self.repeatedE, fieldNumber: 2, isDefaultValue: self.repeatedE.isEmpty)
+    try visitor.visitPackedEnumField(value: self.repeatedPackedE, fieldNumber: 3, isDefaultValue: self.repeatedPackedE.isEmpty)
+    try visitor.visitPackedEnumField(value: self.repeatedPackedUnexpectedE, fieldNumber: 4, isDefaultValue: self.repeatedPackedUnexpectedE.isEmpty)
     switch self.o {
     case .oneofE1(let v)?:
       try visitor.visitSingularEnumField(value: v, fieldNumber: 5)

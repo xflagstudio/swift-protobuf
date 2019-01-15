@@ -213,12 +213,8 @@ extension Google_Protobuf_Any: SwiftProtobuf.Message, SwiftProtobuf._MessageImpl
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try withExtendedLifetime(_storage) { (_storage: _StorageClass) in
       try _storage.preTraverse()
-      if !_storage._typeURL.isEmpty {
-        try visitor.visitSingularStringField(value: _storage._typeURL, fieldNumber: 1)
-      }
-      if !_storage._value.isEmpty {
-        try visitor.visitSingularBytesField(value: _storage._value, fieldNumber: 2)
-      }
+      try visitor.visitSingularStringField(value: _storage._typeURL, fieldNumber: 1, isDefaultValue: _storage._typeURL.isEmpty)
+      try visitor.visitSingularBytesField(value: _storage._value, fieldNumber: 2, isDefaultValue: _storage._value.isEmpty)
     }
     try unknownFields.traverse(visitor: &visitor)
   }

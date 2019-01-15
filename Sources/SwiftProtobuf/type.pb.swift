@@ -562,24 +562,14 @@ extension Google_Protobuf_Type: SwiftProtobuf.Message, SwiftProtobuf._MessageImp
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try withExtendedLifetime(_storage) { (_storage: _StorageClass) in
-      if !_storage._name.isEmpty {
-        try visitor.visitSingularStringField(value: _storage._name, fieldNumber: 1)
-      }
-      if !_storage._fields.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._fields, fieldNumber: 2)
-      }
-      if !_storage._oneofs.isEmpty {
-        try visitor.visitRepeatedStringField(value: _storage._oneofs, fieldNumber: 3)
-      }
-      if !_storage._options.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._options, fieldNumber: 4)
-      }
+      try visitor.visitSingularStringField(value: _storage._name, fieldNumber: 1, isDefaultValue: _storage._name.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._fields, fieldNumber: 2, isDefaultValue: _storage._fields.isEmpty)
+      try visitor.visitRepeatedStringField(value: _storage._oneofs, fieldNumber: 3, isDefaultValue: _storage._oneofs.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._options, fieldNumber: 4, isDefaultValue: _storage._options.isEmpty)
       if let v = _storage._sourceContext {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 5)
       }
-      if _storage._syntax != .proto2 {
-        try visitor.visitSingularEnumField(value: _storage._syntax, fieldNumber: 6)
-      }
+      try visitor.visitSingularEnumField(value: _storage._syntax, fieldNumber: 6, isDefaultValue: _storage._syntax == .proto2)
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -638,36 +628,16 @@ extension Google_Protobuf_Field: SwiftProtobuf.Message, SwiftProtobuf._MessageIm
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.kind != .typeUnknown {
-      try visitor.visitSingularEnumField(value: self.kind, fieldNumber: 1)
-    }
-    if self.cardinality != .unknown {
-      try visitor.visitSingularEnumField(value: self.cardinality, fieldNumber: 2)
-    }
-    if self.number != 0 {
-      try visitor.visitSingularInt32Field(value: self.number, fieldNumber: 3)
-    }
-    if !self.name.isEmpty {
-      try visitor.visitSingularStringField(value: self.name, fieldNumber: 4)
-    }
-    if !self.typeURL.isEmpty {
-      try visitor.visitSingularStringField(value: self.typeURL, fieldNumber: 6)
-    }
-    if self.oneofIndex != 0 {
-      try visitor.visitSingularInt32Field(value: self.oneofIndex, fieldNumber: 7)
-    }
-    if self.packed != false {
-      try visitor.visitSingularBoolField(value: self.packed, fieldNumber: 8)
-    }
-    if !self.options.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.options, fieldNumber: 9)
-    }
-    if !self.jsonName.isEmpty {
-      try visitor.visitSingularStringField(value: self.jsonName, fieldNumber: 10)
-    }
-    if !self.defaultValue.isEmpty {
-      try visitor.visitSingularStringField(value: self.defaultValue, fieldNumber: 11)
-    }
+    try visitor.visitSingularEnumField(value: self.kind, fieldNumber: 1, isDefaultValue: self.kind == .typeUnknown)
+    try visitor.visitSingularEnumField(value: self.cardinality, fieldNumber: 2, isDefaultValue: self.cardinality == .unknown)
+    try visitor.visitSingularInt32Field(value: self.number, fieldNumber: 3, isDefaultValue: self.number == 0)
+    try visitor.visitSingularStringField(value: self.name, fieldNumber: 4, isDefaultValue: self.name.isEmpty)
+    try visitor.visitSingularStringField(value: self.typeURL, fieldNumber: 6, isDefaultValue: self.typeURL.isEmpty)
+    try visitor.visitSingularInt32Field(value: self.oneofIndex, fieldNumber: 7, isDefaultValue: self.oneofIndex == 0)
+    try visitor.visitSingularBoolField(value: self.packed, fieldNumber: 8, isDefaultValue: self.packed == false)
+    try visitor.visitRepeatedMessageField(value: self.options, fieldNumber: 9, isDefaultValue: self.options.isEmpty)
+    try visitor.visitSingularStringField(value: self.jsonName, fieldNumber: 10, isDefaultValue: self.jsonName.isEmpty)
+    try visitor.visitSingularStringField(value: self.defaultValue, fieldNumber: 11, isDefaultValue: self.defaultValue.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -775,21 +745,13 @@ extension Google_Protobuf_Enum: SwiftProtobuf.Message, SwiftProtobuf._MessageImp
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try withExtendedLifetime(_storage) { (_storage: _StorageClass) in
-      if !_storage._name.isEmpty {
-        try visitor.visitSingularStringField(value: _storage._name, fieldNumber: 1)
-      }
-      if !_storage._enumvalue.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._enumvalue, fieldNumber: 2)
-      }
-      if !_storage._options.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._options, fieldNumber: 3)
-      }
+      try visitor.visitSingularStringField(value: _storage._name, fieldNumber: 1, isDefaultValue: _storage._name.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._enumvalue, fieldNumber: 2, isDefaultValue: _storage._enumvalue.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._options, fieldNumber: 3, isDefaultValue: _storage._options.isEmpty)
       if let v = _storage._sourceContext {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 4)
       }
-      if _storage._syntax != .proto2 {
-        try visitor.visitSingularEnumField(value: _storage._syntax, fieldNumber: 5)
-      }
+      try visitor.visitSingularEnumField(value: _storage._syntax, fieldNumber: 5, isDefaultValue: _storage._syntax == .proto2)
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -833,15 +795,9 @@ extension Google_Protobuf_EnumValue: SwiftProtobuf.Message, SwiftProtobuf._Messa
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.name.isEmpty {
-      try visitor.visitSingularStringField(value: self.name, fieldNumber: 1)
-    }
-    if self.number != 0 {
-      try visitor.visitSingularInt32Field(value: self.number, fieldNumber: 2)
-    }
-    if !self.options.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.options, fieldNumber: 3)
-    }
+    try visitor.visitSingularStringField(value: self.name, fieldNumber: 1, isDefaultValue: self.name.isEmpty)
+    try visitor.visitSingularInt32Field(value: self.number, fieldNumber: 2, isDefaultValue: self.number == 0)
+    try visitor.visitRepeatedMessageField(value: self.options, fieldNumber: 3, isDefaultValue: self.options.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -897,9 +853,7 @@ extension Google_Protobuf_Option: SwiftProtobuf.Message, SwiftProtobuf._MessageI
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try withExtendedLifetime(_storage) { (_storage: _StorageClass) in
-      if !_storage._name.isEmpty {
-        try visitor.visitSingularStringField(value: _storage._name, fieldNumber: 1)
-      }
+      try visitor.visitSingularStringField(value: _storage._name, fieldNumber: 1, isDefaultValue: _storage._name.isEmpty)
       if let v = _storage._value {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 2)
       }
