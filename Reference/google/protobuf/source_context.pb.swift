@@ -84,9 +84,7 @@ extension Google_Protobuf_SourceContext: SwiftProtobuf.Message, SwiftProtobuf._M
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.fileName.isEmpty {
-      try visitor.visitSingularStringField(value: self.fileName, fieldNumber: 1)
-    }
+    try visitor.visitSingularStringField(value: self.fileName, fieldNumber: 1, isDefaultValue: self.fileName.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 

@@ -520,9 +520,7 @@ extension Conformance_FailureSet: SwiftProtobuf.Message, SwiftProtobuf._MessageI
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.failure.isEmpty {
-      try visitor.visitRepeatedStringField(value: self.failure, fieldNumber: 1)
-    }
+    try visitor.visitRepeatedStringField(value: self.failure, fieldNumber: 1, isDefaultValue: self.failure.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -622,15 +620,9 @@ extension Conformance_ConformanceRequest: SwiftProtobuf.Message, SwiftProtobuf._
       case nil: break
       default: break
       }
-      if _storage._requestedOutputFormat != .unspecified {
-        try visitor.visitSingularEnumField(value: _storage._requestedOutputFormat, fieldNumber: 3)
-      }
-      if !_storage._messageType.isEmpty {
-        try visitor.visitSingularStringField(value: _storage._messageType, fieldNumber: 4)
-      }
-      if _storage._testCategory != .unspecifiedTest {
-        try visitor.visitSingularEnumField(value: _storage._testCategory, fieldNumber: 5)
-      }
+      try visitor.visitSingularEnumField(value: _storage._requestedOutputFormat, fieldNumber: 3, isDefaultValue: _storage._requestedOutputFormat == .unspecified)
+      try visitor.visitSingularStringField(value: _storage._messageType, fieldNumber: 4, isDefaultValue: _storage._messageType.isEmpty)
+      try visitor.visitSingularEnumField(value: _storage._testCategory, fieldNumber: 5, isDefaultValue: _storage._testCategory == .unspecifiedTest)
       if let v = _storage._jspbEncodingOptions {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 6)
       }
@@ -642,9 +634,7 @@ extension Conformance_ConformanceRequest: SwiftProtobuf.Message, SwiftProtobuf._
       case nil: break
       default: break
       }
-      if _storage._printUnknownFields != false {
-        try visitor.visitSingularBoolField(value: _storage._printUnknownFields, fieldNumber: 9)
-      }
+      try visitor.visitSingularBoolField(value: _storage._printUnknownFields, fieldNumber: 9, isDefaultValue: _storage._printUnknownFields == false)
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -776,9 +766,7 @@ extension Conformance_JspbEncodingConfig: SwiftProtobuf.Message, SwiftProtobuf._
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.useJspbArrayAnyFormat != false {
-      try visitor.visitSingularBoolField(value: self.useJspbArrayAnyFormat, fieldNumber: 1)
-    }
+    try visitor.visitSingularBoolField(value: self.useJspbArrayAnyFormat, fieldNumber: 1, isDefaultValue: self.useJspbArrayAnyFormat == false)
     try unknownFields.traverse(visitor: &visitor)
   }
 

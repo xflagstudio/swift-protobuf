@@ -7599,81 +7599,31 @@ extension ProtobufUnittest_TestAllTypes: SwiftProtobuf.Message, SwiftProtobuf._M
       if let v = _storage._optionalLazyMessage {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 27)
       }
-      if !_storage._repeatedInt32.isEmpty {
-        try visitor.visitRepeatedInt32Field(value: _storage._repeatedInt32, fieldNumber: 31)
-      }
-      if !_storage._repeatedInt64.isEmpty {
-        try visitor.visitRepeatedInt64Field(value: _storage._repeatedInt64, fieldNumber: 32)
-      }
-      if !_storage._repeatedUint32.isEmpty {
-        try visitor.visitRepeatedUInt32Field(value: _storage._repeatedUint32, fieldNumber: 33)
-      }
-      if !_storage._repeatedUint64.isEmpty {
-        try visitor.visitRepeatedUInt64Field(value: _storage._repeatedUint64, fieldNumber: 34)
-      }
-      if !_storage._repeatedSint32.isEmpty {
-        try visitor.visitRepeatedSInt32Field(value: _storage._repeatedSint32, fieldNumber: 35)
-      }
-      if !_storage._repeatedSint64.isEmpty {
-        try visitor.visitRepeatedSInt64Field(value: _storage._repeatedSint64, fieldNumber: 36)
-      }
-      if !_storage._repeatedFixed32.isEmpty {
-        try visitor.visitRepeatedFixed32Field(value: _storage._repeatedFixed32, fieldNumber: 37)
-      }
-      if !_storage._repeatedFixed64.isEmpty {
-        try visitor.visitRepeatedFixed64Field(value: _storage._repeatedFixed64, fieldNumber: 38)
-      }
-      if !_storage._repeatedSfixed32.isEmpty {
-        try visitor.visitRepeatedSFixed32Field(value: _storage._repeatedSfixed32, fieldNumber: 39)
-      }
-      if !_storage._repeatedSfixed64.isEmpty {
-        try visitor.visitRepeatedSFixed64Field(value: _storage._repeatedSfixed64, fieldNumber: 40)
-      }
-      if !_storage._repeatedFloat.isEmpty {
-        try visitor.visitRepeatedFloatField(value: _storage._repeatedFloat, fieldNumber: 41)
-      }
-      if !_storage._repeatedDouble.isEmpty {
-        try visitor.visitRepeatedDoubleField(value: _storage._repeatedDouble, fieldNumber: 42)
-      }
-      if !_storage._repeatedBool.isEmpty {
-        try visitor.visitRepeatedBoolField(value: _storage._repeatedBool, fieldNumber: 43)
-      }
-      if !_storage._repeatedString.isEmpty {
-        try visitor.visitRepeatedStringField(value: _storage._repeatedString, fieldNumber: 44)
-      }
-      if !_storage._repeatedBytes.isEmpty {
-        try visitor.visitRepeatedBytesField(value: _storage._repeatedBytes, fieldNumber: 45)
-      }
-      if !_storage._repeatedGroup.isEmpty {
-        try visitor.visitRepeatedGroupField(value: _storage._repeatedGroup, fieldNumber: 46)
-      }
-      if !_storage._repeatedNestedMessage.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._repeatedNestedMessage, fieldNumber: 48)
-      }
-      if !_storage._repeatedForeignMessage.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._repeatedForeignMessage, fieldNumber: 49)
-      }
-      if !_storage._repeatedImportMessage.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._repeatedImportMessage, fieldNumber: 50)
-      }
-      if !_storage._repeatedNestedEnum.isEmpty {
-        try visitor.visitRepeatedEnumField(value: _storage._repeatedNestedEnum, fieldNumber: 51)
-      }
-      if !_storage._repeatedForeignEnum.isEmpty {
-        try visitor.visitRepeatedEnumField(value: _storage._repeatedForeignEnum, fieldNumber: 52)
-      }
-      if !_storage._repeatedImportEnum.isEmpty {
-        try visitor.visitRepeatedEnumField(value: _storage._repeatedImportEnum, fieldNumber: 53)
-      }
-      if !_storage._repeatedStringPiece.isEmpty {
-        try visitor.visitRepeatedStringField(value: _storage._repeatedStringPiece, fieldNumber: 54)
-      }
-      if !_storage._repeatedCord.isEmpty {
-        try visitor.visitRepeatedStringField(value: _storage._repeatedCord, fieldNumber: 55)
-      }
-      if !_storage._repeatedLazyMessage.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._repeatedLazyMessage, fieldNumber: 57)
-      }
+      try visitor.visitRepeatedInt32Field(value: _storage._repeatedInt32, fieldNumber: 31, isDefaultValue: _storage._repeatedInt32.isEmpty)
+      try visitor.visitRepeatedInt64Field(value: _storage._repeatedInt64, fieldNumber: 32, isDefaultValue: _storage._repeatedInt64.isEmpty)
+      try visitor.visitRepeatedUInt32Field(value: _storage._repeatedUint32, fieldNumber: 33, isDefaultValue: _storage._repeatedUint32.isEmpty)
+      try visitor.visitRepeatedUInt64Field(value: _storage._repeatedUint64, fieldNumber: 34, isDefaultValue: _storage._repeatedUint64.isEmpty)
+      try visitor.visitRepeatedSInt32Field(value: _storage._repeatedSint32, fieldNumber: 35, isDefaultValue: _storage._repeatedSint32.isEmpty)
+      try visitor.visitRepeatedSInt64Field(value: _storage._repeatedSint64, fieldNumber: 36, isDefaultValue: _storage._repeatedSint64.isEmpty)
+      try visitor.visitRepeatedFixed32Field(value: _storage._repeatedFixed32, fieldNumber: 37, isDefaultValue: _storage._repeatedFixed32.isEmpty)
+      try visitor.visitRepeatedFixed64Field(value: _storage._repeatedFixed64, fieldNumber: 38, isDefaultValue: _storage._repeatedFixed64.isEmpty)
+      try visitor.visitRepeatedSFixed32Field(value: _storage._repeatedSfixed32, fieldNumber: 39, isDefaultValue: _storage._repeatedSfixed32.isEmpty)
+      try visitor.visitRepeatedSFixed64Field(value: _storage._repeatedSfixed64, fieldNumber: 40, isDefaultValue: _storage._repeatedSfixed64.isEmpty)
+      try visitor.visitRepeatedFloatField(value: _storage._repeatedFloat, fieldNumber: 41, isDefaultValue: _storage._repeatedFloat.isEmpty)
+      try visitor.visitRepeatedDoubleField(value: _storage._repeatedDouble, fieldNumber: 42, isDefaultValue: _storage._repeatedDouble.isEmpty)
+      try visitor.visitRepeatedBoolField(value: _storage._repeatedBool, fieldNumber: 43, isDefaultValue: _storage._repeatedBool.isEmpty)
+      try visitor.visitRepeatedStringField(value: _storage._repeatedString, fieldNumber: 44, isDefaultValue: _storage._repeatedString.isEmpty)
+      try visitor.visitRepeatedBytesField(value: _storage._repeatedBytes, fieldNumber: 45, isDefaultValue: _storage._repeatedBytes.isEmpty)
+      try visitor.visitRepeatedGroupField(value: _storage._repeatedGroup, fieldNumber: 46, isDefaultValue: _storage._repeatedGroup.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._repeatedNestedMessage, fieldNumber: 48, isDefaultValue: _storage._repeatedNestedMessage.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._repeatedForeignMessage, fieldNumber: 49, isDefaultValue: _storage._repeatedForeignMessage.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._repeatedImportMessage, fieldNumber: 50, isDefaultValue: _storage._repeatedImportMessage.isEmpty)
+      try visitor.visitRepeatedEnumField(value: _storage._repeatedNestedEnum, fieldNumber: 51, isDefaultValue: _storage._repeatedNestedEnum.isEmpty)
+      try visitor.visitRepeatedEnumField(value: _storage._repeatedForeignEnum, fieldNumber: 52, isDefaultValue: _storage._repeatedForeignEnum.isEmpty)
+      try visitor.visitRepeatedEnumField(value: _storage._repeatedImportEnum, fieldNumber: 53, isDefaultValue: _storage._repeatedImportEnum.isEmpty)
+      try visitor.visitRepeatedStringField(value: _storage._repeatedStringPiece, fieldNumber: 54, isDefaultValue: _storage._repeatedStringPiece.isEmpty)
+      try visitor.visitRepeatedStringField(value: _storage._repeatedCord, fieldNumber: 55, isDefaultValue: _storage._repeatedCord.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._repeatedLazyMessage, fieldNumber: 57, isDefaultValue: _storage._repeatedLazyMessage.isEmpty)
       if let v = _storage._defaultInt32 {
         try visitor.visitSingularInt32Field(value: v, fieldNumber: 61)
       }
@@ -7984,9 +7934,7 @@ extension ProtobufUnittest_NestedTestAllTypes: SwiftProtobuf.Message, SwiftProto
       if let v = _storage._payload {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 2)
       }
-      if !_storage._repeatedChild.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._repeatedChild, fieldNumber: 3)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._repeatedChild, fieldNumber: 3, isDefaultValue: _storage._repeatedChild.isEmpty)
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -8766,9 +8714,7 @@ extension ProtobufUnittest_TestRequiredForeign: SwiftProtobuf.Message, SwiftProt
       if let v = _storage._optionalMessage {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 1)
       }
-      if !_storage._repeatedMessage.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._repeatedMessage, fieldNumber: 2)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._repeatedMessage, fieldNumber: 2, isDefaultValue: _storage._repeatedMessage.isEmpty)
       if let v = _storage._dummy {
         try visitor.visitSingularInt32Field(value: v, fieldNumber: 3)
       }
@@ -8853,9 +8799,7 @@ extension ProtobufUnittest_TestRequiredMessage: SwiftProtobuf.Message, SwiftProt
       if let v = _storage._optionalMessage {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 1)
       }
-      if !_storage._repeatedMessage.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._repeatedMessage, fieldNumber: 2)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._repeatedMessage, fieldNumber: 2, isDefaultValue: _storage._repeatedMessage.isEmpty)
       if let v = _storage._requiredMessage {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 3)
       }
@@ -9898,12 +9842,8 @@ extension ProtobufUnittest_TestNestedMessageHasBits.NestedMessage: SwiftProtobuf
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.nestedmessageRepeatedInt32.isEmpty {
-      try visitor.visitRepeatedInt32Field(value: self.nestedmessageRepeatedInt32, fieldNumber: 1)
-    }
-    if !self.nestedmessageRepeatedForeignmessage.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.nestedmessageRepeatedForeignmessage, fieldNumber: 2)
-    }
+    try visitor.visitRepeatedInt32Field(value: self.nestedmessageRepeatedInt32, fieldNumber: 1, isDefaultValue: self.nestedmessageRepeatedInt32.isEmpty)
+    try visitor.visitRepeatedMessageField(value: self.nestedmessageRepeatedForeignmessage, fieldNumber: 2, isDefaultValue: self.nestedmessageRepeatedForeignmessage.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10016,24 +9956,12 @@ extension ProtobufUnittest_TestCamelCaseFieldNames: SwiftProtobuf.Message, Swift
       if let v = _storage._cordField {
         try visitor.visitSingularStringField(value: v, fieldNumber: 6)
       }
-      if !_storage._repeatedPrimitiveField.isEmpty {
-        try visitor.visitRepeatedInt32Field(value: _storage._repeatedPrimitiveField, fieldNumber: 7)
-      }
-      if !_storage._repeatedStringField.isEmpty {
-        try visitor.visitRepeatedStringField(value: _storage._repeatedStringField, fieldNumber: 8)
-      }
-      if !_storage._repeatedEnumField.isEmpty {
-        try visitor.visitRepeatedEnumField(value: _storage._repeatedEnumField, fieldNumber: 9)
-      }
-      if !_storage._repeatedMessageField.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._repeatedMessageField, fieldNumber: 10)
-      }
-      if !_storage._repeatedStringPieceField.isEmpty {
-        try visitor.visitRepeatedStringField(value: _storage._repeatedStringPieceField, fieldNumber: 11)
-      }
-      if !_storage._repeatedCordField.isEmpty {
-        try visitor.visitRepeatedStringField(value: _storage._repeatedCordField, fieldNumber: 12)
-      }
+      try visitor.visitRepeatedInt32Field(value: _storage._repeatedPrimitiveField, fieldNumber: 7, isDefaultValue: _storage._repeatedPrimitiveField.isEmpty)
+      try visitor.visitRepeatedStringField(value: _storage._repeatedStringField, fieldNumber: 8, isDefaultValue: _storage._repeatedStringField.isEmpty)
+      try visitor.visitRepeatedEnumField(value: _storage._repeatedEnumField, fieldNumber: 9, isDefaultValue: _storage._repeatedEnumField.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._repeatedMessageField, fieldNumber: 10, isDefaultValue: _storage._repeatedMessageField.isEmpty)
+      try visitor.visitRepeatedStringField(value: _storage._repeatedStringPieceField, fieldNumber: 11, isDefaultValue: _storage._repeatedStringPieceField.isEmpty)
+      try visitor.visitRepeatedStringField(value: _storage._repeatedCordField, fieldNumber: 12, isDefaultValue: _storage._repeatedCordField.isEmpty)
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -10624,9 +10552,7 @@ extension ProtobufUnittest_MoreString: SwiftProtobuf.Message, SwiftProtobuf._Mes
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.data.isEmpty {
-      try visitor.visitRepeatedStringField(value: self.data, fieldNumber: 1)
-    }
+    try visitor.visitRepeatedStringField(value: self.data, fieldNumber: 1, isDefaultValue: self.data.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10682,9 +10608,7 @@ extension ProtobufUnittest_MoreBytes: SwiftProtobuf.Message, SwiftProtobuf._Mess
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.data.isEmpty {
-      try visitor.visitRepeatedBytesField(value: self.data, fieldNumber: 1)
-    }
+    try visitor.visitRepeatedBytesField(value: self.data, fieldNumber: 1, isDefaultValue: self.data.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11366,9 +11290,7 @@ extension ProtobufUnittest_TestOneof2.NestedMessage: SwiftProtobuf.Message, Swif
     if let v = self._quxInt {
       try visitor.visitSingularInt64Field(value: v, fieldNumber: 1)
     }
-    if !self.corgeInt.isEmpty {
-      try visitor.visitRepeatedInt32Field(value: self.corgeInt, fieldNumber: 2)
-    }
+    try visitor.visitRepeatedInt32Field(value: self.corgeInt, fieldNumber: 2, isDefaultValue: self.corgeInt.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11549,48 +11471,20 @@ extension ProtobufUnittest_TestPackedTypes: SwiftProtobuf.Message, SwiftProtobuf
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.packedInt32.isEmpty {
-      try visitor.visitPackedInt32Field(value: self.packedInt32, fieldNumber: 90)
-    }
-    if !self.packedInt64.isEmpty {
-      try visitor.visitPackedInt64Field(value: self.packedInt64, fieldNumber: 91)
-    }
-    if !self.packedUint32.isEmpty {
-      try visitor.visitPackedUInt32Field(value: self.packedUint32, fieldNumber: 92)
-    }
-    if !self.packedUint64.isEmpty {
-      try visitor.visitPackedUInt64Field(value: self.packedUint64, fieldNumber: 93)
-    }
-    if !self.packedSint32.isEmpty {
-      try visitor.visitPackedSInt32Field(value: self.packedSint32, fieldNumber: 94)
-    }
-    if !self.packedSint64.isEmpty {
-      try visitor.visitPackedSInt64Field(value: self.packedSint64, fieldNumber: 95)
-    }
-    if !self.packedFixed32.isEmpty {
-      try visitor.visitPackedFixed32Field(value: self.packedFixed32, fieldNumber: 96)
-    }
-    if !self.packedFixed64.isEmpty {
-      try visitor.visitPackedFixed64Field(value: self.packedFixed64, fieldNumber: 97)
-    }
-    if !self.packedSfixed32.isEmpty {
-      try visitor.visitPackedSFixed32Field(value: self.packedSfixed32, fieldNumber: 98)
-    }
-    if !self.packedSfixed64.isEmpty {
-      try visitor.visitPackedSFixed64Field(value: self.packedSfixed64, fieldNumber: 99)
-    }
-    if !self.packedFloat.isEmpty {
-      try visitor.visitPackedFloatField(value: self.packedFloat, fieldNumber: 100)
-    }
-    if !self.packedDouble.isEmpty {
-      try visitor.visitPackedDoubleField(value: self.packedDouble, fieldNumber: 101)
-    }
-    if !self.packedBool.isEmpty {
-      try visitor.visitPackedBoolField(value: self.packedBool, fieldNumber: 102)
-    }
-    if !self.packedEnum.isEmpty {
-      try visitor.visitPackedEnumField(value: self.packedEnum, fieldNumber: 103)
-    }
+    try visitor.visitPackedInt32Field(value: self.packedInt32, fieldNumber: 90, isDefaultValue: self.packedInt32.isEmpty)
+    try visitor.visitPackedInt64Field(value: self.packedInt64, fieldNumber: 91, isDefaultValue: self.packedInt64.isEmpty)
+    try visitor.visitPackedUInt32Field(value: self.packedUint32, fieldNumber: 92, isDefaultValue: self.packedUint32.isEmpty)
+    try visitor.visitPackedUInt64Field(value: self.packedUint64, fieldNumber: 93, isDefaultValue: self.packedUint64.isEmpty)
+    try visitor.visitPackedSInt32Field(value: self.packedSint32, fieldNumber: 94, isDefaultValue: self.packedSint32.isEmpty)
+    try visitor.visitPackedSInt64Field(value: self.packedSint64, fieldNumber: 95, isDefaultValue: self.packedSint64.isEmpty)
+    try visitor.visitPackedFixed32Field(value: self.packedFixed32, fieldNumber: 96, isDefaultValue: self.packedFixed32.isEmpty)
+    try visitor.visitPackedFixed64Field(value: self.packedFixed64, fieldNumber: 97, isDefaultValue: self.packedFixed64.isEmpty)
+    try visitor.visitPackedSFixed32Field(value: self.packedSfixed32, fieldNumber: 98, isDefaultValue: self.packedSfixed32.isEmpty)
+    try visitor.visitPackedSFixed64Field(value: self.packedSfixed64, fieldNumber: 99, isDefaultValue: self.packedSfixed64.isEmpty)
+    try visitor.visitPackedFloatField(value: self.packedFloat, fieldNumber: 100, isDefaultValue: self.packedFloat.isEmpty)
+    try visitor.visitPackedDoubleField(value: self.packedDouble, fieldNumber: 101, isDefaultValue: self.packedDouble.isEmpty)
+    try visitor.visitPackedBoolField(value: self.packedBool, fieldNumber: 102, isDefaultValue: self.packedBool.isEmpty)
+    try visitor.visitPackedEnumField(value: self.packedEnum, fieldNumber: 103, isDefaultValue: self.packedEnum.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11656,48 +11550,20 @@ extension ProtobufUnittest_TestUnpackedTypes: SwiftProtobuf.Message, SwiftProtob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.unpackedInt32.isEmpty {
-      try visitor.visitRepeatedInt32Field(value: self.unpackedInt32, fieldNumber: 90)
-    }
-    if !self.unpackedInt64.isEmpty {
-      try visitor.visitRepeatedInt64Field(value: self.unpackedInt64, fieldNumber: 91)
-    }
-    if !self.unpackedUint32.isEmpty {
-      try visitor.visitRepeatedUInt32Field(value: self.unpackedUint32, fieldNumber: 92)
-    }
-    if !self.unpackedUint64.isEmpty {
-      try visitor.visitRepeatedUInt64Field(value: self.unpackedUint64, fieldNumber: 93)
-    }
-    if !self.unpackedSint32.isEmpty {
-      try visitor.visitRepeatedSInt32Field(value: self.unpackedSint32, fieldNumber: 94)
-    }
-    if !self.unpackedSint64.isEmpty {
-      try visitor.visitRepeatedSInt64Field(value: self.unpackedSint64, fieldNumber: 95)
-    }
-    if !self.unpackedFixed32.isEmpty {
-      try visitor.visitRepeatedFixed32Field(value: self.unpackedFixed32, fieldNumber: 96)
-    }
-    if !self.unpackedFixed64.isEmpty {
-      try visitor.visitRepeatedFixed64Field(value: self.unpackedFixed64, fieldNumber: 97)
-    }
-    if !self.unpackedSfixed32.isEmpty {
-      try visitor.visitRepeatedSFixed32Field(value: self.unpackedSfixed32, fieldNumber: 98)
-    }
-    if !self.unpackedSfixed64.isEmpty {
-      try visitor.visitRepeatedSFixed64Field(value: self.unpackedSfixed64, fieldNumber: 99)
-    }
-    if !self.unpackedFloat.isEmpty {
-      try visitor.visitRepeatedFloatField(value: self.unpackedFloat, fieldNumber: 100)
-    }
-    if !self.unpackedDouble.isEmpty {
-      try visitor.visitRepeatedDoubleField(value: self.unpackedDouble, fieldNumber: 101)
-    }
-    if !self.unpackedBool.isEmpty {
-      try visitor.visitRepeatedBoolField(value: self.unpackedBool, fieldNumber: 102)
-    }
-    if !self.unpackedEnum.isEmpty {
-      try visitor.visitRepeatedEnumField(value: self.unpackedEnum, fieldNumber: 103)
-    }
+    try visitor.visitRepeatedInt32Field(value: self.unpackedInt32, fieldNumber: 90, isDefaultValue: self.unpackedInt32.isEmpty)
+    try visitor.visitRepeatedInt64Field(value: self.unpackedInt64, fieldNumber: 91, isDefaultValue: self.unpackedInt64.isEmpty)
+    try visitor.visitRepeatedUInt32Field(value: self.unpackedUint32, fieldNumber: 92, isDefaultValue: self.unpackedUint32.isEmpty)
+    try visitor.visitRepeatedUInt64Field(value: self.unpackedUint64, fieldNumber: 93, isDefaultValue: self.unpackedUint64.isEmpty)
+    try visitor.visitRepeatedSInt32Field(value: self.unpackedSint32, fieldNumber: 94, isDefaultValue: self.unpackedSint32.isEmpty)
+    try visitor.visitRepeatedSInt64Field(value: self.unpackedSint64, fieldNumber: 95, isDefaultValue: self.unpackedSint64.isEmpty)
+    try visitor.visitRepeatedFixed32Field(value: self.unpackedFixed32, fieldNumber: 96, isDefaultValue: self.unpackedFixed32.isEmpty)
+    try visitor.visitRepeatedFixed64Field(value: self.unpackedFixed64, fieldNumber: 97, isDefaultValue: self.unpackedFixed64.isEmpty)
+    try visitor.visitRepeatedSFixed32Field(value: self.unpackedSfixed32, fieldNumber: 98, isDefaultValue: self.unpackedSfixed32.isEmpty)
+    try visitor.visitRepeatedSFixed64Field(value: self.unpackedSfixed64, fieldNumber: 99, isDefaultValue: self.unpackedSfixed64.isEmpty)
+    try visitor.visitRepeatedFloatField(value: self.unpackedFloat, fieldNumber: 100, isDefaultValue: self.unpackedFloat.isEmpty)
+    try visitor.visitRepeatedDoubleField(value: self.unpackedDouble, fieldNumber: 101, isDefaultValue: self.unpackedDouble.isEmpty)
+    try visitor.visitRepeatedBoolField(value: self.unpackedBool, fieldNumber: 102, isDefaultValue: self.unpackedBool.isEmpty)
+    try visitor.visitRepeatedEnumField(value: self.unpackedEnum, fieldNumber: 103, isDefaultValue: self.unpackedEnum.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11857,12 +11723,8 @@ extension ProtobufUnittest_TestDynamicExtensions: SwiftProtobuf.Message, SwiftPr
       if let v = _storage._dynamicMessageExtension {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 2004)
       }
-      if !_storage._repeatedExtension.isEmpty {
-        try visitor.visitRepeatedStringField(value: _storage._repeatedExtension, fieldNumber: 2005)
-      }
-      if !_storage._packedExtension.isEmpty {
-        try visitor.visitPackedSInt32Field(value: _storage._packedExtension, fieldNumber: 2006)
-      }
+      try visitor.visitRepeatedStringField(value: _storage._repeatedExtension, fieldNumber: 2005, isDefaultValue: _storage._repeatedExtension.isEmpty)
+      try visitor.visitPackedSInt32Field(value: _storage._packedExtension, fieldNumber: 2006, isDefaultValue: _storage._packedExtension.isEmpty)
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -11951,24 +11813,12 @@ extension ProtobufUnittest_TestRepeatedScalarDifferentTagSizes: SwiftProtobuf.Me
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.repeatedFixed32.isEmpty {
-      try visitor.visitRepeatedFixed32Field(value: self.repeatedFixed32, fieldNumber: 12)
-    }
-    if !self.repeatedInt32.isEmpty {
-      try visitor.visitRepeatedInt32Field(value: self.repeatedInt32, fieldNumber: 13)
-    }
-    if !self.repeatedFixed64.isEmpty {
-      try visitor.visitRepeatedFixed64Field(value: self.repeatedFixed64, fieldNumber: 2046)
-    }
-    if !self.repeatedInt64.isEmpty {
-      try visitor.visitRepeatedInt64Field(value: self.repeatedInt64, fieldNumber: 2047)
-    }
-    if !self.repeatedFloat.isEmpty {
-      try visitor.visitRepeatedFloatField(value: self.repeatedFloat, fieldNumber: 262142)
-    }
-    if !self.repeatedUint64.isEmpty {
-      try visitor.visitRepeatedUInt64Field(value: self.repeatedUint64, fieldNumber: 262143)
-    }
+    try visitor.visitRepeatedFixed32Field(value: self.repeatedFixed32, fieldNumber: 12, isDefaultValue: self.repeatedFixed32.isEmpty)
+    try visitor.visitRepeatedInt32Field(value: self.repeatedInt32, fieldNumber: 13, isDefaultValue: self.repeatedInt32.isEmpty)
+    try visitor.visitRepeatedFixed64Field(value: self.repeatedFixed64, fieldNumber: 2046, isDefaultValue: self.repeatedFixed64.isEmpty)
+    try visitor.visitRepeatedInt64Field(value: self.repeatedInt64, fieldNumber: 2047, isDefaultValue: self.repeatedInt64.isEmpty)
+    try visitor.visitRepeatedFloatField(value: self.repeatedFloat, fieldNumber: 262142, isDefaultValue: self.repeatedFloat.isEmpty)
+    try visitor.visitRepeatedUInt64Field(value: self.repeatedUint64, fieldNumber: 262143, isDefaultValue: self.repeatedUint64.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12055,15 +11905,11 @@ extension ProtobufUnittest_TestParsingMerge: SwiftProtobuf.Message, SwiftProtobu
       if let v = _storage._optionalAllTypes {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 2)
       }
-      if !_storage._repeatedAllTypes.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._repeatedAllTypes, fieldNumber: 3)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._repeatedAllTypes, fieldNumber: 3, isDefaultValue: _storage._repeatedAllTypes.isEmpty)
       if let v = _storage._optionalGroup {
         try visitor.visitSingularGroupField(value: v, fieldNumber: 10)
       }
-      if !_storage._repeatedGroup.isEmpty {
-        try visitor.visitRepeatedGroupField(value: _storage._repeatedGroup, fieldNumber: 20)
-      }
+      try visitor.visitRepeatedGroupField(value: _storage._repeatedGroup, fieldNumber: 20, isDefaultValue: _storage._repeatedGroup.isEmpty)
       try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
     }
     try unknownFields.traverse(visitor: &visitor)
@@ -12117,27 +11963,13 @@ extension ProtobufUnittest_TestParsingMerge.RepeatedFieldsGenerator: SwiftProtob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.field1.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.field1, fieldNumber: 1)
-    }
-    if !self.field2.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.field2, fieldNumber: 2)
-    }
-    if !self.field3.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.field3, fieldNumber: 3)
-    }
-    if !self.group1.isEmpty {
-      try visitor.visitRepeatedGroupField(value: self.group1, fieldNumber: 10)
-    }
-    if !self.group2.isEmpty {
-      try visitor.visitRepeatedGroupField(value: self.group2, fieldNumber: 20)
-    }
-    if !self.ext1.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.ext1, fieldNumber: 1000)
-    }
-    if !self.ext2.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.ext2, fieldNumber: 1001)
-    }
+    try visitor.visitRepeatedMessageField(value: self.field1, fieldNumber: 1, isDefaultValue: self.field1.isEmpty)
+    try visitor.visitRepeatedMessageField(value: self.field2, fieldNumber: 2, isDefaultValue: self.field2.isEmpty)
+    try visitor.visitRepeatedMessageField(value: self.field3, fieldNumber: 3, isDefaultValue: self.field3.isEmpty)
+    try visitor.visitRepeatedGroupField(value: self.group1, fieldNumber: 10, isDefaultValue: self.group1.isEmpty)
+    try visitor.visitRepeatedGroupField(value: self.group2, fieldNumber: 20, isDefaultValue: self.group2.isEmpty)
+    try visitor.visitRepeatedMessageField(value: self.ext1, fieldNumber: 1000, isDefaultValue: self.ext1.isEmpty)
+    try visitor.visitRepeatedMessageField(value: self.ext2, fieldNumber: 1001, isDefaultValue: self.ext2.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12718,12 +12550,8 @@ extension ProtobufUnittest_TestHugeFieldNumbers: SwiftProtobuf.Message, SwiftPro
       if let v = _storage._fixed32 {
         try visitor.visitSingularInt32Field(value: v, fieldNumber: 536870001)
       }
-      if !_storage._repeatedInt32.isEmpty {
-        try visitor.visitRepeatedInt32Field(value: _storage._repeatedInt32, fieldNumber: 536870002)
-      }
-      if !_storage._packedInt32.isEmpty {
-        try visitor.visitPackedInt32Field(value: _storage._packedInt32, fieldNumber: 536870003)
-      }
+      try visitor.visitRepeatedInt32Field(value: _storage._repeatedInt32, fieldNumber: 536870002, isDefaultValue: _storage._repeatedInt32.isEmpty)
+      try visitor.visitPackedInt32Field(value: _storage._packedInt32, fieldNumber: 536870003, isDefaultValue: _storage._packedInt32.isEmpty)
       if let v = _storage._optionalEnum {
         try visitor.visitSingularEnumField(value: v, fieldNumber: 536870004)
       }
@@ -12739,9 +12567,7 @@ extension ProtobufUnittest_TestHugeFieldNumbers: SwiftProtobuf.Message, SwiftPro
       if let v = _storage._optionalGroup {
         try visitor.visitSingularGroupField(value: v, fieldNumber: 536870008)
       }
-      if !_storage._stringStringMap.isEmpty {
-        try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMap<SwiftProtobuf.ProtobufString,SwiftProtobuf.ProtobufString>.self, value: _storage._stringStringMap, fieldNumber: 536870010)
-      }
+      try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMap<SwiftProtobuf.ProtobufString,SwiftProtobuf.ProtobufString>.self, value: _storage._stringStringMap, fieldNumber: 536870010, isDefaultValue: _storage._stringStringMap.isEmpty)
       switch _storage._oneofField {
       case .oneofUint32(let v)?:
         try visitor.visitSingularUInt32Field(value: v, fieldNumber: 536870011)

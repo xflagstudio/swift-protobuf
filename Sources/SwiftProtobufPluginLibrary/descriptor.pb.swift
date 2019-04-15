@@ -2058,9 +2058,7 @@ extension Google_Protobuf_FileDescriptorSet: SwiftProtobuf.Message, SwiftProtobu
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.file.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.file, fieldNumber: 1)
-    }
+    try visitor.visitRepeatedMessageField(value: self.file, fieldNumber: 1, isDefaultValue: self.file.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -2171,33 +2169,19 @@ extension Google_Protobuf_FileDescriptorProto: SwiftProtobuf.Message, SwiftProto
       if let v = _storage._package {
         try visitor.visitSingularStringField(value: v, fieldNumber: 2)
       }
-      if !_storage._dependency.isEmpty {
-        try visitor.visitRepeatedStringField(value: _storage._dependency, fieldNumber: 3)
-      }
-      if !_storage._messageType.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._messageType, fieldNumber: 4)
-      }
-      if !_storage._enumType.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._enumType, fieldNumber: 5)
-      }
-      if !_storage._service.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._service, fieldNumber: 6)
-      }
-      if !_storage._extension.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._extension, fieldNumber: 7)
-      }
+      try visitor.visitRepeatedStringField(value: _storage._dependency, fieldNumber: 3, isDefaultValue: _storage._dependency.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._messageType, fieldNumber: 4, isDefaultValue: _storage._messageType.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._enumType, fieldNumber: 5, isDefaultValue: _storage._enumType.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._service, fieldNumber: 6, isDefaultValue: _storage._service.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._extension, fieldNumber: 7, isDefaultValue: _storage._extension.isEmpty)
       if let v = _storage._options {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 8)
       }
       if let v = _storage._sourceCodeInfo {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 9)
       }
-      if !_storage._publicDependency.isEmpty {
-        try visitor.visitRepeatedInt32Field(value: _storage._publicDependency, fieldNumber: 10)
-      }
-      if !_storage._weakDependency.isEmpty {
-        try visitor.visitRepeatedInt32Field(value: _storage._weakDependency, fieldNumber: 11)
-      }
+      try visitor.visitRepeatedInt32Field(value: _storage._publicDependency, fieldNumber: 10, isDefaultValue: _storage._publicDependency.isEmpty)
+      try visitor.visitRepeatedInt32Field(value: _storage._weakDependency, fieldNumber: 11, isDefaultValue: _storage._weakDependency.isEmpty)
       if let v = _storage._syntax {
         try visitor.visitSingularStringField(value: v, fieldNumber: 12)
       }
@@ -2322,33 +2306,17 @@ extension Google_Protobuf_DescriptorProto: SwiftProtobuf.Message, SwiftProtobuf.
       if let v = _storage._name {
         try visitor.visitSingularStringField(value: v, fieldNumber: 1)
       }
-      if !_storage._field.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._field, fieldNumber: 2)
-      }
-      if !_storage._nestedType.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._nestedType, fieldNumber: 3)
-      }
-      if !_storage._enumType.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._enumType, fieldNumber: 4)
-      }
-      if !_storage._extensionRange.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._extensionRange, fieldNumber: 5)
-      }
-      if !_storage._extension.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._extension, fieldNumber: 6)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._field, fieldNumber: 2, isDefaultValue: _storage._field.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._nestedType, fieldNumber: 3, isDefaultValue: _storage._nestedType.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._enumType, fieldNumber: 4, isDefaultValue: _storage._enumType.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._extensionRange, fieldNumber: 5, isDefaultValue: _storage._extensionRange.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._extension, fieldNumber: 6, isDefaultValue: _storage._extension.isEmpty)
       if let v = _storage._options {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 7)
       }
-      if !_storage._oneofDecl.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._oneofDecl, fieldNumber: 8)
-      }
-      if !_storage._reservedRange.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._reservedRange, fieldNumber: 9)
-      }
-      if !_storage._reservedName.isEmpty {
-        try visitor.visitRepeatedStringField(value: _storage._reservedName, fieldNumber: 10)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._oneofDecl, fieldNumber: 8, isDefaultValue: _storage._oneofDecl.isEmpty)
+      try visitor.visitRepeatedMessageField(value: _storage._reservedRange, fieldNumber: 9, isDefaultValue: _storage._reservedRange.isEmpty)
+      try visitor.visitRepeatedStringField(value: _storage._reservedName, fieldNumber: 10, isDefaultValue: _storage._reservedName.isEmpty)
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -2520,9 +2488,7 @@ extension Google_Protobuf_ExtensionRangeOptions: SwiftProtobuf.Message, SwiftPro
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.uninterpretedOption.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
-    }
+    try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999, isDefaultValue: self.uninterpretedOption.isEmpty)
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -2848,18 +2814,12 @@ extension Google_Protobuf_EnumDescriptorProto: SwiftProtobuf.Message, SwiftProto
       if let v = _storage._name {
         try visitor.visitSingularStringField(value: v, fieldNumber: 1)
       }
-      if !_storage._value.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._value, fieldNumber: 2)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._value, fieldNumber: 2, isDefaultValue: _storage._value.isEmpty)
       if let v = _storage._options {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 3)
       }
-      if !_storage._reservedRange.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._reservedRange, fieldNumber: 4)
-      }
-      if !_storage._reservedName.isEmpty {
-        try visitor.visitRepeatedStringField(value: _storage._reservedName, fieldNumber: 5)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._reservedRange, fieldNumber: 4, isDefaultValue: _storage._reservedRange.isEmpty)
+      try visitor.visitRepeatedStringField(value: _storage._reservedName, fieldNumber: 5, isDefaultValue: _storage._reservedName.isEmpty)
     }
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -3060,9 +3020,7 @@ extension Google_Protobuf_ServiceDescriptorProto: SwiftProtobuf.Message, SwiftPr
       if let v = _storage._name {
         try visitor.visitSingularStringField(value: v, fieldNumber: 1)
       }
-      if !_storage._method.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._method, fieldNumber: 2)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._method, fieldNumber: 2, isDefaultValue: _storage._method.isEmpty)
       if let v = _storage._options {
         try visitor.visitSingularMessageField(value: v, fieldNumber: 3)
       }
@@ -3384,9 +3342,7 @@ extension Google_Protobuf_FileOptions: SwiftProtobuf.Message, SwiftProtobuf._Mes
       if let v = _storage._rubyPackage {
         try visitor.visitSingularStringField(value: v, fieldNumber: 45)
       }
-      if !_storage._uninterpretedOption.isEmpty {
-        try visitor.visitRepeatedMessageField(value: _storage._uninterpretedOption, fieldNumber: 999)
-      }
+      try visitor.visitRepeatedMessageField(value: _storage._uninterpretedOption, fieldNumber: 999, isDefaultValue: _storage._uninterpretedOption.isEmpty)
       try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
     }
     try unknownFields.traverse(visitor: &visitor)
@@ -3480,9 +3436,7 @@ extension Google_Protobuf_MessageOptions: SwiftProtobuf.Message, SwiftProtobuf._
     if let v = self._mapEntry {
       try visitor.visitSingularBoolField(value: v, fieldNumber: 7)
     }
-    if !self.uninterpretedOption.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
-    }
+    try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999, isDefaultValue: self.uninterpretedOption.isEmpty)
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -3553,9 +3507,7 @@ extension Google_Protobuf_FieldOptions: SwiftProtobuf.Message, SwiftProtobuf._Me
     if let v = self._weak {
       try visitor.visitSingularBoolField(value: v, fieldNumber: 10)
     }
-    if !self.uninterpretedOption.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
-    }
+    try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999, isDefaultValue: self.uninterpretedOption.isEmpty)
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -3614,9 +3566,7 @@ extension Google_Protobuf_OneofOptions: SwiftProtobuf.Message, SwiftProtobuf._Me
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.uninterpretedOption.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
-    }
+    try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999, isDefaultValue: self.uninterpretedOption.isEmpty)
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -3663,9 +3613,7 @@ extension Google_Protobuf_EnumOptions: SwiftProtobuf.Message, SwiftProtobuf._Mes
     if let v = self._deprecated {
       try visitor.visitSingularBoolField(value: v, fieldNumber: 3)
     }
-    if !self.uninterpretedOption.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
-    }
+    try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999, isDefaultValue: self.uninterpretedOption.isEmpty)
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -3709,9 +3657,7 @@ extension Google_Protobuf_EnumValueOptions: SwiftProtobuf.Message, SwiftProtobuf
     if let v = self._deprecated {
       try visitor.visitSingularBoolField(value: v, fieldNumber: 1)
     }
-    if !self.uninterpretedOption.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
-    }
+    try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999, isDefaultValue: self.uninterpretedOption.isEmpty)
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -3754,9 +3700,7 @@ extension Google_Protobuf_ServiceOptions: SwiftProtobuf.Message, SwiftProtobuf._
     if let v = self._deprecated {
       try visitor.visitSingularBoolField(value: v, fieldNumber: 33)
     }
-    if !self.uninterpretedOption.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
-    }
+    try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999, isDefaultValue: self.uninterpretedOption.isEmpty)
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -3804,9 +3748,7 @@ extension Google_Protobuf_MethodOptions: SwiftProtobuf.Message, SwiftProtobuf._M
     if let v = self._idempotencyLevel {
       try visitor.visitSingularEnumField(value: v, fieldNumber: 34)
     }
-    if !self.uninterpretedOption.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
-    }
+    try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999, isDefaultValue: self.uninterpretedOption.isEmpty)
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
     try unknownFields.traverse(visitor: &visitor)
   }
@@ -3862,9 +3804,7 @@ extension Google_Protobuf_UninterpretedOption: SwiftProtobuf.Message, SwiftProto
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.name.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.name, fieldNumber: 2)
-    }
+    try visitor.visitRepeatedMessageField(value: self.name, fieldNumber: 2, isDefaultValue: self.name.isEmpty)
     if let v = self._identifierValue {
       try visitor.visitSingularStringField(value: v, fieldNumber: 3)
     }
@@ -3956,9 +3896,7 @@ extension Google_Protobuf_SourceCodeInfo: SwiftProtobuf.Message, SwiftProtobuf._
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.location.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.location, fieldNumber: 1)
-    }
+    try visitor.visitRepeatedMessageField(value: self.location, fieldNumber: 1, isDefaultValue: self.location.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -3993,21 +3931,15 @@ extension Google_Protobuf_SourceCodeInfo.Location: SwiftProtobuf.Message, SwiftP
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.path.isEmpty {
-      try visitor.visitPackedInt32Field(value: self.path, fieldNumber: 1)
-    }
-    if !self.span.isEmpty {
-      try visitor.visitPackedInt32Field(value: self.span, fieldNumber: 2)
-    }
+    try visitor.visitPackedInt32Field(value: self.path, fieldNumber: 1, isDefaultValue: self.path.isEmpty)
+    try visitor.visitPackedInt32Field(value: self.span, fieldNumber: 2, isDefaultValue: self.span.isEmpty)
     if let v = self._leadingComments {
       try visitor.visitSingularStringField(value: v, fieldNumber: 3)
     }
     if let v = self._trailingComments {
       try visitor.visitSingularStringField(value: v, fieldNumber: 4)
     }
-    if !self.leadingDetachedComments.isEmpty {
-      try visitor.visitRepeatedStringField(value: self.leadingDetachedComments, fieldNumber: 6)
-    }
+    try visitor.visitRepeatedStringField(value: self.leadingDetachedComments, fieldNumber: 6, isDefaultValue: self.leadingDetachedComments.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -4038,9 +3970,7 @@ extension Google_Protobuf_GeneratedCodeInfo: SwiftProtobuf.Message, SwiftProtobu
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.annotation.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.annotation, fieldNumber: 1)
-    }
+    try visitor.visitRepeatedMessageField(value: self.annotation, fieldNumber: 1, isDefaultValue: self.annotation.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -4073,9 +4003,7 @@ extension Google_Protobuf_GeneratedCodeInfo.Annotation: SwiftProtobuf.Message, S
   }
 
   public func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.path.isEmpty {
-      try visitor.visitPackedInt32Field(value: self.path, fieldNumber: 1)
-    }
+    try visitor.visitPackedInt32Field(value: self.path, fieldNumber: 1, isDefaultValue: self.path.isEmpty)
     if let v = self._sourceFile {
       try visitor.visitSingularStringField(value: v, fieldNumber: 2)
     }

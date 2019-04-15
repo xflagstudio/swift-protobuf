@@ -78,6 +78,18 @@ struct ProtobufUnittestGenerated_GeneratedSwiftReservedMessages {
     init() {}
   }
 
+  struct alwaysPrintFieldsWithDefaultValues {
+    // SwiftProtobuf.Message conformance is added in an extension below. See the
+    // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+    // methods supported on all messages.
+
+    var alwaysPrintFieldsWithDefaultValues: Int32 = 0
+
+    var unknownFields = SwiftProtobuf.UnknownStorage()
+
+    init() {}
+  }
+
   struct any {
     // SwiftProtobuf.Message conformance is added in an extension below. See the
     // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
@@ -270,6 +282,18 @@ struct ProtobufUnittestGenerated_GeneratedSwiftReservedMessages {
     init() {}
   }
 
+  struct assumingMemoryBound {
+    // SwiftProtobuf.Message conformance is added in an extension below. See the
+    // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+    // methods supported on all messages.
+
+    var assumingMemoryBound: Int32 = 0
+
+    var unknownFields = SwiftProtobuf.UnknownStorage()
+
+    init() {}
+  }
+
   struct available {
     // SwiftProtobuf.Message conformance is added in an extension below. See the
     // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
@@ -300,6 +324,18 @@ struct ProtobufUnittestGenerated_GeneratedSwiftReservedMessages {
     // methods supported on all messages.
 
     var base64Values: Int32 = 0
+
+    var unknownFields = SwiftProtobuf.UnknownStorage()
+
+    init() {}
+  }
+
+  struct baseAddress {
+    // SwiftProtobuf.Message conformance is added in an extension below. See the
+    // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+    // methods supported on all messages.
+
+    var baseAddress: Int32 = 0
 
     var unknownFields = SwiftProtobuf.UnknownStorage()
 
@@ -444,6 +480,18 @@ struct ProtobufUnittestGenerated_GeneratedSwiftReservedMessages {
     // methods supported on all messages.
 
     var binaryEncodingVisitor: Int32 = 0
+
+    var unknownFields = SwiftProtobuf.UnknownStorage()
+
+    init() {}
+  }
+
+  struct body {
+    // SwiftProtobuf.Message conformance is added in an extension below. See the
+    // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+    // methods supported on all messages.
+
+    var body: Int32 = 0
 
     var unknownFields = SwiftProtobuf.UnknownStorage()
 
@@ -816,18 +864,6 @@ struct ProtobufUnittestGenerated_GeneratedSwiftReservedMessages {
     // methods supported on all messages.
 
     var data: Int32 = 0
-
-    var unknownFields = SwiftProtobuf.UnknownStorage()
-
-    init() {}
-  }
-
-  struct dataPointer {
-    // SwiftProtobuf.Message conformance is added in an extension below. See the
-    // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
-    // methods supported on all messages.
-
-    var dataPointer: Int32 = 0
 
     var unknownFields = SwiftProtobuf.UnknownStorage()
 
@@ -3294,6 +3330,18 @@ struct ProtobufUnittestGenerated_GeneratedSwiftReservedMessages {
     init() {}
   }
 
+  struct isDefaultValue {
+    // SwiftProtobuf.Message conformance is added in an extension below. See the
+    // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+    // methods supported on all messages.
+
+    var isDefaultValue: Int32 = 0
+
+    var unknownFields = SwiftProtobuf.UnknownStorage()
+
+    init() {}
+  }
+
   struct isEqual {
     // SwiftProtobuf.Message conformance is added in an extension below. See the
     // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
@@ -5382,6 +5430,18 @@ struct ProtobufUnittestGenerated_GeneratedSwiftReservedMessages {
     init() {}
   }
 
+  struct rethrowsMessage {
+    // SwiftProtobuf.Message conformance is added in an extension below. See the
+    // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+    // methods supported on all messages.
+
+    var `rethrows`: Int32 = 0
+
+    var unknownFields = SwiftProtobuf.UnknownStorage()
+
+    init() {}
+  }
+
   struct returnMessage {
     // SwiftProtobuf.Message conformance is added in an extension below. See the
     // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
@@ -6150,6 +6210,18 @@ struct ProtobufUnittestGenerated_GeneratedSwiftReservedMessages {
     init() {}
   }
 
+  struct to {
+    // SwiftProtobuf.Message conformance is added in an extension below. See the
+    // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+    // methods supported on all messages.
+
+    var to: Int32 = 0
+
+    var unknownFields = SwiftProtobuf.UnknownStorage()
+
+    init() {}
+  }
+
   struct total {
     // SwiftProtobuf.Message conformance is added in an extension below. See the
     // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
@@ -6486,12 +6558,36 @@ struct ProtobufUnittestGenerated_GeneratedSwiftReservedMessages {
     init() {}
   }
 
+  struct UnsafeMutableRawBufferPointer {
+    // SwiftProtobuf.Message conformance is added in an extension below. See the
+    // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+    // methods supported on all messages.
+
+    var unsafeMutableRawBufferPointer: Int32 = 0
+
+    var unknownFields = SwiftProtobuf.UnknownStorage()
+
+    init() {}
+  }
+
   struct UnsafePointer {
     // SwiftProtobuf.Message conformance is added in an extension below. See the
     // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
     // methods supported on all messages.
 
     var unsafePointer: Int32 = 0
+
+    var unknownFields = SwiftProtobuf.UnknownStorage()
+
+    init() {}
+  }
+
+  struct UnsafeRawBufferPointer {
+    // SwiftProtobuf.Message conformance is added in an extension below. See the
+    // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+    // methods supported on all messages.
+
+    var unsafeRawBufferPointer: Int32 = 0
 
     var unknownFields = SwiftProtobuf.UnknownStorage()
 
@@ -7398,6 +7494,30 @@ struct ProtobufUnittestGenerated_GeneratedSwiftReservedMessages {
     init() {}
   }
 
+  struct withUnsafeBytes {
+    // SwiftProtobuf.Message conformance is added in an extension below. See the
+    // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+    // methods supported on all messages.
+
+    var withUnsafeBytes: Int32 = 0
+
+    var unknownFields = SwiftProtobuf.UnknownStorage()
+
+    init() {}
+  }
+
+  struct withUnsafeMutableBytes {
+    // SwiftProtobuf.Message conformance is added in an extension below. See the
+    // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
+    // methods supported on all messages.
+
+    var withUnsafeMutableBytes: Int32 = 0
+
+    var unknownFields = SwiftProtobuf.UnknownStorage()
+
+    init() {}
+  }
+
   struct WrappedType {
     // SwiftProtobuf.Message conformance is added in an extension below. See the
     // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
@@ -7476,9 +7596,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.adjusted: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.adjusted != 0 {
-      try visitor.visitSingularInt32Field(value: self.adjusted, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.adjusted, fieldNumber: 1, isDefaultValue: self.adjusted == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7505,9 +7623,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.allCases: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.allCases != 0 {
-      try visitor.visitSingularInt32Field(value: self.allCases, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.allCases, fieldNumber: 1, isDefaultValue: self.allCases == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7534,9 +7650,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.allocate: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.allocate != 0 {
-      try visitor.visitSingularInt32Field(value: self.allocate, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.allocate, fieldNumber: 1, isDefaultValue: self.allocate == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7563,14 +7677,39 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.alwaysPrintEn
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.alwaysPrintEnumsAsInts != 0 {
-      try visitor.visitSingularInt32Field(value: self.alwaysPrintEnumsAsInts, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.alwaysPrintEnumsAsInts, fieldNumber: 1, isDefaultValue: self.alwaysPrintEnumsAsInts == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.alwaysPrintEnumsAsInts, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.alwaysPrintEnumsAsInts) -> Bool {
     if lhs.alwaysPrintEnumsAsInts != rhs.alwaysPrintEnumsAsInts {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.alwaysPrintFieldsWithDefaultValues: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageName + ".alwaysPrintFieldsWithDefaultValues"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "alwaysPrintFieldsWithDefaultValues"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      switch fieldNumber {
+      case 1: try decoder.decodeSingularInt32Field(value: &self.alwaysPrintFieldsWithDefaultValues)
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try visitor.visitSingularInt32Field(value: self.alwaysPrintFieldsWithDefaultValues, fieldNumber: 1, isDefaultValue: self.alwaysPrintFieldsWithDefaultValues == 0)
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.alwaysPrintFieldsWithDefaultValues, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.alwaysPrintFieldsWithDefaultValues) -> Bool {
+    if lhs.alwaysPrintFieldsWithDefaultValues != rhs.alwaysPrintFieldsWithDefaultValues {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
@@ -7592,9 +7731,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.any: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.any != 0 {
-      try visitor.visitSingularInt32Field(value: self.any, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.any, fieldNumber: 1, isDefaultValue: self.any == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7621,9 +7758,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyExtensionF
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.anyExtensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.anyExtensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.anyExtensionField, fieldNumber: 1, isDefaultValue: self.anyExtensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7650,9 +7785,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyMessageExt
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.anyMessageExtension != 0 {
-      try visitor.visitSingularInt32Field(value: self.anyMessageExtension, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.anyMessageExtension, fieldNumber: 1, isDefaultValue: self.anyMessageExtension == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7679,9 +7812,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyMessageSto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.anyMessageStorage != 0 {
-      try visitor.visitSingularInt32Field(value: self.anyMessageStorage, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.anyMessageStorage, fieldNumber: 1, isDefaultValue: self.anyMessageStorage == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7708,9 +7839,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyUnpackErro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.anyUnpackError != 0 {
-      try visitor.visitSingularInt32Field(value: self.anyUnpackError, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.anyUnpackError, fieldNumber: 1, isDefaultValue: self.anyUnpackError == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7737,9 +7866,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Api: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.api != 0 {
-      try visitor.visitSingularInt32Field(value: self.api, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.api, fieldNumber: 1, isDefaultValue: self.api == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7766,9 +7893,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.appended: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.appended != 0 {
-      try visitor.visitSingularInt32Field(value: self.appended, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.appended, fieldNumber: 1, isDefaultValue: self.appended == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7795,9 +7920,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.appendUIntHex
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.appendUintHex != 0 {
-      try visitor.visitSingularInt32Field(value: self.appendUintHex, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.appendUintHex, fieldNumber: 1, isDefaultValue: self.appendUintHex == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7824,9 +7947,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.appendUnknown
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.appendUnknown != 0 {
-      try visitor.visitSingularInt32Field(value: self.appendUnknown, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.appendUnknown, fieldNumber: 1, isDefaultValue: self.appendUnknown == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7853,9 +7974,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.areAllInitial
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.areAllInitialized != 0 {
-      try visitor.visitSingularInt32Field(value: self.areAllInitialized, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.areAllInitialized, fieldNumber: 1, isDefaultValue: self.areAllInitialized == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7882,9 +8001,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.array: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.array != 0 {
-      try visitor.visitSingularInt32Field(value: self.array, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.array, fieldNumber: 1, isDefaultValue: self.array == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7911,9 +8028,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.arrayLiteral:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.arrayLiteral != 0 {
-      try visitor.visitSingularInt32Field(value: self.arrayLiteral, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.arrayLiteral, fieldNumber: 1, isDefaultValue: self.arrayLiteral == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7940,9 +8055,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.arraySeparato
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.arraySeparator != 0 {
-      try visitor.visitSingularInt32Field(value: self.arraySeparator, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.arraySeparator, fieldNumber: 1, isDefaultValue: self.arraySeparator == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7969,9 +8082,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asMessage: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`as` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`as`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`as`, fieldNumber: 1, isDefaultValue: self.`as` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -7998,9 +8109,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asciiOpenCurl
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.asciiOpenCurlyBracket != 0 {
-      try visitor.visitSingularInt32Field(value: self.asciiOpenCurlyBracket, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.asciiOpenCurlyBracket, fieldNumber: 1, isDefaultValue: self.asciiOpenCurlyBracket == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8027,14 +8136,39 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asciiZero: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.asciiZero != 0 {
-      try visitor.visitSingularInt32Field(value: self.asciiZero, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.asciiZero, fieldNumber: 1, isDefaultValue: self.asciiZero == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asciiZero, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asciiZero) -> Bool {
     if lhs.asciiZero != rhs.asciiZero {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.assumingMemoryBound: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageName + ".assumingMemoryBound"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "assumingMemoryBound"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      switch fieldNumber {
+      case 1: try decoder.decodeSingularInt32Field(value: &self.assumingMemoryBound)
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try visitor.visitSingularInt32Field(value: self.assumingMemoryBound, fieldNumber: 1, isDefaultValue: self.assumingMemoryBound == 0)
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.assumingMemoryBound, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.assumingMemoryBound) -> Bool {
+    if lhs.assumingMemoryBound != rhs.assumingMemoryBound {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
@@ -8056,9 +8190,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.available: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.available != 0 {
-      try visitor.visitSingularInt32Field(value: self.available, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.available, fieldNumber: 1, isDefaultValue: self.available == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8085,9 +8217,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.b: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.b != 0 {
-      try visitor.visitSingularInt32Field(value: self.b, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.b, fieldNumber: 1, isDefaultValue: self.b == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8114,14 +8244,39 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.base64Values:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.base64Values != 0 {
-      try visitor.visitSingularInt32Field(value: self.base64Values, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.base64Values, fieldNumber: 1, isDefaultValue: self.base64Values == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.base64Values, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.base64Values) -> Bool {
     if lhs.base64Values != rhs.base64Values {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.baseAddress: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageName + ".baseAddress"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "baseAddress"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      switch fieldNumber {
+      case 1: try decoder.decodeSingularInt32Field(value: &self.baseAddress)
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try visitor.visitSingularInt32Field(value: self.baseAddress, fieldNumber: 1, isDefaultValue: self.baseAddress == 0)
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.baseAddress, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.baseAddress) -> Bool {
+    if lhs.baseAddress != rhs.baseAddress {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
@@ -8143,9 +8298,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BaseType: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.baseType != 0 {
-      try visitor.visitSingularInt32Field(value: self.baseType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.baseType, fieldNumber: 1, isDefaultValue: self.baseType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8172,9 +8325,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.binary: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.binary != 0 {
-      try visitor.visitSingularInt32Field(value: self.binary, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.binary, fieldNumber: 1, isDefaultValue: self.binary == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8201,9 +8352,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDecoder
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.binaryDecoder != 0 {
-      try visitor.visitSingularInt32Field(value: self.binaryDecoder, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.binaryDecoder, fieldNumber: 1, isDefaultValue: self.binaryDecoder == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8230,9 +8379,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDecodin
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.binaryDecodingError != 0 {
-      try visitor.visitSingularInt32Field(value: self.binaryDecodingError, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.binaryDecodingError, fieldNumber: 1, isDefaultValue: self.binaryDecodingError == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8259,9 +8406,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDecodin
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.binaryDecodingOptions != 0 {
-      try visitor.visitSingularInt32Field(value: self.binaryDecodingOptions, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.binaryDecodingOptions, fieldNumber: 1, isDefaultValue: self.binaryDecodingOptions == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8288,9 +8433,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDelimit
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.binaryDelimited != 0 {
-      try visitor.visitSingularInt32Field(value: self.binaryDelimited, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.binaryDelimited, fieldNumber: 1, isDefaultValue: self.binaryDelimited == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8317,9 +8460,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncoder
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.binaryEncoder != 0 {
-      try visitor.visitSingularInt32Field(value: self.binaryEncoder, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.binaryEncoder, fieldNumber: 1, isDefaultValue: self.binaryEncoder == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8346,9 +8487,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodin
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.binaryEncodingError != 0 {
-      try visitor.visitSingularInt32Field(value: self.binaryEncodingError, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.binaryEncodingError, fieldNumber: 1, isDefaultValue: self.binaryEncodingError == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8375,9 +8514,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodin
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.binaryEncodingMessageSetSizeVisitor != 0 {
-      try visitor.visitSingularInt32Field(value: self.binaryEncodingMessageSetSizeVisitor, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.binaryEncodingMessageSetSizeVisitor, fieldNumber: 1, isDefaultValue: self.binaryEncodingMessageSetSizeVisitor == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8404,9 +8541,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodin
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.binaryEncodingMessageSetVisitor != 0 {
-      try visitor.visitSingularInt32Field(value: self.binaryEncodingMessageSetVisitor, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.binaryEncodingMessageSetVisitor, fieldNumber: 1, isDefaultValue: self.binaryEncodingMessageSetVisitor == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8433,9 +8568,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodin
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.binaryEncodingSizeVisitor != 0 {
-      try visitor.visitSingularInt32Field(value: self.binaryEncodingSizeVisitor, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.binaryEncodingSizeVisitor, fieldNumber: 1, isDefaultValue: self.binaryEncodingSizeVisitor == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8462,14 +8595,39 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodin
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.binaryEncodingVisitor != 0 {
-      try visitor.visitSingularInt32Field(value: self.binaryEncodingVisitor, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.binaryEncodingVisitor, fieldNumber: 1, isDefaultValue: self.binaryEncodingVisitor == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodingVisitor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodingVisitor) -> Bool {
     if lhs.binaryEncodingVisitor != rhs.binaryEncodingVisitor {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.body: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageName + ".body"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "body"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      switch fieldNumber {
+      case 1: try decoder.decodeSingularInt32Field(value: &self.body)
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try visitor.visitSingularInt32Field(value: self.body, fieldNumber: 1, isDefaultValue: self.body == 0)
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.body, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.body) -> Bool {
+    if lhs.body != rhs.body {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
@@ -8491,9 +8649,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bodySize: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.bodySize != 0 {
-      try visitor.visitSingularInt32Field(value: self.bodySize, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.bodySize, fieldNumber: 1, isDefaultValue: self.bodySize == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8520,9 +8676,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BoolMessage: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.bool != 0 {
-      try visitor.visitSingularInt32Field(value: self.bool, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.bool, fieldNumber: 1, isDefaultValue: self.bool == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8549,9 +8703,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.booleanLitera
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.booleanLiteral != 0 {
-      try visitor.visitSingularInt32Field(value: self.booleanLiteral, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.booleanLiteral, fieldNumber: 1, isDefaultValue: self.booleanLiteral == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8578,9 +8730,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BooleanLitera
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.booleanLiteralType != 0 {
-      try visitor.visitSingularInt32Field(value: self.booleanLiteralType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.booleanLiteralType, fieldNumber: 1, isDefaultValue: self.booleanLiteralType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8607,9 +8757,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.boolValue: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.boolValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.boolValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.boolValue, fieldNumber: 1, isDefaultValue: self.boolValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8636,9 +8784,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.buffer: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.buffer != 0 {
-      try visitor.visitSingularInt32Field(value: self.buffer, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.buffer, fieldNumber: 1, isDefaultValue: self.buffer == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8665,9 +8811,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bytes: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.bytes != 0 {
-      try visitor.visitSingularInt32Field(value: self.bytes, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.bytes, fieldNumber: 1, isDefaultValue: self.bytes == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8694,9 +8838,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bytesInGroup:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.bytesInGroup != 0 {
-      try visitor.visitSingularInt32Field(value: self.bytesInGroup, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.bytesInGroup, fieldNumber: 1, isDefaultValue: self.bytesInGroup == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8723,9 +8865,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bytesRead: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.bytesRead != 0 {
-      try visitor.visitSingularInt32Field(value: self.bytesRead, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.bytesRead, fieldNumber: 1, isDefaultValue: self.bytesRead == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8752,9 +8892,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BytesValue: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.bytesValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.bytesValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.bytesValue, fieldNumber: 1, isDefaultValue: self.bytesValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8781,9 +8919,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.c: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.c != 0 {
-      try visitor.visitSingularInt32Field(value: self.c, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.c, fieldNumber: 1, isDefaultValue: self.c == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8810,9 +8946,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.capacity: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.capacity != 0 {
-      try visitor.visitSingularInt32Field(value: self.capacity, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.capacity, fieldNumber: 1, isDefaultValue: self.capacity == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8839,9 +8973,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.capitalizeNex
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.capitalizeNext != 0 {
-      try visitor.visitSingularInt32Field(value: self.capitalizeNext, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.capitalizeNext, fieldNumber: 1, isDefaultValue: self.capitalizeNext == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8868,9 +9000,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.cardinality: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.cardinality != 0 {
-      try visitor.visitSingularInt32Field(value: self.cardinality, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.cardinality, fieldNumber: 1, isDefaultValue: self.cardinality == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8897,9 +9027,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Character: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.character != 0 {
-      try visitor.visitSingularInt32Field(value: self.character, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.character, fieldNumber: 1, isDefaultValue: self.character == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8926,9 +9054,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.chars: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.chars != 0 {
-      try visitor.visitSingularInt32Field(value: self.chars, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.chars, fieldNumber: 1, isDefaultValue: self.chars == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8955,9 +9081,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.classMessage:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`class` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`class`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`class`, fieldNumber: 1, isDefaultValue: self.`class` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -8984,9 +9108,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearExtensio
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.clearExtensionValue_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.clearExtensionValue_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.clearExtensionValue_p, fieldNumber: 1, isDefaultValue: self.clearExtensionValue_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9013,9 +9135,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSourceCo
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.clearSourceContext_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.clearSourceContext_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.clearSourceContext_p, fieldNumber: 1, isDefaultValue: self.clearSourceContext_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9042,9 +9162,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearValue: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.clearValue_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.clearValue_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.clearValue_p, fieldNumber: 1, isDefaultValue: self.clearValue_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9071,9 +9189,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.codeUnits: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.codeUnits != 0 {
-      try visitor.visitSingularInt32Field(value: self.codeUnits, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.codeUnits, fieldNumber: 1, isDefaultValue: self.codeUnits == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9100,9 +9216,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Collection: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.collection != 0 {
-      try visitor.visitSingularInt32Field(value: self.collection, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.collection, fieldNumber: 1, isDefaultValue: self.collection == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9129,9 +9243,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.com: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.com != 0 {
-      try visitor.visitSingularInt32Field(value: self.com, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.com, fieldNumber: 1, isDefaultValue: self.com == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9158,9 +9270,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.comma: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.comma != 0 {
-      try visitor.visitSingularInt32Field(value: self.comma, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.comma, fieldNumber: 1, isDefaultValue: self.comma == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9187,9 +9297,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.contentsOf: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.contentsOf != 0 {
-      try visitor.visitSingularInt32Field(value: self.contentsOf, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.contentsOf, fieldNumber: 1, isDefaultValue: self.contentsOf == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9216,9 +9324,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.count: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.count != 0 {
-      try visitor.visitSingularInt32Field(value: self.count, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.count, fieldNumber: 1, isDefaultValue: self.count == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9245,9 +9351,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.countVarintsI
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.countVarintsInBuffer != 0 {
-      try visitor.visitSingularInt32Field(value: self.countVarintsInBuffer, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.countVarintsInBuffer, fieldNumber: 1, isDefaultValue: self.countVarintsInBuffer == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9274,9 +9378,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.customCodable
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.customCodable != 0 {
-      try visitor.visitSingularInt32Field(value: self.customCodable, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.customCodable, fieldNumber: 1, isDefaultValue: self.customCodable == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9303,9 +9405,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.CustomDebugSt
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.customDebugStringConvertible != 0 {
-      try visitor.visitSingularInt32Field(value: self.customDebugStringConvertible, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.customDebugStringConvertible, fieldNumber: 1, isDefaultValue: self.customDebugStringConvertible == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9332,9 +9432,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.d: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.d != 0 {
-      try visitor.visitSingularInt32Field(value: self.d, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.d, fieldNumber: 1, isDefaultValue: self.d == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9361,43 +9459,12 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.DataMessage: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.data != 0 {
-      try visitor.visitSingularInt32Field(value: self.data, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.data, fieldNumber: 1, isDefaultValue: self.data == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.DataMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.DataMessage) -> Bool {
     if lhs.data != rhs.data {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
-    return true
-  }
-}
-
-extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dataPointer: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
-  static let protoMessageName: String = ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageName + ".dataPointer"
-  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
-    1: .same(proto: "dataPointer"),
-  ]
-
-  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
-    while let fieldNumber = try decoder.nextFieldNumber() {
-      switch fieldNumber {
-      case 1: try decoder.decodeSingularInt32Field(value: &self.dataPointer)
-      default: break
-      }
-    }
-  }
-
-  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.dataPointer != 0 {
-      try visitor.visitSingularInt32Field(value: self.dataPointer, fieldNumber: 1)
-    }
-    try unknownFields.traverse(visitor: &visitor)
-  }
-
-  static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dataPointer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dataPointer) -> Bool {
-    if lhs.dataPointer != rhs.dataPointer {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
@@ -9419,9 +9486,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dataResult: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.dataResult != 0 {
-      try visitor.visitSingularInt32Field(value: self.dataResult, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.dataResult, fieldNumber: 1, isDefaultValue: self.dataResult == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9448,9 +9513,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dataSize: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.dataSize != 0 {
-      try visitor.visitSingularInt32Field(value: self.dataSize, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.dataSize, fieldNumber: 1, isDefaultValue: self.dataSize == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9477,9 +9540,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.date: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.date != 0 {
-      try visitor.visitSingularInt32Field(value: self.date, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.date, fieldNumber: 1, isDefaultValue: self.date == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9506,9 +9567,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.daySec: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.daySec != 0 {
-      try visitor.visitSingularInt32Field(value: self.daySec, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.daySec, fieldNumber: 1, isDefaultValue: self.daySec == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9535,9 +9594,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.daysSinceEpoc
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.daysSinceEpoch != 0 {
-      try visitor.visitSingularInt32Field(value: self.daysSinceEpoch, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.daysSinceEpoch, fieldNumber: 1, isDefaultValue: self.daysSinceEpoch == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9564,9 +9621,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.debugDescript
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.debugDescription_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.debugDescription_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.debugDescription_p, fieldNumber: 1, isDefaultValue: self.debugDescription_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9593,9 +9648,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decoded: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decoded != 0 {
-      try visitor.visitSingularInt32Field(value: self.decoded, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decoded, fieldNumber: 1, isDefaultValue: self.decoded == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9622,9 +9675,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodedFromJS
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodedFromJsonnull != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodedFromJsonnull, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodedFromJsonnull, fieldNumber: 1, isDefaultValue: self.decodedFromJsonnull == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9651,9 +9702,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeExtensi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeExtensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeExtensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeExtensionField, fieldNumber: 1, isDefaultValue: self.decodeExtensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9680,9 +9729,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeExtensi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeExtensionFieldsAsMessageSet != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeExtensionFieldsAsMessageSet, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeExtensionFieldsAsMessageSet, fieldNumber: 1, isDefaultValue: self.decodeExtensionFieldsAsMessageSet == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9709,9 +9756,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeJSON: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeJson != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeJson, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeJson, fieldNumber: 1, isDefaultValue: self.decodeJson == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9738,9 +9783,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeMapFiel
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeMapField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeMapField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeMapField, fieldNumber: 1, isDefaultValue: self.decodeMapField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9767,9 +9810,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeMessage
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeMessage != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeMessage, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeMessage, fieldNumber: 1, isDefaultValue: self.decodeMessage == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9796,9 +9837,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decoder: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decoder != 0 {
-      try visitor.visitSingularInt32Field(value: self.decoder, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decoder, fieldNumber: 1, isDefaultValue: self.decoder == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9825,9 +9864,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeated != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeated, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeated, fieldNumber: 1, isDefaultValue: self.decodeRepeated == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9854,9 +9891,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedBoolField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedBoolField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedBoolField, fieldNumber: 1, isDefaultValue: self.decodeRepeatedBoolField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9883,9 +9918,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedBytesField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedBytesField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedBytesField, fieldNumber: 1, isDefaultValue: self.decodeRepeatedBytesField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9912,9 +9945,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedDoubleField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedDoubleField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedDoubleField, fieldNumber: 1, isDefaultValue: self.decodeRepeatedDoubleField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9941,9 +9972,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedEnumField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedEnumField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedEnumField, fieldNumber: 1, isDefaultValue: self.decodeRepeatedEnumField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9970,9 +9999,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedFixed32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedFixed32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedFixed32Field, fieldNumber: 1, isDefaultValue: self.decodeRepeatedFixed32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -9999,9 +10026,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedFixed64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedFixed64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedFixed64Field, fieldNumber: 1, isDefaultValue: self.decodeRepeatedFixed64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10028,9 +10053,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedFloatField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedFloatField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedFloatField, fieldNumber: 1, isDefaultValue: self.decodeRepeatedFloatField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10057,9 +10080,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedGroupField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedGroupField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedGroupField, fieldNumber: 1, isDefaultValue: self.decodeRepeatedGroupField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10086,9 +10107,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedInt32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedInt32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedInt32Field, fieldNumber: 1, isDefaultValue: self.decodeRepeatedInt32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10115,9 +10134,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedInt64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedInt64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedInt64Field, fieldNumber: 1, isDefaultValue: self.decodeRepeatedInt64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10144,9 +10161,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedMessageField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedMessageField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedMessageField, fieldNumber: 1, isDefaultValue: self.decodeRepeatedMessageField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10173,9 +10188,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedSfixed32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedSfixed32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedSfixed32Field, fieldNumber: 1, isDefaultValue: self.decodeRepeatedSfixed32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10202,9 +10215,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedSfixed64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedSfixed64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedSfixed64Field, fieldNumber: 1, isDefaultValue: self.decodeRepeatedSfixed64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10231,9 +10242,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedSint32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedSint32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedSint32Field, fieldNumber: 1, isDefaultValue: self.decodeRepeatedSint32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10260,9 +10269,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedSint64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedSint64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedSint64Field, fieldNumber: 1, isDefaultValue: self.decodeRepeatedSint64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10289,9 +10296,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedStringField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedStringField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedStringField, fieldNumber: 1, isDefaultValue: self.decodeRepeatedStringField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10318,9 +10323,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedUint32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedUint32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedUint32Field, fieldNumber: 1, isDefaultValue: self.decodeRepeatedUint32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10347,9 +10350,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeRepeatedUint64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeRepeatedUint64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeRepeatedUint64Field, fieldNumber: 1, isDefaultValue: self.decodeRepeatedUint64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10376,9 +10377,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingular != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingular, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingular, fieldNumber: 1, isDefaultValue: self.decodeSingular == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10405,9 +10404,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularBoolField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularBoolField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularBoolField, fieldNumber: 1, isDefaultValue: self.decodeSingularBoolField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10434,9 +10431,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularBytesField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularBytesField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularBytesField, fieldNumber: 1, isDefaultValue: self.decodeSingularBytesField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10463,9 +10458,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularDoubleField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularDoubleField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularDoubleField, fieldNumber: 1, isDefaultValue: self.decodeSingularDoubleField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10492,9 +10485,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularEnumField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularEnumField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularEnumField, fieldNumber: 1, isDefaultValue: self.decodeSingularEnumField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10521,9 +10512,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularFixed32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularFixed32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularFixed32Field, fieldNumber: 1, isDefaultValue: self.decodeSingularFixed32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10550,9 +10539,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularFixed64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularFixed64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularFixed64Field, fieldNumber: 1, isDefaultValue: self.decodeSingularFixed64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10579,9 +10566,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularFloatField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularFloatField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularFloatField, fieldNumber: 1, isDefaultValue: self.decodeSingularFloatField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10608,9 +10593,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularGroupField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularGroupField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularGroupField, fieldNumber: 1, isDefaultValue: self.decodeSingularGroupField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10637,9 +10620,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularInt32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularInt32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularInt32Field, fieldNumber: 1, isDefaultValue: self.decodeSingularInt32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10666,9 +10647,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularInt64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularInt64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularInt64Field, fieldNumber: 1, isDefaultValue: self.decodeSingularInt64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10695,9 +10674,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularMessageField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularMessageField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularMessageField, fieldNumber: 1, isDefaultValue: self.decodeSingularMessageField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10724,9 +10701,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularSfixed32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularSfixed32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularSfixed32Field, fieldNumber: 1, isDefaultValue: self.decodeSingularSfixed32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10753,9 +10728,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularSfixed64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularSfixed64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularSfixed64Field, fieldNumber: 1, isDefaultValue: self.decodeSingularSfixed64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10782,9 +10755,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularSint32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularSint32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularSint32Field, fieldNumber: 1, isDefaultValue: self.decodeSingularSint32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10811,9 +10782,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularSint64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularSint64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularSint64Field, fieldNumber: 1, isDefaultValue: self.decodeSingularSint64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10840,9 +10809,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularStringField != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularStringField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularStringField, fieldNumber: 1, isDefaultValue: self.decodeSingularStringField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10869,9 +10836,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularUint32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularUint32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularUint32Field, fieldNumber: 1, isDefaultValue: self.decodeSingularUint32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10898,9 +10863,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeSingularUint64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeSingularUint64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeSingularUint64Field, fieldNumber: 1, isDefaultValue: self.decodeSingularUint64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10927,9 +10890,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeTextFor
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.decodeTextFormat != 0 {
-      try visitor.visitSingularInt32Field(value: self.decodeTextFormat, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.decodeTextFormat, fieldNumber: 1, isDefaultValue: self.decodeTextFormat == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10956,9 +10917,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.defaultAnyTyp
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.defaultAnyTypeUrlprefix != 0 {
-      try visitor.visitSingularInt32Field(value: self.defaultAnyTypeUrlprefix, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.defaultAnyTypeUrlprefix, fieldNumber: 1, isDefaultValue: self.defaultAnyTypeUrlprefix == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -10985,9 +10944,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.defaultValue:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.defaultValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.defaultValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.defaultValue, fieldNumber: 1, isDefaultValue: self.defaultValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11014,9 +10971,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.descriptionMe
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.description_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.description_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.description_p, fieldNumber: 1, isDefaultValue: self.description_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11043,9 +10998,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Dictionary: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.dictionary != 0 {
-      try visitor.visitSingularInt32Field(value: self.dictionary, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.dictionary, fieldNumber: 1, isDefaultValue: self.dictionary == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11072,9 +11025,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dictionaryLit
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.dictionaryLiteral != 0 {
-      try visitor.visitSingularInt32Field(value: self.dictionaryLiteral, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.dictionaryLiteral, fieldNumber: 1, isDefaultValue: self.dictionaryLiteral == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11101,9 +11052,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digit: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.digit != 0 {
-      try visitor.visitSingularInt32Field(value: self.digit, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.digit, fieldNumber: 1, isDefaultValue: self.digit == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11130,9 +11079,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digit0: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.digit0 != 0 {
-      try visitor.visitSingularInt32Field(value: self.digit0, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.digit0, fieldNumber: 1, isDefaultValue: self.digit0 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11159,9 +11106,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digit1: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.digit1 != 0 {
-      try visitor.visitSingularInt32Field(value: self.digit1, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.digit1, fieldNumber: 1, isDefaultValue: self.digit1 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11188,9 +11133,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digitCount: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.digitCount != 0 {
-      try visitor.visitSingularInt32Field(value: self.digitCount, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.digitCount, fieldNumber: 1, isDefaultValue: self.digitCount == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11217,9 +11160,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digits: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.digits != 0 {
-      try visitor.visitSingularInt32Field(value: self.digits, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.digits, fieldNumber: 1, isDefaultValue: self.digits == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11246,9 +11187,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digitValue: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.digitValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.digitValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.digitValue, fieldNumber: 1, isDefaultValue: self.digitValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11275,9 +11214,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.discardableRe
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.discardableResult != 0 {
-      try visitor.visitSingularInt32Field(value: self.discardableResult, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.discardableResult, fieldNumber: 1, isDefaultValue: self.discardableResult == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11304,9 +11241,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.discardUnknow
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.discardUnknownFields != 0 {
-      try visitor.visitSingularInt32Field(value: self.discardUnknownFields, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.discardUnknownFields, fieldNumber: 1, isDefaultValue: self.discardUnknownFields == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11333,9 +11268,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.distance: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.distance != 0 {
-      try visitor.visitSingularInt32Field(value: self.distance, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.distance, fieldNumber: 1, isDefaultValue: self.distance == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11362,9 +11295,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.double: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.double != 0 {
-      try visitor.visitSingularInt32Field(value: self.double, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.double, fieldNumber: 1, isDefaultValue: self.double == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11391,9 +11322,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.doubleToUtf8:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.doubleToUtf8 != 0 {
-      try visitor.visitSingularInt32Field(value: self.doubleToUtf8, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.doubleToUtf8, fieldNumber: 1, isDefaultValue: self.doubleToUtf8 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11420,9 +11349,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.DoubleValue: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.doubleValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.doubleValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.doubleValue, fieldNumber: 1, isDefaultValue: self.doubleValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11449,9 +11376,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Duration: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.duration != 0 {
-      try visitor.visitSingularInt32Field(value: self.duration, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.duration, fieldNumber: 1, isDefaultValue: self.duration == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11478,9 +11403,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.E: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.e != 0 {
-      try visitor.visitSingularInt32Field(value: self.e, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.e, fieldNumber: 1, isDefaultValue: self.e == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11507,9 +11430,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Element: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.element != 0 {
-      try visitor.visitSingularInt32Field(value: self.element, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.element, fieldNumber: 1, isDefaultValue: self.element == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11536,9 +11457,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.elements: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.elements != 0 {
-      try visitor.visitSingularInt32Field(value: self.elements, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.elements, fieldNumber: 1, isDefaultValue: self.elements == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11565,9 +11484,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emitExtension
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.emitExtensionFieldName != 0 {
-      try visitor.visitSingularInt32Field(value: self.emitExtensionFieldName, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.emitExtensionFieldName, fieldNumber: 1, isDefaultValue: self.emitExtensionFieldName == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11594,9 +11511,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emitFieldName
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.emitFieldName != 0 {
-      try visitor.visitSingularInt32Field(value: self.emitFieldName, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.emitFieldName, fieldNumber: 1, isDefaultValue: self.emitFieldName == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11623,9 +11538,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emitFieldNumb
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.emitFieldNumber != 0 {
-      try visitor.visitSingularInt32Field(value: self.emitFieldNumber, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.emitFieldNumber, fieldNumber: 1, isDefaultValue: self.emitFieldNumber == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11652,9 +11565,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Empty: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.empty != 0 {
-      try visitor.visitSingularInt32Field(value: self.empty, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.empty, fieldNumber: 1, isDefaultValue: self.empty == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11681,9 +11592,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emptyData: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.emptyData != 0 {
-      try visitor.visitSingularInt32Field(value: self.emptyData, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.emptyData, fieldNumber: 1, isDefaultValue: self.emptyData == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11710,9 +11619,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encoded: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.encoded != 0 {
-      try visitor.visitSingularInt32Field(value: self.encoded, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.encoded, fieldNumber: 1, isDefaultValue: self.encoded == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11739,9 +11646,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodedJSONSt
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.encodedJsonstring != 0 {
-      try visitor.visitSingularInt32Field(value: self.encodedJsonstring, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.encodedJsonstring, fieldNumber: 1, isDefaultValue: self.encodedJsonstring == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11768,9 +11673,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodedSize: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.encodedSize != 0 {
-      try visitor.visitSingularInt32Field(value: self.encodedSize, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.encodedSize, fieldNumber: 1, isDefaultValue: self.encodedSize == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11797,9 +11700,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodeField: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.encodeField != 0 {
-      try visitor.visitSingularInt32Field(value: self.encodeField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.encodeField, fieldNumber: 1, isDefaultValue: self.encodeField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11826,9 +11727,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encoder: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.encoder != 0 {
-      try visitor.visitSingularInt32Field(value: self.encoder, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.encoder, fieldNumber: 1, isDefaultValue: self.encoder == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11855,9 +11754,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.end: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.end != 0 {
-      try visitor.visitSingularInt32Field(value: self.end, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.end, fieldNumber: 1, isDefaultValue: self.end == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11884,9 +11781,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endArray: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.endArray != 0 {
-      try visitor.visitSingularInt32Field(value: self.endArray, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.endArray, fieldNumber: 1, isDefaultValue: self.endArray == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11913,9 +11808,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endMessageFie
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.endMessageField != 0 {
-      try visitor.visitSingularInt32Field(value: self.endMessageField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.endMessageField, fieldNumber: 1, isDefaultValue: self.endMessageField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11942,9 +11835,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endObject: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.endObject != 0 {
-      try visitor.visitSingularInt32Field(value: self.endObject, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.endObject, fieldNumber: 1, isDefaultValue: self.endObject == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -11971,9 +11862,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endRegularFie
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.endRegularField != 0 {
-      try visitor.visitSingularInt32Field(value: self.endRegularField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.endRegularField, fieldNumber: 1, isDefaultValue: self.endRegularField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12000,9 +11889,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.enumMessage: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`enum` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`enum`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`enum`, fieldNumber: 1, isDefaultValue: self.`enum` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12029,9 +11916,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.enumvalue: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.enumvalue != 0 {
-      try visitor.visitSingularInt32Field(value: self.enumvalue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.enumvalue, fieldNumber: 1, isDefaultValue: self.enumvalue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12058,9 +11943,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Equatable: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.equatable != 0 {
-      try visitor.visitSingularInt32Field(value: self.equatable, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.equatable, fieldNumber: 1, isDefaultValue: self.equatable == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12087,9 +11970,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Error: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.error != 0 {
-      try visitor.visitSingularInt32Field(value: self.error, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.error, fieldNumber: 1, isDefaultValue: self.error == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12116,9 +11997,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExpressibleBy
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.expressibleByArrayLiteral != 0 {
-      try visitor.visitSingularInt32Field(value: self.expressibleByArrayLiteral, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.expressibleByArrayLiteral, fieldNumber: 1, isDefaultValue: self.expressibleByArrayLiteral == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12145,9 +12024,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExpressibleBy
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.expressibleByDictionaryLiteral != 0 {
-      try visitor.visitSingularInt32Field(value: self.expressibleByDictionaryLiteral, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.expressibleByDictionaryLiteral, fieldNumber: 1, isDefaultValue: self.expressibleByDictionaryLiteral == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12174,9 +12051,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ext: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.ext != 0 {
-      try visitor.visitSingularInt32Field(value: self.ext, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.ext, fieldNumber: 1, isDefaultValue: self.ext == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12203,9 +12078,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extDecoder: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.extDecoder != 0 {
-      try visitor.visitSingularInt32Field(value: self.extDecoder, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.extDecoder, fieldNumber: 1, isDefaultValue: self.extDecoder == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12232,9 +12105,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extendedGraph
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.extendedGraphemeClusterLiteral != 0 {
-      try visitor.visitSingularInt32Field(value: self.extendedGraphemeClusterLiteral, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.extendedGraphemeClusterLiteral, fieldNumber: 1, isDefaultValue: self.extendedGraphemeClusterLiteral == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12261,9 +12132,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtendedGraph
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.extendedGraphemeClusterLiteralType != 0 {
-      try visitor.visitSingularInt32Field(value: self.extendedGraphemeClusterLiteralType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.extendedGraphemeClusterLiteralType, fieldNumber: 1, isDefaultValue: self.extendedGraphemeClusterLiteralType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12290,9 +12159,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensibleMes
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.extensibleMessage != 0 {
-      try visitor.visitSingularInt32Field(value: self.extensibleMessage, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.extensibleMessage, fieldNumber: 1, isDefaultValue: self.extensibleMessage == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12319,9 +12186,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionFiel
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.extensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.extensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.extensionField, fieldNumber: 1, isDefaultValue: self.extensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12348,9 +12213,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensionFiel
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.extensionFieldNumber != 0 {
-      try visitor.visitSingularInt32Field(value: self.extensionFieldNumber, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.extensionFieldNumber, fieldNumber: 1, isDefaultValue: self.extensionFieldNumber == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12377,9 +12240,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionFiel
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.extensionFieldValueSet != 0 {
-      try visitor.visitSingularInt32Field(value: self.extensionFieldValueSet, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.extensionFieldValueSet, fieldNumber: 1, isDefaultValue: self.extensionFieldValueSet == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12406,9 +12267,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionMap:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.extensionMap != 0 {
-      try visitor.visitSingularInt32Field(value: self.extensionMap, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.extensionMap, fieldNumber: 1, isDefaultValue: self.extensionMap == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12435,9 +12294,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensions: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.extensions != 0 {
-      try visitor.visitSingularInt32Field(value: self.extensions, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.extensions, fieldNumber: 1, isDefaultValue: self.extensions == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12464,9 +12321,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extras: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.extras != 0 {
-      try visitor.visitSingularInt32Field(value: self.extras, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.extras, fieldNumber: 1, isDefaultValue: self.extras == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12493,9 +12348,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.f: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.f != 0 {
-      try visitor.visitSingularInt32Field(value: self.f, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.f, fieldNumber: 1, isDefaultValue: self.f == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12522,9 +12375,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.falseMessage:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`false` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`false`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`false`, fieldNumber: 1, isDefaultValue: self.`false` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12551,9 +12402,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.field: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.field != 0 {
-      try visitor.visitSingularInt32Field(value: self.field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.field, fieldNumber: 1, isDefaultValue: self.field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12580,9 +12429,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldData: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fieldData != 0 {
-      try visitor.visitSingularInt32Field(value: self.fieldData, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fieldData, fieldNumber: 1, isDefaultValue: self.fieldData == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12609,9 +12456,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldMask: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fieldMask != 0 {
-      try visitor.visitSingularInt32Field(value: self.fieldMask, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fieldMask, fieldNumber: 1, isDefaultValue: self.fieldMask == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12638,9 +12483,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldName: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fieldName != 0 {
-      try visitor.visitSingularInt32Field(value: self.fieldName, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fieldName, fieldNumber: 1, isDefaultValue: self.fieldName == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12667,9 +12510,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNameCoun
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fieldNameCount != 0 {
-      try visitor.visitSingularInt32Field(value: self.fieldNameCount, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fieldNameCount, fieldNumber: 1, isDefaultValue: self.fieldNameCount == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12696,9 +12537,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNum: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fieldNum != 0 {
-      try visitor.visitSingularInt32Field(value: self.fieldNum, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fieldNum, fieldNumber: 1, isDefaultValue: self.fieldNum == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12725,9 +12564,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNumber: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fieldNumber != 0 {
-      try visitor.visitSingularInt32Field(value: self.fieldNumber, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fieldNumber, fieldNumber: 1, isDefaultValue: self.fieldNumber == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12754,9 +12591,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNumberFo
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fieldNumberForProto != 0 {
-      try visitor.visitSingularInt32Field(value: self.fieldNumberForProto, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fieldNumberForProto, fieldNumber: 1, isDefaultValue: self.fieldNumberForProto == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12783,9 +12618,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fields: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fields != 0 {
-      try visitor.visitSingularInt32Field(value: self.fields, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fields, fieldNumber: 1, isDefaultValue: self.fields == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12812,9 +12645,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldSize: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fieldSize != 0 {
-      try visitor.visitSingularInt32Field(value: self.fieldSize, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fieldSize, fieldNumber: 1, isDefaultValue: self.fieldSize == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12841,9 +12672,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldTag: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fieldTag != 0 {
-      try visitor.visitSingularInt32Field(value: self.fieldTag, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fieldTag, fieldNumber: 1, isDefaultValue: self.fieldTag == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12870,9 +12699,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldType: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fieldType != 0 {
-      try visitor.visitSingularInt32Field(value: self.fieldType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fieldType, fieldNumber: 1, isDefaultValue: self.fieldType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12899,9 +12726,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldValue: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fieldValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.fieldValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fieldValue, fieldNumber: 1, isDefaultValue: self.fieldValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12928,9 +12753,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fileName: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fileName != 0 {
-      try visitor.visitSingularInt32Field(value: self.fileName, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fileName, fieldNumber: 1, isDefaultValue: self.fileName == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12957,9 +12780,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.filter: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.filter != 0 {
-      try visitor.visitSingularInt32Field(value: self.filter, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.filter, fieldNumber: 1, isDefaultValue: self.filter == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -12986,9 +12807,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.firstItem: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.firstItem != 0 {
-      try visitor.visitSingularInt32Field(value: self.firstItem, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.firstItem, fieldNumber: 1, isDefaultValue: self.firstItem == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13015,9 +12834,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.float: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.float != 0 {
-      try visitor.visitSingularInt32Field(value: self.float, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.float, fieldNumber: 1, isDefaultValue: self.float == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13044,9 +12861,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.floatLiteral:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.floatLiteral != 0 {
-      try visitor.visitSingularInt32Field(value: self.floatLiteral, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.floatLiteral, fieldNumber: 1, isDefaultValue: self.floatLiteral == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13073,9 +12888,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FloatLiteralT
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.floatLiteralType != 0 {
-      try visitor.visitSingularInt32Field(value: self.floatLiteralType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.floatLiteralType, fieldNumber: 1, isDefaultValue: self.floatLiteralType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13102,9 +12915,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.floatToUtf8: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.floatToUtf8 != 0 {
-      try visitor.visitSingularInt32Field(value: self.floatToUtf8, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.floatToUtf8, fieldNumber: 1, isDefaultValue: self.floatToUtf8 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13131,9 +12942,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FloatValue: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.floatValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.floatValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.floatValue, fieldNumber: 1, isDefaultValue: self.floatValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13160,9 +12969,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forMessageNam
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.forMessageName != 0 {
-      try visitor.visitSingularInt32Field(value: self.forMessageName, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.forMessageName, fieldNumber: 1, isDefaultValue: self.forMessageName == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13189,9 +12996,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.formUnion: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.formUnion != 0 {
-      try visitor.visitSingularInt32Field(value: self.formUnion, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.formUnion, fieldNumber: 1, isDefaultValue: self.formUnion == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13218,9 +13023,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forReadingFro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.forReadingFrom != 0 {
-      try visitor.visitSingularInt32Field(value: self.forReadingFrom, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.forReadingFrom, fieldNumber: 1, isDefaultValue: self.forReadingFrom == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13247,9 +13050,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forTypeURL: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.forTypeURL != 0 {
-      try visitor.visitSingularInt32Field(value: self.forTypeURL, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.forTypeURL, fieldNumber: 1, isDefaultValue: self.forTypeURL == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13276,9 +13077,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ForwardParser
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.forwardParser != 0 {
-      try visitor.visitSingularInt32Field(value: self.forwardParser, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.forwardParser, fieldNumber: 1, isDefaultValue: self.forwardParser == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13305,9 +13104,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forWritingInt
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.forWritingInto != 0 {
-      try visitor.visitSingularInt32Field(value: self.forWritingInto, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.forWritingInto, fieldNumber: 1, isDefaultValue: self.forWritingInto == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13334,9 +13131,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.from: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.from != 0 {
-      try visitor.visitSingularInt32Field(value: self.from, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.from, fieldNumber: 1, isDefaultValue: self.from == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13363,9 +13158,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromAscii2: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fromAscii2 != 0 {
-      try visitor.visitSingularInt32Field(value: self.fromAscii2, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fromAscii2, fieldNumber: 1, isDefaultValue: self.fromAscii2 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13392,9 +13185,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromAscii4: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fromAscii4 != 0 {
-      try visitor.visitSingularInt32Field(value: self.fromAscii4, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fromAscii4, fieldNumber: 1, isDefaultValue: self.fromAscii4 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13421,9 +13212,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromHexDigit:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.fromHexDigit != 0 {
-      try visitor.visitSingularInt32Field(value: self.fromHexDigit, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.fromHexDigit, fieldNumber: 1, isDefaultValue: self.fromHexDigit == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13450,9 +13239,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.funcMessage: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`func` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`func`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`func`, fieldNumber: 1, isDefaultValue: self.`func` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13479,9 +13266,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.G: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.g != 0 {
-      try visitor.visitSingularInt32Field(value: self.g, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.g, fieldNumber: 1, isDefaultValue: self.g == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13508,9 +13293,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.get: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.get != 0 {
-      try visitor.visitSingularInt32Field(value: self.get, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.get, fieldNumber: 1, isDefaultValue: self.get == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13537,9 +13320,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.getExtensionV
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.getExtensionValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.getExtensionValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.getExtensionValue, fieldNumber: 1, isDefaultValue: self.getExtensionValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13566,9 +13347,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.googleapis: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleapis != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleapis, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleapis, fieldNumber: 1, isDefaultValue: self.googleapis == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13595,9 +13374,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufAny != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufAny, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufAny, fieldNumber: 1, isDefaultValue: self.googleProtobufAny == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13624,9 +13401,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufApi != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufApi, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufApi, fieldNumber: 1, isDefaultValue: self.googleProtobufApi == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13653,9 +13428,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufBoolValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufBoolValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufBoolValue, fieldNumber: 1, isDefaultValue: self.googleProtobufBoolValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13682,9 +13455,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufBytesValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufBytesValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufBytesValue, fieldNumber: 1, isDefaultValue: self.googleProtobufBytesValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13711,9 +13482,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufDoubleValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufDoubleValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufDoubleValue, fieldNumber: 1, isDefaultValue: self.googleProtobufDoubleValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13740,9 +13509,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufDuration != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufDuration, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufDuration, fieldNumber: 1, isDefaultValue: self.googleProtobufDuration == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13769,9 +13536,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufEmpty != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufEmpty, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufEmpty, fieldNumber: 1, isDefaultValue: self.googleProtobufEmpty == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13798,9 +13563,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufEnum != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufEnum, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufEnum, fieldNumber: 1, isDefaultValue: self.googleProtobufEnum == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13827,9 +13590,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufEnumValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufEnumValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufEnumValue, fieldNumber: 1, isDefaultValue: self.googleProtobufEnumValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13856,9 +13617,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufField != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufField, fieldNumber: 1, isDefaultValue: self.googleProtobufField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13885,9 +13644,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufFieldMask != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufFieldMask, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufFieldMask, fieldNumber: 1, isDefaultValue: self.googleProtobufFieldMask == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13914,9 +13671,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufFloatValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufFloatValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufFloatValue, fieldNumber: 1, isDefaultValue: self.googleProtobufFloatValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13943,9 +13698,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufInt32Value != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufInt32Value, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufInt32Value, fieldNumber: 1, isDefaultValue: self.googleProtobufInt32Value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -13972,9 +13725,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufInt64Value != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufInt64Value, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufInt64Value, fieldNumber: 1, isDefaultValue: self.googleProtobufInt64Value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14001,9 +13752,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufListValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufListValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufListValue, fieldNumber: 1, isDefaultValue: self.googleProtobufListValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14030,9 +13779,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufMethod != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufMethod, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufMethod, fieldNumber: 1, isDefaultValue: self.googleProtobufMethod == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14059,9 +13806,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufMixin != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufMixin, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufMixin, fieldNumber: 1, isDefaultValue: self.googleProtobufMixin == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14088,9 +13833,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufNullValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufNullValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufNullValue, fieldNumber: 1, isDefaultValue: self.googleProtobufNullValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14117,9 +13860,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufOption != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufOption, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufOption, fieldNumber: 1, isDefaultValue: self.googleProtobufOption == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14146,9 +13887,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufSourceContext != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufSourceContext, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufSourceContext, fieldNumber: 1, isDefaultValue: self.googleProtobufSourceContext == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14175,9 +13914,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufStringValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufStringValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufStringValue, fieldNumber: 1, isDefaultValue: self.googleProtobufStringValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14204,9 +13941,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufStruct != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufStruct, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufStruct, fieldNumber: 1, isDefaultValue: self.googleProtobufStruct == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14233,9 +13968,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufSyntax != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufSyntax, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufSyntax, fieldNumber: 1, isDefaultValue: self.googleProtobufSyntax == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14262,9 +13995,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufTimestamp != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufTimestamp, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufTimestamp, fieldNumber: 1, isDefaultValue: self.googleProtobufTimestamp == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14291,9 +14022,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufType != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufType, fieldNumber: 1, isDefaultValue: self.googleProtobufType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14320,9 +14049,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufUint32Value != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufUint32Value, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufUint32Value, fieldNumber: 1, isDefaultValue: self.googleProtobufUint32Value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14349,9 +14076,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufUint64Value != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufUint64Value, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufUint64Value, fieldNumber: 1, isDefaultValue: self.googleProtobufUint64Value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14378,9 +14103,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.googleProtobufValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.googleProtobufValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.googleProtobufValue, fieldNumber: 1, isDefaultValue: self.googleProtobufValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14407,9 +14130,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.group: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.group != 0 {
-      try visitor.visitSingularInt32Field(value: self.group, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.group, fieldNumber: 1, isDefaultValue: self.group == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14436,9 +14157,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.groupSize: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.groupSize != 0 {
-      try visitor.visitSingularInt32Field(value: self.groupSize, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.groupSize, fieldNumber: 1, isDefaultValue: self.groupSize == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14465,9 +14184,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.h: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.h != 0 {
-      try visitor.visitSingularInt32Field(value: self.h, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.h, fieldNumber: 1, isDefaultValue: self.h == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14494,9 +14211,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.handleConflic
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.handleConflictingOneOf != 0 {
-      try visitor.visitSingularInt32Field(value: self.handleConflictingOneOf, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.handleConflictingOneOf, fieldNumber: 1, isDefaultValue: self.handleConflictingOneOf == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14523,9 +14238,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasExtensionV
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.hasExtensionValue_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.hasExtensionValue_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.hasExtensionValue_p, fieldNumber: 1, isDefaultValue: self.hasExtensionValue_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14552,9 +14265,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hash: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.hash != 0 {
-      try visitor.visitSingularInt32Field(value: self.hash, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.hash, fieldNumber: 1, isDefaultValue: self.hash == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14581,9 +14292,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Hashable: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.hashable != 0 {
-      try visitor.visitSingularInt32Field(value: self.hashable, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.hashable, fieldNumber: 1, isDefaultValue: self.hashable == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14610,9 +14319,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasher: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.hasher != 0 {
-      try visitor.visitSingularInt32Field(value: self.hasher, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.hasher, fieldNumber: 1, isDefaultValue: self.hasher == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14639,9 +14346,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hashValueMess
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.hashValue_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.hashValue_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.hashValue_p, fieldNumber: 1, isDefaultValue: self.hashValue_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14668,9 +14373,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.HashVisitor: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.hashVisitor != 0 {
-      try visitor.visitSingularInt32Field(value: self.hashVisitor, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.hashVisitor, fieldNumber: 1, isDefaultValue: self.hashVisitor == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14697,9 +14400,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSourceCont
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.hasSourceContext_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.hasSourceContext_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.hasSourceContext_p, fieldNumber: 1, isDefaultValue: self.hasSourceContext_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14726,9 +14427,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasValue: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.hasValue_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.hasValue_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.hasValue_p, fieldNumber: 1, isDefaultValue: self.hasValue_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14755,9 +14454,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hour: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.hour != 0 {
-      try visitor.visitSingularInt32Field(value: self.hour, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.hour, fieldNumber: 1, isDefaultValue: self.hour == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14784,9 +14481,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.i: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.i != 0 {
-      try visitor.visitSingularInt32Field(value: self.i, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.i, fieldNumber: 1, isDefaultValue: self.i == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14813,9 +14508,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ignoreUnknown
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.ignoreUnknownFields != 0 {
-      try visitor.visitSingularInt32Field(value: self.ignoreUnknownFields, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.ignoreUnknownFields, fieldNumber: 1, isDefaultValue: self.ignoreUnknownFields == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14842,9 +14535,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.index: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.index != 0 {
-      try visitor.visitSingularInt32Field(value: self.index, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.index, fieldNumber: 1, isDefaultValue: self.index == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14871,9 +14562,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.initMessage: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.init_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.init_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.init_p, fieldNumber: 1, isDefaultValue: self.init_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14900,9 +14589,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.inoutMessage:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`inout` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`inout`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`inout`, fieldNumber: 1, isDefaultValue: self.`inout` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14929,9 +14616,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.insert: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.insert != 0 {
-      try visitor.visitSingularInt32Field(value: self.insert, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.insert, fieldNumber: 1, isDefaultValue: self.insert == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14958,9 +14643,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.IntMessage: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.int != 0 {
-      try visitor.visitSingularInt32Field(value: self.int, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.int, fieldNumber: 1, isDefaultValue: self.int == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -14987,9 +14670,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int32Message:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.int32 != 0 {
-      try visitor.visitSingularInt32Field(value: self.int32, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.int32, fieldNumber: 1, isDefaultValue: self.int32 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15016,9 +14697,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int32Value: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.int32Value != 0 {
-      try visitor.visitSingularInt32Field(value: self.int32Value, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.int32Value, fieldNumber: 1, isDefaultValue: self.int32Value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15045,9 +14724,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int64Message:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.int64 != 0 {
-      try visitor.visitSingularInt32Field(value: self.int64, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.int64, fieldNumber: 1, isDefaultValue: self.int64 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15074,9 +14751,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int64Value: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.int64Value != 0 {
-      try visitor.visitSingularInt32Field(value: self.int64Value, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.int64Value, fieldNumber: 1, isDefaultValue: self.int64Value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15103,9 +14778,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int8: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.int8 != 0 {
-      try visitor.visitSingularInt32Field(value: self.int8, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.int8, fieldNumber: 1, isDefaultValue: self.int8 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15132,9 +14805,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.integerLitera
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.integerLiteral != 0 {
-      try visitor.visitSingularInt32Field(value: self.integerLiteral, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.integerLiteral, fieldNumber: 1, isDefaultValue: self.integerLiteral == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15161,9 +14832,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.IntegerLitera
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.integerLiteralType != 0 {
-      try visitor.visitSingularInt32Field(value: self.integerLiteralType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.integerLiteralType, fieldNumber: 1, isDefaultValue: self.integerLiteralType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15190,9 +14859,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.intern: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.intern != 0 {
-      try visitor.visitSingularInt32Field(value: self.intern, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.intern, fieldNumber: 1, isDefaultValue: self.intern == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15219,9 +14886,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Internal: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`internal` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`internal`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`internal`, fieldNumber: 1, isDefaultValue: self.`internal` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15248,9 +14913,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.InternalState
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.internalState != 0 {
-      try visitor.visitSingularInt32Field(value: self.internalState, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.internalState, fieldNumber: 1, isDefaultValue: self.internalState == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15277,9 +14940,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.into: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.into != 0 {
-      try visitor.visitSingularInt32Field(value: self.into, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.into, fieldNumber: 1, isDefaultValue: self.into == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15306,9 +14967,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ints: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.ints != 0 {
-      try visitor.visitSingularInt32Field(value: self.ints, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.ints, fieldNumber: 1, isDefaultValue: self.ints == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15335,14 +14994,39 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isA: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.isA != 0 {
-      try visitor.visitSingularInt32Field(value: self.isA, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.isA, fieldNumber: 1, isDefaultValue: self.isA == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isA, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isA) -> Bool {
     if lhs.isA != rhs.isA {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isDefaultValue: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageName + ".isDefaultValue"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "isDefaultValue"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      switch fieldNumber {
+      case 1: try decoder.decodeSingularInt32Field(value: &self.isDefaultValue)
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try visitor.visitSingularInt32Field(value: self.isDefaultValue, fieldNumber: 1, isDefaultValue: self.isDefaultValue == 0)
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isDefaultValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isDefaultValue) -> Bool {
+    if lhs.isDefaultValue != rhs.isDefaultValue {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
@@ -15364,9 +15048,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isEqual: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.isEqual != 0 {
-      try visitor.visitSingularInt32Field(value: self.isEqual, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.isEqual, fieldNumber: 1, isDefaultValue: self.isEqual == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15393,9 +15075,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isEqualTo: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.isEqualTo != 0 {
-      try visitor.visitSingularInt32Field(value: self.isEqualTo, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.isEqualTo, fieldNumber: 1, isDefaultValue: self.isEqualTo == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15422,9 +15102,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isInitialized
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.isInitialized_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.isInitialized_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.isInitialized_p, fieldNumber: 1, isDefaultValue: self.isInitialized_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15451,9 +15129,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.itemTagsEncod
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.itemTagsEncodedSize != 0 {
-      try visitor.visitSingularInt32Field(value: self.itemTagsEncodedSize, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.itemTagsEncodedSize, fieldNumber: 1, isDefaultValue: self.itemTagsEncodedSize == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15480,9 +15156,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.i_2166136261:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.i2166136261 != 0 {
-      try visitor.visitSingularInt32Field(value: self.i2166136261, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.i2166136261, fieldNumber: 1, isDefaultValue: self.i2166136261 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15509,9 +15183,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONDecoder: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsondecoder != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsondecoder, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsondecoder, fieldNumber: 1, isDefaultValue: self.jsondecoder == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15538,9 +15210,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONDecodingE
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsondecodingError != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsondecodingError, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsondecodingError, fieldNumber: 1, isDefaultValue: self.jsondecodingError == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15567,9 +15237,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONDecodingO
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsondecodingOptions != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsondecodingOptions, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsondecodingOptions, fieldNumber: 1, isDefaultValue: self.jsondecodingOptions == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15596,9 +15264,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonEncoder: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsonEncoder != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsonEncoder, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsonEncoder, fieldNumber: 1, isDefaultValue: self.jsonEncoder == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15625,9 +15291,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONEncodingE
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsonencodingError != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsonencodingError, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsonencodingError, fieldNumber: 1, isDefaultValue: self.jsonencodingError == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15654,9 +15318,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONEncodingO
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsonencodingOptions != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsonencodingOptions, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsonencodingOptions, fieldNumber: 1, isDefaultValue: self.jsonencodingOptions == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15683,9 +15345,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONEncodingV
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsonencodingVisitor != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsonencodingVisitor, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsonencodingVisitor, fieldNumber: 1, isDefaultValue: self.jsonencodingVisitor == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15712,9 +15372,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONMapEncodi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsonmapEncodingVisitor != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsonmapEncodingVisitor, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsonmapEncodingVisitor, fieldNumber: 1, isDefaultValue: self.jsonmapEncodingVisitor == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15741,9 +15399,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonName: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsonName != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsonName, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsonName, fieldNumber: 1, isDefaultValue: self.jsonName == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15770,9 +15426,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonPath: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsonPath != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsonPath, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsonPath, fieldNumber: 1, isDefaultValue: self.jsonPath == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15799,9 +15453,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonPaths: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsonPaths != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsonPaths, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsonPaths, fieldNumber: 1, isDefaultValue: self.jsonPaths == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15828,9 +15480,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONScanner: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsonscanner != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsonscanner, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsonscanner, fieldNumber: 1, isDefaultValue: self.jsonscanner == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15857,9 +15507,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonString: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsonString != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsonString, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsonString, fieldNumber: 1, isDefaultValue: self.jsonString == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15886,9 +15534,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonText: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsonText != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsonText, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsonText, fieldNumber: 1, isDefaultValue: self.jsonText == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15915,9 +15561,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonUTF8Data:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.jsonUtf8Data != 0 {
-      try visitor.visitSingularInt32Field(value: self.jsonUtf8Data, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.jsonUtf8Data, fieldNumber: 1, isDefaultValue: self.jsonUtf8Data == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15944,9 +15588,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.k: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.k != 0 {
-      try visitor.visitSingularInt32Field(value: self.k, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.k, fieldNumber: 1, isDefaultValue: self.k == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -15973,9 +15615,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Key: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.key != 0 {
-      try visitor.visitSingularInt32Field(value: self.key, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.key, fieldNumber: 1, isDefaultValue: self.key == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16002,9 +15642,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.keyField: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.keyField != 0 {
-      try visitor.visitSingularInt32Field(value: self.keyField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.keyField, fieldNumber: 1, isDefaultValue: self.keyField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16031,9 +15669,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.KeyType: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.keyType != 0 {
-      try visitor.visitSingularInt32Field(value: self.keyType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.keyType, fieldNumber: 1, isDefaultValue: self.keyType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16060,9 +15696,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.kind: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.kind != 0 {
-      try visitor.visitSingularInt32Field(value: self.kind, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.kind, fieldNumber: 1, isDefaultValue: self.kind == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16089,9 +15723,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.l: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.l != 0 {
-      try visitor.visitSingularInt32Field(value: self.l, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.l, fieldNumber: 1, isDefaultValue: self.l == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16118,9 +15750,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.length: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.length != 0 {
-      try visitor.visitSingularInt32Field(value: self.length, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.length, fieldNumber: 1, isDefaultValue: self.length == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16147,9 +15777,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.letMessage: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`let` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`let`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`let`, fieldNumber: 1, isDefaultValue: self.`let` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16176,9 +15804,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.lhs: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.lhs != 0 {
-      try visitor.visitSingularInt32Field(value: self.lhs, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.lhs, fieldNumber: 1, isDefaultValue: self.lhs == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16205,9 +15831,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.list: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.list != 0 {
-      try visitor.visitSingularInt32Field(value: self.list, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.list, fieldNumber: 1, isDefaultValue: self.list == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16234,9 +15858,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.listOfMessage
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.listOfMessages != 0 {
-      try visitor.visitSingularInt32Field(value: self.listOfMessages, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.listOfMessages, fieldNumber: 1, isDefaultValue: self.listOfMessages == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16263,9 +15885,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.listValue: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.listValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.listValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.listValue, fieldNumber: 1, isDefaultValue: self.listValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16292,9 +15912,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.littleEndian:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.littleEndian != 0 {
-      try visitor.visitSingularInt32Field(value: self.littleEndian, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.littleEndian, fieldNumber: 1, isDefaultValue: self.littleEndian == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16321,9 +15939,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.littleEndianB
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.littleEndianBytes != 0 {
-      try visitor.visitSingularInt32Field(value: self.littleEndianBytes, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.littleEndianBytes, fieldNumber: 1, isDefaultValue: self.littleEndianBytes == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16350,9 +15966,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.localHasher: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.localHasher != 0 {
-      try visitor.visitSingularInt32Field(value: self.localHasher, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.localHasher, fieldNumber: 1, isDefaultValue: self.localHasher == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16379,9 +15993,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.M: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.m != 0 {
-      try visitor.visitSingularInt32Field(value: self.m, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.m, fieldNumber: 1, isDefaultValue: self.m == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16408,9 +16020,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.major: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.major != 0 {
-      try visitor.visitSingularInt32Field(value: self.major, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.major, fieldNumber: 1, isDefaultValue: self.major == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16437,9 +16047,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.makeIterator:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.makeIterator != 0 {
-      try visitor.visitSingularInt32Field(value: self.makeIterator, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.makeIterator, fieldNumber: 1, isDefaultValue: self.makeIterator == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16466,9 +16074,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapHash: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.mapHash != 0 {
-      try visitor.visitSingularInt32Field(value: self.mapHash, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.mapHash, fieldNumber: 1, isDefaultValue: self.mapHash == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16495,9 +16101,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MapKeyType: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.mapKeyType != 0 {
-      try visitor.visitSingularInt32Field(value: self.mapKeyType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.mapKeyType, fieldNumber: 1, isDefaultValue: self.mapKeyType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16524,9 +16128,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapNameResolv
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.mapNameResolver != 0 {
-      try visitor.visitSingularInt32Field(value: self.mapNameResolver, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.mapNameResolver, fieldNumber: 1, isDefaultValue: self.mapNameResolver == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16553,9 +16155,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapToMessages
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.mapToMessages != 0 {
-      try visitor.visitSingularInt32Field(value: self.mapToMessages, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.mapToMessages, fieldNumber: 1, isDefaultValue: self.mapToMessages == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16582,9 +16182,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MapValueType:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.mapValueType != 0 {
-      try visitor.visitSingularInt32Field(value: self.mapValueType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.mapValueType, fieldNumber: 1, isDefaultValue: self.mapValueType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16611,9 +16209,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapVisitor: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.mapVisitor != 0 {
-      try visitor.visitSingularInt32Field(value: self.mapVisitor, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.mapVisitor, fieldNumber: 1, isDefaultValue: self.mapVisitor == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16640,9 +16236,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mdayStart: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.mdayStart != 0 {
-      try visitor.visitSingularInt32Field(value: self.mdayStart, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.mdayStart, fieldNumber: 1, isDefaultValue: self.mdayStart == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16669,9 +16263,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.merge: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.merge != 0 {
-      try visitor.visitSingularInt32Field(value: self.merge, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.merge, fieldNumber: 1, isDefaultValue: self.merge == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16698,9 +16290,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.message: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.message != 0 {
-      try visitor.visitSingularInt32Field(value: self.message, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.message, fieldNumber: 1, isDefaultValue: self.message == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16727,9 +16317,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.messageDepthL
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.messageDepthLimit != 0 {
-      try visitor.visitSingularInt32Field(value: self.messageDepthLimit, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.messageDepthLimit, fieldNumber: 1, isDefaultValue: self.messageDepthLimit == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16756,9 +16344,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageExtens
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.messageExtension != 0 {
-      try visitor.visitSingularInt32Field(value: self.messageExtension, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.messageExtension, fieldNumber: 1, isDefaultValue: self.messageExtension == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16785,9 +16371,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageImplem
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.messageImplementationBase != 0 {
-      try visitor.visitSingularInt32Field(value: self.messageImplementationBase, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.messageImplementationBase, fieldNumber: 1, isDefaultValue: self.messageImplementationBase == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16814,9 +16398,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageSet: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.messageSet != 0 {
-      try visitor.visitSingularInt32Field(value: self.messageSet, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.messageSet, fieldNumber: 1, isDefaultValue: self.messageSet == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16843,9 +16425,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.messageType: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.messageType != 0 {
-      try visitor.visitSingularInt32Field(value: self.messageType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.messageType, fieldNumber: 1, isDefaultValue: self.messageType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16872,9 +16452,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Method: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.method != 0 {
-      try visitor.visitSingularInt32Field(value: self.method, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.method, fieldNumber: 1, isDefaultValue: self.method == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16901,9 +16479,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.methods: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.methods != 0 {
-      try visitor.visitSingularInt32Field(value: self.methods, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.methods, fieldNumber: 1, isDefaultValue: self.methods == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16930,9 +16506,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.minor: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.minor != 0 {
-      try visitor.visitSingularInt32Field(value: self.minor, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.minor, fieldNumber: 1, isDefaultValue: self.minor == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16959,9 +16533,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Mixin: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.mixin != 0 {
-      try visitor.visitSingularInt32Field(value: self.mixin, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.mixin, fieldNumber: 1, isDefaultValue: self.mixin == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -16988,9 +16560,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mixins: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.mixins != 0 {
-      try visitor.visitSingularInt32Field(value: self.mixins, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.mixins, fieldNumber: 1, isDefaultValue: self.mixins == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17017,9 +16587,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.month: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.month != 0 {
-      try visitor.visitSingularInt32Field(value: self.month, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.month, fieldNumber: 1, isDefaultValue: self.month == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17046,9 +16614,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.msgExtension:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.msgExtension != 0 {
-      try visitor.visitSingularInt32Field(value: self.msgExtension, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.msgExtension, fieldNumber: 1, isDefaultValue: self.msgExtension == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17075,9 +16641,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mutating: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.mutating != 0 {
-      try visitor.visitSingularInt32Field(value: self.mutating, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.mutating, fieldNumber: 1, isDefaultValue: self.mutating == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17104,9 +16668,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.n: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.n != 0 {
-      try visitor.visitSingularInt32Field(value: self.n, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.n, fieldNumber: 1, isDefaultValue: self.n == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17133,9 +16695,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.name: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.name != 0 {
-      try visitor.visitSingularInt32Field(value: self.name, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.name, fieldNumber: 1, isDefaultValue: self.name == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17162,9 +16722,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.NameDescripti
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.nameDescription != 0 {
-      try visitor.visitSingularInt32Field(value: self.nameDescription, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.nameDescription, fieldNumber: 1, isDefaultValue: self.nameDescription == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17191,9 +16749,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.NameMap: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.nameMap != 0 {
-      try visitor.visitSingularInt32Field(value: self.nameMap, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.nameMap, fieldNumber: 1, isDefaultValue: self.nameMap == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17220,9 +16776,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nameResolver:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.nameResolver != 0 {
-      try visitor.visitSingularInt32Field(value: self.nameResolver, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.nameResolver, fieldNumber: 1, isDefaultValue: self.nameResolver == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17249,9 +16803,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.names: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.names != 0 {
-      try visitor.visitSingularInt32Field(value: self.names, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.names, fieldNumber: 1, isDefaultValue: self.names == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17278,9 +16830,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nanos: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.nanos != 0 {
-      try visitor.visitSingularInt32Field(value: self.nanos, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.nanos, fieldNumber: 1, isDefaultValue: self.nanos == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17307,9 +16857,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nativeBytes: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.nativeBytes != 0 {
-      try visitor.visitSingularInt32Field(value: self.nativeBytes, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.nativeBytes, fieldNumber: 1, isDefaultValue: self.nativeBytes == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17336,9 +16884,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nativeEndianB
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.nativeEndianBytes != 0 {
-      try visitor.visitSingularInt32Field(value: self.nativeEndianBytes, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.nativeEndianBytes, fieldNumber: 1, isDefaultValue: self.nativeEndianBytes == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17365,9 +16911,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.newL: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.newL != 0 {
-      try visitor.visitSingularInt32Field(value: self.newL, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.newL, fieldNumber: 1, isDefaultValue: self.newL == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17394,9 +16938,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.newList: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.newList != 0 {
-      try visitor.visitSingularInt32Field(value: self.newList, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.newList, fieldNumber: 1, isDefaultValue: self.newList == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17423,9 +16965,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.newValue: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.newValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.newValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.newValue, fieldNumber: 1, isDefaultValue: self.newValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17452,9 +16992,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nextByte: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.nextByte != 0 {
-      try visitor.visitSingularInt32Field(value: self.nextByte, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.nextByte, fieldNumber: 1, isDefaultValue: self.nextByte == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17481,9 +17019,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nextFieldNumb
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.nextFieldNumber != 0 {
-      try visitor.visitSingularInt32Field(value: self.nextFieldNumber, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.nextFieldNumber, fieldNumber: 1, isDefaultValue: self.nextFieldNumber == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17510,9 +17046,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nilMessage: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`nil` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`nil`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`nil`, fieldNumber: 1, isDefaultValue: self.`nil` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17539,9 +17073,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nilLiteral: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.nilLiteral != 0 {
-      try visitor.visitSingularInt32Field(value: self.nilLiteral, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.nilLiteral, fieldNumber: 1, isDefaultValue: self.nilLiteral == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17568,9 +17100,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nullValue: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.nullValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.nullValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.nullValue, fieldNumber: 1, isDefaultValue: self.nullValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17597,9 +17127,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.number: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.number != 0 {
-      try visitor.visitSingularInt32Field(value: self.number, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.number, fieldNumber: 1, isDefaultValue: self.number == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17626,9 +17154,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.numberValue: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.numberValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.numberValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.numberValue, fieldNumber: 1, isDefaultValue: self.numberValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17655,9 +17181,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.of: SwiftProt
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.of != 0 {
-      try visitor.visitSingularInt32Field(value: self.of, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.of, fieldNumber: 1, isDefaultValue: self.of == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17684,9 +17208,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.oneofIndex: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.oneofIndex != 0 {
-      try visitor.visitSingularInt32Field(value: self.oneofIndex, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.oneofIndex, fieldNumber: 1, isDefaultValue: self.oneofIndex == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17713,9 +17235,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.oneofs: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.oneofs != 0 {
-      try visitor.visitSingularInt32Field(value: self.oneofs, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.oneofs, fieldNumber: 1, isDefaultValue: self.oneofs == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17742,9 +17262,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OneOf_Kind: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.oneOfKind != 0 {
-      try visitor.visitSingularInt32Field(value: self.oneOfKind, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.oneOfKind, fieldNumber: 1, isDefaultValue: self.oneOfKind == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17771,9 +17289,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Option: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.option != 0 {
-      try visitor.visitSingularInt32Field(value: self.option, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.option, fieldNumber: 1, isDefaultValue: self.option == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17800,9 +17316,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalEnumE
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.optionalEnumExtensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.optionalEnumExtensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.optionalEnumExtensionField, fieldNumber: 1, isDefaultValue: self.optionalEnumExtensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17829,9 +17343,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalExten
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.optionalExtensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.optionalExtensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.optionalExtensionField, fieldNumber: 1, isDefaultValue: self.optionalExtensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17858,9 +17370,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalGroup
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.optionalGroupExtensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.optionalGroupExtensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.optionalGroupExtensionField, fieldNumber: 1, isDefaultValue: self.optionalGroupExtensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17887,9 +17397,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalMessa
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.optionalMessageExtensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.optionalMessageExtensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.optionalMessageExtensionField, fieldNumber: 1, isDefaultValue: self.optionalMessageExtensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17916,9 +17424,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.options: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.options != 0 {
-      try visitor.visitSingularInt32Field(value: self.options, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.options, fieldNumber: 1, isDefaultValue: self.options == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17945,9 +17451,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.other: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.other != 0 {
-      try visitor.visitSingularInt32Field(value: self.other, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.other, fieldNumber: 1, isDefaultValue: self.other == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -17974,9 +17478,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.others: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.others != 0 {
-      try visitor.visitSingularInt32Field(value: self.others, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.others, fieldNumber: 1, isDefaultValue: self.others == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18003,9 +17505,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.out: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.out != 0 {
-      try visitor.visitSingularInt32Field(value: self.out, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.out, fieldNumber: 1, isDefaultValue: self.out == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18032,9 +17532,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.p: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.p != 0 {
-      try visitor.visitSingularInt32Field(value: self.p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.p, fieldNumber: 1, isDefaultValue: self.p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18061,9 +17559,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.packed: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.packed != 0 {
-      try visitor.visitSingularInt32Field(value: self.packed, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.packed, fieldNumber: 1, isDefaultValue: self.packed == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18090,9 +17586,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.PackedEnumExt
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.packedEnumExtensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.packedEnumExtensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.packedEnumExtensionField, fieldNumber: 1, isDefaultValue: self.packedEnumExtensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18119,9 +17613,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.PackedExtensi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.packedExtensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.packedExtensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.packedExtensionField, fieldNumber: 1, isDefaultValue: self.packedExtensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18148,9 +17640,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.packedSize: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.packedSize != 0 {
-      try visitor.visitSingularInt32Field(value: self.packedSize, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.packedSize, fieldNumber: 1, isDefaultValue: self.packedSize == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18177,9 +17667,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.padding: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.padding != 0 {
-      try visitor.visitSingularInt32Field(value: self.padding, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.padding, fieldNumber: 1, isDefaultValue: self.padding == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18206,9 +17694,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.parent: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.parent != 0 {
-      try visitor.visitSingularInt32Field(value: self.parent, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.parent, fieldNumber: 1, isDefaultValue: self.parent == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18235,9 +17721,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.parse: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.parse != 0 {
-      try visitor.visitSingularInt32Field(value: self.parse, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.parse, fieldNumber: 1, isDefaultValue: self.parse == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18264,9 +17748,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.partial: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.partial != 0 {
-      try visitor.visitSingularInt32Field(value: self.partial, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.partial, fieldNumber: 1, isDefaultValue: self.partial == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18293,9 +17775,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.path: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.path != 0 {
-      try visitor.visitSingularInt32Field(value: self.path, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.path, fieldNumber: 1, isDefaultValue: self.path == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18322,9 +17802,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.paths: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.paths != 0 {
-      try visitor.visitSingularInt32Field(value: self.paths, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.paths, fieldNumber: 1, isDefaultValue: self.paths == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18351,9 +17829,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.payload: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.payload != 0 {
-      try visitor.visitSingularInt32Field(value: self.payload, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.payload, fieldNumber: 1, isDefaultValue: self.payload == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18380,9 +17856,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.payloadSize: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.payloadSize != 0 {
-      try visitor.visitSingularInt32Field(value: self.payloadSize, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.payloadSize, fieldNumber: 1, isDefaultValue: self.payloadSize == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18409,9 +17883,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.pointer: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.pointer != 0 {
-      try visitor.visitSingularInt32Field(value: self.pointer, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.pointer, fieldNumber: 1, isDefaultValue: self.pointer == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18438,9 +17910,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.pos: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.pos != 0 {
-      try visitor.visitSingularInt32Field(value: self.pos, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.pos, fieldNumber: 1, isDefaultValue: self.pos == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18467,9 +17937,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.prefix: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.prefix != 0 {
-      try visitor.visitSingularInt32Field(value: self.prefix, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.prefix, fieldNumber: 1, isDefaultValue: self.prefix == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18496,9 +17964,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.preserveProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.preserveProtoFieldNames != 0 {
-      try visitor.visitSingularInt32Field(value: self.preserveProtoFieldNames, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.preserveProtoFieldNames, fieldNumber: 1, isDefaultValue: self.preserveProtoFieldNames == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18525,9 +17991,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.preTraverse: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.preTraverse != 0 {
-      try visitor.visitSingularInt32Field(value: self.preTraverse, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.preTraverse, fieldNumber: 1, isDefaultValue: self.preTraverse == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18554,9 +18018,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.printUnknownF
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.printUnknownFields != 0 {
-      try visitor.visitSingularInt32Field(value: self.printUnknownFields, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.printUnknownFields, fieldNumber: 1, isDefaultValue: self.printUnknownFields == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18583,9 +18045,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.proto2: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.proto2 != 0 {
-      try visitor.visitSingularInt32Field(value: self.proto2, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.proto2, fieldNumber: 1, isDefaultValue: self.proto2 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18612,9 +18072,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.proto3Default
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.proto3DefaultValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.proto3DefaultValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.proto3DefaultValue, fieldNumber: 1, isDefaultValue: self.proto3DefaultValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18641,9 +18099,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufAPIVe
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufApiversionCheck != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufApiversionCheck, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufApiversionCheck, fieldNumber: 1, isDefaultValue: self.protobufApiversionCheck == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18670,9 +18126,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufAPIVe
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufApiversion2 != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufApiversion2, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufApiversion2, fieldNumber: 1, isDefaultValue: self.protobufApiversion2 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18699,9 +18153,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufBool:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufBool != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufBool, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufBool, fieldNumber: 1, isDefaultValue: self.protobufBool == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18728,9 +18180,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufBytes
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufBytes != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufBytes, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufBytes, fieldNumber: 1, isDefaultValue: self.protobufBytes == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18757,9 +18207,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufDoubl
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufDouble != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufDouble, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufDouble, fieldNumber: 1, isDefaultValue: self.protobufDouble == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18786,9 +18234,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufEnumM
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufEnumMap != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufEnumMap, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufEnumMap, fieldNumber: 1, isDefaultValue: self.protobufEnumMap == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18815,9 +18261,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobufExten
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufExtension != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufExtension, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufExtension, fieldNumber: 1, isDefaultValue: self.protobufExtension == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18844,9 +18288,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufFixed
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufFixed32 != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufFixed32, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufFixed32, fieldNumber: 1, isDefaultValue: self.protobufFixed32 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18873,9 +18315,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufFixed
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufFixed64 != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufFixed64, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufFixed64, fieldNumber: 1, isDefaultValue: self.protobufFixed64 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18902,9 +18342,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufFloat
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufFloat != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufFloat, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufFloat, fieldNumber: 1, isDefaultValue: self.protobufFloat == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18931,9 +18369,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufInt32
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufInt32 != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufInt32, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufInt32, fieldNumber: 1, isDefaultValue: self.protobufInt32 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18960,9 +18396,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufInt64
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufInt64 != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufInt64, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufInt64, fieldNumber: 1, isDefaultValue: self.protobufInt64 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -18989,9 +18423,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufMap: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufMap != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufMap, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufMap, fieldNumber: 1, isDefaultValue: self.protobufMap == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19018,9 +18450,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufMessa
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufMessageMap != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufMessageMap, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufMessageMap, fieldNumber: 1, isDefaultValue: self.protobufMessageMap == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19047,9 +18477,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSFixe
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufSfixed32 != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufSfixed32, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufSfixed32, fieldNumber: 1, isDefaultValue: self.protobufSfixed32 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19076,9 +18504,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSFixe
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufSfixed64 != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufSfixed64, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufSfixed64, fieldNumber: 1, isDefaultValue: self.protobufSfixed64 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19105,9 +18531,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSInt3
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufSint32 != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufSint32, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufSint32, fieldNumber: 1, isDefaultValue: self.protobufSint32 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19134,9 +18558,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSInt6
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufSint64 != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufSint64, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufSint64, fieldNumber: 1, isDefaultValue: self.protobufSint64 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19163,9 +18585,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufStrin
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufString != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufString, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufString, fieldNumber: 1, isDefaultValue: self.protobufString == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19192,9 +18612,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufUInt3
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufUint32 != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufUint32, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufUint32, fieldNumber: 1, isDefaultValue: self.protobufUint32 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19221,9 +18639,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufUInt6
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufUint64 != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufUint64, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufUint64, fieldNumber: 1, isDefaultValue: self.protobufUint64 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19250,9 +18666,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_exte
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufExtensionFieldValues != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufExtensionFieldValues, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufExtensionFieldValues, fieldNumber: 1, isDefaultValue: self.protobufExtensionFieldValues == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19279,9 +18693,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_fiel
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufFieldNumber != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufFieldNumber, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufFieldNumber, fieldNumber: 1, isDefaultValue: self.protobufFieldNumber == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19308,9 +18720,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_gene
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufGeneratedIsEqualTo != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufGeneratedIsEqualTo, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufGeneratedIsEqualTo, fieldNumber: 1, isDefaultValue: self.protobufGeneratedIsEqualTo == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19337,9 +18747,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_name
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufNameMap != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufNameMap, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufNameMap, fieldNumber: 1, isDefaultValue: self.protobufNameMap == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19366,9 +18774,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_newF
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufNewField != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufNewField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufNewField, fieldNumber: 1, isDefaultValue: self.protobufNewField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19395,9 +18801,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_pack
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protobufPackage != 0 {
-      try visitor.visitSingularInt32Field(value: self.protobufPackage, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protobufPackage, fieldNumber: 1, isDefaultValue: self.protobufPackage == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19424,9 +18828,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protocolMessa
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`protocol` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`protocol`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`protocol`, fieldNumber: 1, isDefaultValue: self.`protocol` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19453,9 +18855,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoFieldNam
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protoFieldName != 0 {
-      try visitor.visitSingularInt32Field(value: self.protoFieldName, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protoFieldName, fieldNumber: 1, isDefaultValue: self.protoFieldName == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19482,9 +18882,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageN
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protoMessageName != 0 {
-      try visitor.visitSingularInt32Field(value: self.protoMessageName, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protoMessageName, fieldNumber: 1, isDefaultValue: self.protoMessageName == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19511,9 +18909,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtoNameProv
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protoNameProviding != 0 {
-      try visitor.visitSingularInt32Field(value: self.protoNameProviding, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protoNameProviding, fieldNumber: 1, isDefaultValue: self.protoNameProviding == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19540,9 +18936,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoPaths: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.protoPaths != 0 {
-      try visitor.visitSingularInt32Field(value: self.protoPaths, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.protoPaths, fieldNumber: 1, isDefaultValue: self.protoPaths == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19569,9 +18963,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.publicMessage
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`public` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`public`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`public`, fieldNumber: 1, isDefaultValue: self.`public` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19598,9 +18990,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putBoolValue:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putBoolValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.putBoolValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putBoolValue, fieldNumber: 1, isDefaultValue: self.putBoolValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19627,9 +19017,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putBytesValue
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putBytesValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.putBytesValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putBytesValue, fieldNumber: 1, isDefaultValue: self.putBytesValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19656,9 +19044,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putDoubleValu
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putDoubleValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.putDoubleValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putDoubleValue, fieldNumber: 1, isDefaultValue: self.putDoubleValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19685,9 +19071,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putEnumValue:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putEnumValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.putEnumValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putEnumValue, fieldNumber: 1, isDefaultValue: self.putEnumValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19714,9 +19098,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putFixedUInt3
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putFixedUint32 != 0 {
-      try visitor.visitSingularInt32Field(value: self.putFixedUint32, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putFixedUint32, fieldNumber: 1, isDefaultValue: self.putFixedUint32 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19743,9 +19125,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putFixedUInt6
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putFixedUint64 != 0 {
-      try visitor.visitSingularInt32Field(value: self.putFixedUint64, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putFixedUint64, fieldNumber: 1, isDefaultValue: self.putFixedUint64 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19772,9 +19152,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putFloatValue
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putFloatValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.putFloatValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putFloatValue, fieldNumber: 1, isDefaultValue: self.putFloatValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19801,9 +19179,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putInt64: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putInt64 != 0 {
-      try visitor.visitSingularInt32Field(value: self.putInt64, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putInt64, fieldNumber: 1, isDefaultValue: self.putInt64 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19830,9 +19206,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putStringValu
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putStringValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.putStringValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putStringValue, fieldNumber: 1, isDefaultValue: self.putStringValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19859,9 +19233,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putUInt64: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putUint64 != 0 {
-      try visitor.visitSingularInt32Field(value: self.putUint64, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putUint64, fieldNumber: 1, isDefaultValue: self.putUint64 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19888,9 +19260,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putUInt64Hex:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putUint64Hex != 0 {
-      try visitor.visitSingularInt32Field(value: self.putUint64Hex, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putUint64Hex, fieldNumber: 1, isDefaultValue: self.putUint64Hex == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19917,9 +19287,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putVarInt: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putVarInt != 0 {
-      try visitor.visitSingularInt32Field(value: self.putVarInt, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putVarInt, fieldNumber: 1, isDefaultValue: self.putVarInt == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19946,9 +19314,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putZigZagVarI
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.putZigZagVarInt != 0 {
-      try visitor.visitSingularInt32Field(value: self.putZigZagVarInt, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.putZigZagVarInt, fieldNumber: 1, isDefaultValue: self.putZigZagVarInt == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -19975,9 +19341,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rawChars: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.rawChars != 0 {
-      try visitor.visitSingularInt32Field(value: self.rawChars, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.rawChars, fieldNumber: 1, isDefaultValue: self.rawChars == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20004,9 +19368,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RawRepresenta
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.rawRepresentable != 0 {
-      try visitor.visitSingularInt32Field(value: self.rawRepresentable, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.rawRepresentable, fieldNumber: 1, isDefaultValue: self.rawRepresentable == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20033,9 +19395,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RawValue: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.rawValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.rawValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.rawValue, fieldNumber: 1, isDefaultValue: self.rawValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20062,9 +19422,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.readBuffer: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.readBuffer != 0 {
-      try visitor.visitSingularInt32Field(value: self.readBuffer, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.readBuffer, fieldNumber: 1, isDefaultValue: self.readBuffer == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20091,9 +19449,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.register: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.register != 0 {
-      try visitor.visitSingularInt32Field(value: self.register, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.register, fieldNumber: 1, isDefaultValue: self.register == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20120,9 +19476,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedEnumE
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.repeatedEnumExtensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.repeatedEnumExtensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.repeatedEnumExtensionField, fieldNumber: 1, isDefaultValue: self.repeatedEnumExtensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20149,9 +19503,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedExten
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.repeatedExtensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.repeatedExtensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.repeatedExtensionField, fieldNumber: 1, isDefaultValue: self.repeatedExtensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20178,9 +19530,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedGroup
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.repeatedGroupExtensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.repeatedGroupExtensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.repeatedGroupExtensionField, fieldNumber: 1, isDefaultValue: self.repeatedGroupExtensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20207,9 +19557,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedMessa
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.repeatedMessageExtensionField != 0 {
-      try visitor.visitSingularInt32Field(value: self.repeatedMessageExtensionField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.repeatedMessageExtensionField, fieldNumber: 1, isDefaultValue: self.repeatedMessageExtensionField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20236,9 +19584,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.requestStream
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.requestStreaming != 0 {
-      try visitor.visitSingularInt32Field(value: self.requestStreaming, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.requestStreaming, fieldNumber: 1, isDefaultValue: self.requestStreaming == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20265,9 +19611,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.requestTypeUR
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.requestTypeURL != 0 {
-      try visitor.visitSingularInt32Field(value: self.requestTypeURL, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.requestTypeURL, fieldNumber: 1, isDefaultValue: self.requestTypeURL == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20294,9 +19638,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.requiredSize:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.requiredSize != 0 {
-      try visitor.visitSingularInt32Field(value: self.requiredSize, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.requiredSize, fieldNumber: 1, isDefaultValue: self.requiredSize == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20323,9 +19665,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.responseStrea
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.responseStreaming != 0 {
-      try visitor.visitSingularInt32Field(value: self.responseStreaming, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.responseStreaming, fieldNumber: 1, isDefaultValue: self.responseStreaming == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20352,9 +19692,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.responseTypeU
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.responseTypeURL != 0 {
-      try visitor.visitSingularInt32Field(value: self.responseTypeURL, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.responseTypeURL, fieldNumber: 1, isDefaultValue: self.responseTypeURL == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20381,14 +19719,39 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.result: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.result != 0 {
-      try visitor.visitSingularInt32Field(value: self.result, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.result, fieldNumber: 1, isDefaultValue: self.result == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.result, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.result) -> Bool {
     if lhs.result != rhs.result {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rethrowsMessage: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageName + ".rethrows"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "rethrows"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      switch fieldNumber {
+      case 1: try decoder.decodeSingularInt32Field(value: &self.`rethrows`)
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try visitor.visitSingularInt32Field(value: self.`rethrows`, fieldNumber: 1, isDefaultValue: self.`rethrows` == 0)
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rethrowsMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rethrowsMessage) -> Bool {
+    if lhs.`rethrows` != rhs.`rethrows` {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
@@ -20410,9 +19773,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.returnMessage
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`return` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`return`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`return`, fieldNumber: 1, isDefaultValue: self.`return` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20439,9 +19800,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.revision: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.revision != 0 {
-      try visitor.visitSingularInt32Field(value: self.revision, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.revision, fieldNumber: 1, isDefaultValue: self.revision == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20468,9 +19827,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rhs: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.rhs != 0 {
-      try visitor.visitSingularInt32Field(value: self.rhs, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.rhs, fieldNumber: 1, isDefaultValue: self.rhs == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20497,9 +19854,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.root: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.root != 0 {
-      try visitor.visitSingularInt32Field(value: self.root, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.root, fieldNumber: 1, isDefaultValue: self.root == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20526,9 +19881,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.s: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.s != 0 {
-      try visitor.visitSingularInt32Field(value: self.s, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.s, fieldNumber: 1, isDefaultValue: self.s == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20555,9 +19908,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sawBackslash:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.sawBackslash != 0 {
-      try visitor.visitSingularInt32Field(value: self.sawBackslash, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.sawBackslash, fieldNumber: 1, isDefaultValue: self.sawBackslash == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20584,9 +19935,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sawSection4Ch
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.sawSection4Characters != 0 {
-      try visitor.visitSingularInt32Field(value: self.sawSection4Characters, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.sawSection4Characters, fieldNumber: 1, isDefaultValue: self.sawSection4Characters == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20613,9 +19962,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sawSection5Ch
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.sawSection5Characters != 0 {
-      try visitor.visitSingularInt32Field(value: self.sawSection5Characters, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.sawSection5Characters, fieldNumber: 1, isDefaultValue: self.sawSection5Characters == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20642,9 +19989,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.scanner: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.scanner != 0 {
-      try visitor.visitSingularInt32Field(value: self.scanner, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.scanner, fieldNumber: 1, isDefaultValue: self.scanner == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20671,9 +20016,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.seconds: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.seconds != 0 {
-      try visitor.visitSingularInt32Field(value: self.seconds, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.seconds, fieldNumber: 1, isDefaultValue: self.seconds == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20700,9 +20043,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.selfMessage: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.self_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.self_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.self_p, fieldNumber: 1, isDefaultValue: self.self_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20729,9 +20070,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.separator: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.separator != 0 {
-      try visitor.visitSingularInt32Field(value: self.separator, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.separator, fieldNumber: 1, isDefaultValue: self.separator == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20758,9 +20097,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serialize: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.serialize != 0 {
-      try visitor.visitSingularInt32Field(value: self.serialize, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.serialize, fieldNumber: 1, isDefaultValue: self.serialize == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20787,9 +20124,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serializedDat
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.serializedData != 0 {
-      try visitor.visitSingularInt32Field(value: self.serializedData, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.serializedData, fieldNumber: 1, isDefaultValue: self.serializedData == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20816,9 +20151,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serializedSiz
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.serializedSize != 0 {
-      try visitor.visitSingularInt32Field(value: self.serializedSize, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.serializedSize, fieldNumber: 1, isDefaultValue: self.serializedSize == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20845,9 +20178,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.set: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.set != 0 {
-      try visitor.visitSingularInt32Field(value: self.set, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.set, fieldNumber: 1, isDefaultValue: self.set == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20874,9 +20205,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.setExtensionV
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.setExtensionValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.setExtensionValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.setExtensionValue, fieldNumber: 1, isDefaultValue: self.setExtensionValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20903,9 +20232,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.shift: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.shift != 0 {
-      try visitor.visitSingularInt32Field(value: self.shift, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.shift, fieldNumber: 1, isDefaultValue: self.shift == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20932,9 +20259,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.SimpleExtensi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.simpleExtensionMap != 0 {
-      try visitor.visitSingularInt32Field(value: self.simpleExtensionMap, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.simpleExtensionMap, fieldNumber: 1, isDefaultValue: self.simpleExtensionMap == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20961,9 +20286,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sizer: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.sizer != 0 {
-      try visitor.visitSingularInt32Field(value: self.sizer, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.sizer, fieldNumber: 1, isDefaultValue: self.sizer == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -20990,9 +20313,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.source: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.source != 0 {
-      try visitor.visitSingularInt32Field(value: self.source, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.source, fieldNumber: 1, isDefaultValue: self.source == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21019,9 +20340,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceContext
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.sourceContext != 0 {
-      try visitor.visitSingularInt32Field(value: self.sourceContext, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.sourceContext, fieldNumber: 1, isDefaultValue: self.sourceContext == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21048,9 +20367,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceEncodin
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.sourceEncoding != 0 {
-      try visitor.visitSingularInt32Field(value: self.sourceEncoding, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.sourceEncoding, fieldNumber: 1, isDefaultValue: self.sourceEncoding == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21077,9 +20394,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.split: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.split != 0 {
-      try visitor.visitSingularInt32Field(value: self.split, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.split, fieldNumber: 1, isDefaultValue: self.split == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21106,9 +20421,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.start: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.start != 0 {
-      try visitor.visitSingularInt32Field(value: self.start, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.start, fieldNumber: 1, isDefaultValue: self.start == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21135,9 +20448,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startArray: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.startArray != 0 {
-      try visitor.visitSingularInt32Field(value: self.startArray, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.startArray, fieldNumber: 1, isDefaultValue: self.startArray == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21164,9 +20475,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startField: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.startField != 0 {
-      try visitor.visitSingularInt32Field(value: self.startField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.startField, fieldNumber: 1, isDefaultValue: self.startField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21193,9 +20502,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startIndex: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.startIndex != 0 {
-      try visitor.visitSingularInt32Field(value: self.startIndex, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.startIndex, fieldNumber: 1, isDefaultValue: self.startIndex == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21222,9 +20529,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startMessageF
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.startMessageField != 0 {
-      try visitor.visitSingularInt32Field(value: self.startMessageField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.startMessageField, fieldNumber: 1, isDefaultValue: self.startMessageField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21251,9 +20556,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startObject: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.startObject != 0 {
-      try visitor.visitSingularInt32Field(value: self.startObject, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.startObject, fieldNumber: 1, isDefaultValue: self.startObject == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21280,9 +20583,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startRegularF
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.startRegularField != 0 {
-      try visitor.visitSingularInt32Field(value: self.startRegularField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.startRegularField, fieldNumber: 1, isDefaultValue: self.startRegularField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21309,9 +20610,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.state: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.state != 0 {
-      try visitor.visitSingularInt32Field(value: self.state, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.state, fieldNumber: 1, isDefaultValue: self.state == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21338,9 +20637,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.staticMessage
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`static` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`static`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`static`, fieldNumber: 1, isDefaultValue: self.`static` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21367,9 +20664,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.StaticString:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.staticString != 0 {
-      try visitor.visitSingularInt32Field(value: self.staticString, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.staticString, fieldNumber: 1, isDefaultValue: self.staticString == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21396,9 +20691,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.storage: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.storage != 0 {
-      try visitor.visitSingularInt32Field(value: self.storage, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.storage, fieldNumber: 1, isDefaultValue: self.storage == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21425,9 +20718,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.StringMessage
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.string != 0 {
-      try visitor.visitSingularInt32Field(value: self.string, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.string, fieldNumber: 1, isDefaultValue: self.string == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21454,9 +20745,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.stringLiteral
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.stringLiteral != 0 {
-      try visitor.visitSingularInt32Field(value: self.stringLiteral, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.stringLiteral, fieldNumber: 1, isDefaultValue: self.stringLiteral == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21483,9 +20772,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.StringLiteral
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.stringLiteralType != 0 {
-      try visitor.visitSingularInt32Field(value: self.stringLiteralType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.stringLiteralType, fieldNumber: 1, isDefaultValue: self.stringLiteralType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21512,9 +20799,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.stringResult:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.stringResult != 0 {
-      try visitor.visitSingularInt32Field(value: self.stringResult, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.stringResult, fieldNumber: 1, isDefaultValue: self.stringResult == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21541,9 +20826,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.stringValue: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.stringValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.stringValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.stringValue, fieldNumber: 1, isDefaultValue: self.stringValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21570,9 +20853,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.structMessage
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`struct` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`struct`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`struct`, fieldNumber: 1, isDefaultValue: self.`struct` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21599,9 +20880,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.structValue: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.structValue != 0 {
-      try visitor.visitSingularInt32Field(value: self.structValue, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.structValue, fieldNumber: 1, isDefaultValue: self.structValue == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21628,9 +20907,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.subDecoder: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.subDecoder != 0 {
-      try visitor.visitSingularInt32Field(value: self.subDecoder, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.subDecoder, fieldNumber: 1, isDefaultValue: self.subDecoder == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21657,9 +20934,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.subscriptMess
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`subscript` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`subscript`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`subscript`, fieldNumber: 1, isDefaultValue: self.`subscript` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21686,9 +20961,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.subVisitor: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.subVisitor != 0 {
-      try visitor.visitSingularInt32Field(value: self.subVisitor, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.subVisitor, fieldNumber: 1, isDefaultValue: self.subVisitor == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21715,9 +20988,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Swift: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.swift != 0 {
-      try visitor.visitSingularInt32Field(value: self.swift, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.swift, fieldNumber: 1, isDefaultValue: self.swift == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21744,9 +21015,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.SwiftProtobuf
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.swiftProtobuf != 0 {
-      try visitor.visitSingularInt32Field(value: self.swiftProtobuf, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.swiftProtobuf, fieldNumber: 1, isDefaultValue: self.swiftProtobuf == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21773,9 +21042,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.syntax: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.syntax != 0 {
-      try visitor.visitSingularInt32Field(value: self.syntax, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.syntax, fieldNumber: 1, isDefaultValue: self.syntax == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21802,9 +21069,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.T: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.t != 0 {
-      try visitor.visitSingularInt32Field(value: self.t, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.t, fieldNumber: 1, isDefaultValue: self.t == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21831,9 +21096,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.tag: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.tag != 0 {
-      try visitor.visitSingularInt32Field(value: self.tag, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.tag, fieldNumber: 1, isDefaultValue: self.tag == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21860,9 +21123,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.terminator: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.terminator != 0 {
-      try visitor.visitSingularInt32Field(value: self.terminator, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.terminator, fieldNumber: 1, isDefaultValue: self.terminator == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21889,9 +21150,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.testDecoder: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.testDecoder != 0 {
-      try visitor.visitSingularInt32Field(value: self.testDecoder, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.testDecoder, fieldNumber: 1, isDefaultValue: self.testDecoder == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21918,9 +21177,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.text: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.text != 0 {
-      try visitor.visitSingularInt32Field(value: self.text, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.text, fieldNumber: 1, isDefaultValue: self.text == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21947,9 +21204,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.textDecoder: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.textDecoder != 0 {
-      try visitor.visitSingularInt32Field(value: self.textDecoder, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.textDecoder, fieldNumber: 1, isDefaultValue: self.textDecoder == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -21976,9 +21231,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatDec
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.textFormatDecoder != 0 {
-      try visitor.visitSingularInt32Field(value: self.textFormatDecoder, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.textFormatDecoder, fieldNumber: 1, isDefaultValue: self.textFormatDecoder == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22005,9 +21258,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatDec
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.textFormatDecodingError != 0 {
-      try visitor.visitSingularInt32Field(value: self.textFormatDecodingError, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.textFormatDecodingError, fieldNumber: 1, isDefaultValue: self.textFormatDecodingError == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22034,9 +21285,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatEnc
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.textFormatEncodingOptions != 0 {
-      try visitor.visitSingularInt32Field(value: self.textFormatEncodingOptions, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.textFormatEncodingOptions, fieldNumber: 1, isDefaultValue: self.textFormatEncodingOptions == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22063,9 +21312,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatEnc
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.textFormatEncodingVisitor != 0 {
-      try visitor.visitSingularInt32Field(value: self.textFormatEncodingVisitor, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.textFormatEncodingVisitor, fieldNumber: 1, isDefaultValue: self.textFormatEncodingVisitor == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22092,9 +21339,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.textFormatStr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.textFormatString != 0 {
-      try visitor.visitSingularInt32Field(value: self.textFormatString, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.textFormatString, fieldNumber: 1, isDefaultValue: self.textFormatString == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22121,9 +21366,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.throwsMessage
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`throws` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`throws`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`throws`, fieldNumber: 1, isDefaultValue: self.`throws` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22150,9 +21393,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.timeInterval:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.timeInterval != 0 {
-      try visitor.visitSingularInt32Field(value: self.timeInterval, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.timeInterval, fieldNumber: 1, isDefaultValue: self.timeInterval == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22179,9 +21420,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.timeIntervalS
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.timeIntervalSince1970 != 0 {
-      try visitor.visitSingularInt32Field(value: self.timeIntervalSince1970, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.timeIntervalSince1970, fieldNumber: 1, isDefaultValue: self.timeIntervalSince1970 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22208,9 +21447,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.timeIntervalS
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.timeIntervalSinceReferenceDate != 0 {
-      try visitor.visitSingularInt32Field(value: self.timeIntervalSinceReferenceDate, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.timeIntervalSinceReferenceDate, fieldNumber: 1, isDefaultValue: self.timeIntervalSinceReferenceDate == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22237,14 +21474,39 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Timestamp: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.timestamp != 0 {
-      try visitor.visitSingularInt32Field(value: self.timestamp, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.timestamp, fieldNumber: 1, isDefaultValue: self.timestamp == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Timestamp, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Timestamp) -> Bool {
     if lhs.timestamp != rhs.timestamp {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.to: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageName + ".to"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "to"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      switch fieldNumber {
+      case 1: try decoder.decodeSingularInt32Field(value: &self.to)
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try visitor.visitSingularInt32Field(value: self.to, fieldNumber: 1, isDefaultValue: self.to == 0)
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.to, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.to) -> Bool {
+    if lhs.to != rhs.to {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
@@ -22266,9 +21528,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.total: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.total != 0 {
-      try visitor.visitSingularInt32Field(value: self.total, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.total, fieldNumber: 1, isDefaultValue: self.total == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22295,9 +21555,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.totalSize: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.totalSize != 0 {
-      try visitor.visitSingularInt32Field(value: self.totalSize, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.totalSize, fieldNumber: 1, isDefaultValue: self.totalSize == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22324,9 +21582,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.traverseMessa
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.traverse != 0 {
-      try visitor.visitSingularInt32Field(value: self.traverse, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.traverse, fieldNumber: 1, isDefaultValue: self.traverse == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22353,9 +21609,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.trueMessage: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`true` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`true`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`true`, fieldNumber: 1, isDefaultValue: self.`true` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22382,9 +21636,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.tryMessage: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`try` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`try`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`try`, fieldNumber: 1, isDefaultValue: self.`try` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22411,9 +21663,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.type: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.type != 0 {
-      try visitor.visitSingularInt32Field(value: self.type, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.type, fieldNumber: 1, isDefaultValue: self.type == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22440,9 +21690,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typealiasMess
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`typealias` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`typealias`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`typealias`, fieldNumber: 1, isDefaultValue: self.`typealias` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22469,9 +21717,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typePrefix: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.typePrefix != 0 {
-      try visitor.visitSingularInt32Field(value: self.typePrefix, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.typePrefix, fieldNumber: 1, isDefaultValue: self.typePrefix == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22498,9 +21744,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeStart: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.typeStart != 0 {
-      try visitor.visitSingularInt32Field(value: self.typeStart, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.typeStart, fieldNumber: 1, isDefaultValue: self.typeStart == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22527,9 +21771,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeUnknown: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.typeUnknown != 0 {
-      try visitor.visitSingularInt32Field(value: self.typeUnknown, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.typeUnknown, fieldNumber: 1, isDefaultValue: self.typeUnknown == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22556,9 +21798,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeURL: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.typeURL != 0 {
-      try visitor.visitSingularInt32Field(value: self.typeURL, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.typeURL, fieldNumber: 1, isDefaultValue: self.typeURL == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22585,9 +21825,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt32Message
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.uint32 != 0 {
-      try visitor.visitSingularInt32Field(value: self.uint32, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.uint32, fieldNumber: 1, isDefaultValue: self.uint32 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22614,9 +21852,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt32Value: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.uint32Value != 0 {
-      try visitor.visitSingularInt32Field(value: self.uint32Value, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.uint32Value, fieldNumber: 1, isDefaultValue: self.uint32Value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22643,9 +21879,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt64Message
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.uint64 != 0 {
-      try visitor.visitSingularInt32Field(value: self.uint64, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.uint64, fieldNumber: 1, isDefaultValue: self.uint64 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22672,9 +21906,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt64Value: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.uint64Value != 0 {
-      try visitor.visitSingularInt32Field(value: self.uint64Value, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.uint64Value, fieldNumber: 1, isDefaultValue: self.uint64Value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22701,9 +21933,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt8: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.uint8 != 0 {
-      try visitor.visitSingularInt32Field(value: self.uint8, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.uint8, fieldNumber: 1, isDefaultValue: self.uint8 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22730,9 +21960,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unicodeScalar
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.unicodeScalarLiteral != 0 {
-      try visitor.visitSingularInt32Field(value: self.unicodeScalarLiteral, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.unicodeScalarLiteral, fieldNumber: 1, isDefaultValue: self.unicodeScalarLiteral == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22759,9 +21987,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnicodeScalar
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.unicodeScalarLiteralType != 0 {
-      try visitor.visitSingularInt32Field(value: self.unicodeScalarLiteralType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.unicodeScalarLiteralType, fieldNumber: 1, isDefaultValue: self.unicodeScalarLiteralType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22788,9 +22014,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unicodeScalar
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.unicodeScalars != 0 {
-      try visitor.visitSingularInt32Field(value: self.unicodeScalars, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.unicodeScalars, fieldNumber: 1, isDefaultValue: self.unicodeScalars == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22817,9 +22041,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnicodeScalar
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.unicodeScalarView != 0 {
-      try visitor.visitSingularInt32Field(value: self.unicodeScalarView, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.unicodeScalarView, fieldNumber: 1, isDefaultValue: self.unicodeScalarView == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22846,9 +22068,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.union: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.union != 0 {
-      try visitor.visitSingularInt32Field(value: self.union, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.union, fieldNumber: 1, isDefaultValue: self.union == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22875,9 +22095,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.uniqueStorage
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.uniqueStorage != 0 {
-      try visitor.visitSingularInt32Field(value: self.uniqueStorage, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.uniqueStorage, fieldNumber: 1, isDefaultValue: self.uniqueStorage == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22904,9 +22122,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unknown: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.unknown != 0 {
-      try visitor.visitSingularInt32Field(value: self.unknown, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.unknown, fieldNumber: 1, isDefaultValue: self.unknown == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22933,9 +22149,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unknownFields
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.unknownFields_p != 0 {
-      try visitor.visitSingularInt32Field(value: self.unknownFields_p, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.unknownFields_p, fieldNumber: 1, isDefaultValue: self.unknownFields_p == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22962,9 +22176,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnknownStorag
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.unknownStorage != 0 {
-      try visitor.visitSingularInt32Field(value: self.unknownStorage, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.unknownStorage, fieldNumber: 1, isDefaultValue: self.unknownStorage == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -22991,9 +22203,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unpackTo: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.unpackTo != 0 {
-      try visitor.visitSingularInt32Field(value: self.unpackTo, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.unpackTo, fieldNumber: 1, isDefaultValue: self.unpackTo == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23020,9 +22230,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeBufferP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.unsafeBufferPointer != 0 {
-      try visitor.visitSingularInt32Field(value: self.unsafeBufferPointer, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.unsafeBufferPointer, fieldNumber: 1, isDefaultValue: self.unsafeBufferPointer == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23049,14 +22257,39 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutable
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.unsafeMutablePointer != 0 {
-      try visitor.visitSingularInt32Field(value: self.unsafeMutablePointer, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.unsafeMutablePointer, fieldNumber: 1, isDefaultValue: self.unsafeMutablePointer == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutablePointer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutablePointer) -> Bool {
     if lhs.unsafeMutablePointer != rhs.unsafeMutablePointer {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutableRawBufferPointer: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageName + ".UnsafeMutableRawBufferPointer"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "UnsafeMutableRawBufferPointer"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      switch fieldNumber {
+      case 1: try decoder.decodeSingularInt32Field(value: &self.unsafeMutableRawBufferPointer)
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try visitor.visitSingularInt32Field(value: self.unsafeMutableRawBufferPointer, fieldNumber: 1, isDefaultValue: self.unsafeMutableRawBufferPointer == 0)
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutableRawBufferPointer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutableRawBufferPointer) -> Bool {
+    if lhs.unsafeMutableRawBufferPointer != rhs.unsafeMutableRawBufferPointer {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
@@ -23078,14 +22311,39 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafePointer
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.unsafePointer != 0 {
-      try visitor.visitSingularInt32Field(value: self.unsafePointer, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.unsafePointer, fieldNumber: 1, isDefaultValue: self.unsafePointer == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafePointer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafePointer) -> Bool {
     if lhs.unsafePointer != rhs.unsafePointer {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeRawBufferPointer: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageName + ".UnsafeRawBufferPointer"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "UnsafeRawBufferPointer"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      switch fieldNumber {
+      case 1: try decoder.decodeSingularInt32Field(value: &self.unsafeRawBufferPointer)
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try visitor.visitSingularInt32Field(value: self.unsafeRawBufferPointer, fieldNumber: 1, isDefaultValue: self.unsafeRawBufferPointer == 0)
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeRawBufferPointer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeRawBufferPointer) -> Bool {
+    if lhs.unsafeRawBufferPointer != rhs.unsafeRawBufferPointer {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
@@ -23107,9 +22365,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.updatedOption
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.updatedOptions != 0 {
-      try visitor.visitSingularInt32Field(value: self.updatedOptions, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.updatedOptions, fieldNumber: 1, isDefaultValue: self.updatedOptions == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23136,9 +22392,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.url: SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.url != 0 {
-      try visitor.visitSingularInt32Field(value: self.url, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.url, fieldNumber: 1, isDefaultValue: self.url == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23165,9 +22419,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.utf8: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.utf8 != 0 {
-      try visitor.visitSingularInt32Field(value: self.utf8, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.utf8, fieldNumber: 1, isDefaultValue: self.utf8 == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23194,9 +22446,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.utf8ToDouble:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.utf8ToDouble != 0 {
-      try visitor.visitSingularInt32Field(value: self.utf8ToDouble, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.utf8ToDouble, fieldNumber: 1, isDefaultValue: self.utf8ToDouble == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23223,9 +22473,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UTF8View: Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.utf8View != 0 {
-      try visitor.visitSingularInt32Field(value: self.utf8View, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.utf8View, fieldNumber: 1, isDefaultValue: self.utf8View == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23252,9 +22500,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.v: SwiftProto
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.v != 0 {
-      try visitor.visitSingularInt32Field(value: self.v, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.v, fieldNumber: 1, isDefaultValue: self.v == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23281,9 +22527,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.value: SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.value != 0 {
-      try visitor.visitSingularInt32Field(value: self.value, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.value, fieldNumber: 1, isDefaultValue: self.value == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23310,9 +22554,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.valueField: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.valueField != 0 {
-      try visitor.visitSingularInt32Field(value: self.valueField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.valueField, fieldNumber: 1, isDefaultValue: self.valueField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23339,9 +22581,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.values: Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.values != 0 {
-      try visitor.visitSingularInt32Field(value: self.values, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.values, fieldNumber: 1, isDefaultValue: self.values == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23368,9 +22608,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ValueType: Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.valueType != 0 {
-      try visitor.visitSingularInt32Field(value: self.valueType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.valueType, fieldNumber: 1, isDefaultValue: self.valueType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23397,9 +22635,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.varMessage: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`var` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`var`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`var`, fieldNumber: 1, isDefaultValue: self.`var` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23426,9 +22662,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Version: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.version != 0 {
-      try visitor.visitSingularInt32Field(value: self.version, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.version, fieldNumber: 1, isDefaultValue: self.version == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23455,9 +22689,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.versionString
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.versionString != 0 {
-      try visitor.visitSingularInt32Field(value: self.versionString, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.versionString, fieldNumber: 1, isDefaultValue: self.versionString == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23484,9 +22716,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitExtensio
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitExtensionFields != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitExtensionFields, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitExtensionFields, fieldNumber: 1, isDefaultValue: self.visitExtensionFields == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23513,9 +22743,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitExtensio
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitExtensionFieldsAsMessageSet != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitExtensionFieldsAsMessageSet, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitExtensionFieldsAsMessageSet, fieldNumber: 1, isDefaultValue: self.visitExtensionFieldsAsMessageSet == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23542,9 +22770,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitMapField
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitMapField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitMapField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitMapField, fieldNumber: 1, isDefaultValue: self.visitMapField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23571,9 +22797,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitor: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitor != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitor, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitor, fieldNumber: 1, isDefaultValue: self.visitor == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23600,9 +22824,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPacked: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPacked != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPacked, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPacked, fieldNumber: 1, isDefaultValue: self.visitPacked == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23629,9 +22851,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedBo
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedBoolField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedBoolField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedBoolField, fieldNumber: 1, isDefaultValue: self.visitPackedBoolField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23658,9 +22878,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedDo
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedDoubleField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedDoubleField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedDoubleField, fieldNumber: 1, isDefaultValue: self.visitPackedDoubleField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23687,9 +22905,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedEn
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedEnumField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedEnumField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedEnumField, fieldNumber: 1, isDefaultValue: self.visitPackedEnumField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23716,9 +22932,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedFi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedFixed32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedFixed32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedFixed32Field, fieldNumber: 1, isDefaultValue: self.visitPackedFixed32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23745,9 +22959,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedFi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedFixed64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedFixed64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedFixed64Field, fieldNumber: 1, isDefaultValue: self.visitPackedFixed64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23774,9 +22986,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedFl
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedFloatField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedFloatField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedFloatField, fieldNumber: 1, isDefaultValue: self.visitPackedFloatField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23803,9 +23013,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedIn
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedInt32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedInt32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedInt32Field, fieldNumber: 1, isDefaultValue: self.visitPackedInt32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23832,9 +23040,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedIn
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedInt64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedInt64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedInt64Field, fieldNumber: 1, isDefaultValue: self.visitPackedInt64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23861,9 +23067,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSF
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedSfixed32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedSfixed32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedSfixed32Field, fieldNumber: 1, isDefaultValue: self.visitPackedSfixed32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23890,9 +23094,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSF
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedSfixed64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedSfixed64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedSfixed64Field, fieldNumber: 1, isDefaultValue: self.visitPackedSfixed64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23919,9 +23121,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSI
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedSint32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedSint32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedSint32Field, fieldNumber: 1, isDefaultValue: self.visitPackedSint32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23948,9 +23148,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSI
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedSint64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedSint64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedSint64Field, fieldNumber: 1, isDefaultValue: self.visitPackedSint64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -23977,9 +23175,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedUI
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedUint32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedUint32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedUint32Field, fieldNumber: 1, isDefaultValue: self.visitPackedUint32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24006,9 +23202,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedUI
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitPackedUint64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitPackedUint64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitPackedUint64Field, fieldNumber: 1, isDefaultValue: self.visitPackedUint64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24035,9 +23229,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeated != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeated, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeated, fieldNumber: 1, isDefaultValue: self.visitRepeated == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24064,9 +23256,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedBoolField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedBoolField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedBoolField, fieldNumber: 1, isDefaultValue: self.visitRepeatedBoolField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24093,9 +23283,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedBytesField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedBytesField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedBytesField, fieldNumber: 1, isDefaultValue: self.visitRepeatedBytesField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24122,9 +23310,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedDoubleField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedDoubleField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedDoubleField, fieldNumber: 1, isDefaultValue: self.visitRepeatedDoubleField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24151,9 +23337,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedEnumField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedEnumField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedEnumField, fieldNumber: 1, isDefaultValue: self.visitRepeatedEnumField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24180,9 +23364,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedFixed32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedFixed32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedFixed32Field, fieldNumber: 1, isDefaultValue: self.visitRepeatedFixed32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24209,9 +23391,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedFixed64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedFixed64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedFixed64Field, fieldNumber: 1, isDefaultValue: self.visitRepeatedFixed64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24238,9 +23418,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedFloatField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedFloatField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedFloatField, fieldNumber: 1, isDefaultValue: self.visitRepeatedFloatField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24267,9 +23445,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedGroupField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedGroupField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedGroupField, fieldNumber: 1, isDefaultValue: self.visitRepeatedGroupField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24296,9 +23472,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedInt32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedInt32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedInt32Field, fieldNumber: 1, isDefaultValue: self.visitRepeatedInt32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24325,9 +23499,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedInt64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedInt64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedInt64Field, fieldNumber: 1, isDefaultValue: self.visitRepeatedInt64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24354,9 +23526,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedMessageField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedMessageField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedMessageField, fieldNumber: 1, isDefaultValue: self.visitRepeatedMessageField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24383,9 +23553,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedSfixed32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedSfixed32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedSfixed32Field, fieldNumber: 1, isDefaultValue: self.visitRepeatedSfixed32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24412,9 +23580,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedSfixed64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedSfixed64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedSfixed64Field, fieldNumber: 1, isDefaultValue: self.visitRepeatedSfixed64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24441,9 +23607,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedSint32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedSint32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedSint32Field, fieldNumber: 1, isDefaultValue: self.visitRepeatedSint32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24470,9 +23634,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedSint64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedSint64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedSint64Field, fieldNumber: 1, isDefaultValue: self.visitRepeatedSint64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24499,9 +23661,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedStringField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedStringField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedStringField, fieldNumber: 1, isDefaultValue: self.visitRepeatedStringField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24528,9 +23688,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedUint32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedUint32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedUint32Field, fieldNumber: 1, isDefaultValue: self.visitRepeatedUint32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24557,9 +23715,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitRepeatedUint64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitRepeatedUint64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitRepeatedUint64Field, fieldNumber: 1, isDefaultValue: self.visitRepeatedUint64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24586,9 +23742,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingular != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingular, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingular, fieldNumber: 1, isDefaultValue: self.visitSingular == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24615,9 +23769,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularBoolField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularBoolField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularBoolField, fieldNumber: 1, isDefaultValue: self.visitSingularBoolField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24644,9 +23796,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularBytesField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularBytesField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularBytesField, fieldNumber: 1, isDefaultValue: self.visitSingularBytesField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24673,9 +23823,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularDoubleField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularDoubleField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularDoubleField, fieldNumber: 1, isDefaultValue: self.visitSingularDoubleField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24702,9 +23850,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularEnumField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularEnumField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularEnumField, fieldNumber: 1, isDefaultValue: self.visitSingularEnumField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24731,9 +23877,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularFixed32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularFixed32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularFixed32Field, fieldNumber: 1, isDefaultValue: self.visitSingularFixed32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24760,9 +23904,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularFixed64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularFixed64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularFixed64Field, fieldNumber: 1, isDefaultValue: self.visitSingularFixed64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24789,9 +23931,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularFloatField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularFloatField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularFloatField, fieldNumber: 1, isDefaultValue: self.visitSingularFloatField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24818,9 +23958,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularGroupField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularGroupField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularGroupField, fieldNumber: 1, isDefaultValue: self.visitSingularGroupField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24847,9 +23985,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularInt32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularInt32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularInt32Field, fieldNumber: 1, isDefaultValue: self.visitSingularInt32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24876,9 +24012,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularInt64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularInt64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularInt64Field, fieldNumber: 1, isDefaultValue: self.visitSingularInt64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24905,9 +24039,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularMessageField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularMessageField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularMessageField, fieldNumber: 1, isDefaultValue: self.visitSingularMessageField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24934,9 +24066,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularSfixed32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularSfixed32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularSfixed32Field, fieldNumber: 1, isDefaultValue: self.visitSingularSfixed32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24963,9 +24093,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularSfixed64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularSfixed64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularSfixed64Field, fieldNumber: 1, isDefaultValue: self.visitSingularSfixed64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -24992,9 +24120,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularSint32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularSint32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularSint32Field, fieldNumber: 1, isDefaultValue: self.visitSingularSint32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -25021,9 +24147,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularSint64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularSint64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularSint64Field, fieldNumber: 1, isDefaultValue: self.visitSingularSint64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -25050,9 +24174,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularStringField != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularStringField, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularStringField, fieldNumber: 1, isDefaultValue: self.visitSingularStringField == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -25079,9 +24201,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularUint32Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularUint32Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularUint32Field, fieldNumber: 1, isDefaultValue: self.visitSingularUint32Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -25108,9 +24228,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitSingularUint64Field != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitSingularUint64Field, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitSingularUint64Field, fieldNumber: 1, isDefaultValue: self.visitSingularUint64Field == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -25137,9 +24255,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitUnknown:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.visitUnknown != 0 {
-      try visitor.visitSingularInt32Field(value: self.visitUnknown, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.visitUnknown, fieldNumber: 1, isDefaultValue: self.visitUnknown == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -25166,9 +24282,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.wasDecoded: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.wasDecoded != 0 {
-      try visitor.visitSingularInt32Field(value: self.wasDecoded, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.wasDecoded, fieldNumber: 1, isDefaultValue: self.wasDecoded == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -25195,9 +24309,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.whereMessage:
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.`where` != 0 {
-      try visitor.visitSingularInt32Field(value: self.`where`, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.`where`, fieldNumber: 1, isDefaultValue: self.`where` == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -25224,9 +24336,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.wireFormat: S
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.wireFormat != 0 {
-      try visitor.visitSingularInt32Field(value: self.wireFormat, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.wireFormat, fieldNumber: 1, isDefaultValue: self.wireFormat == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -25253,14 +24363,66 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.with: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.with != 0 {
-      try visitor.visitSingularInt32Field(value: self.with, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.with, fieldNumber: 1, isDefaultValue: self.with == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.with, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.with) -> Bool {
     if lhs.with != rhs.with {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.withUnsafeBytes: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageName + ".withUnsafeBytes"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "withUnsafeBytes"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      switch fieldNumber {
+      case 1: try decoder.decodeSingularInt32Field(value: &self.withUnsafeBytes)
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try visitor.visitSingularInt32Field(value: self.withUnsafeBytes, fieldNumber: 1, isDefaultValue: self.withUnsafeBytes == 0)
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.withUnsafeBytes, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.withUnsafeBytes) -> Bool {
+    if lhs.withUnsafeBytes != rhs.withUnsafeBytes {return false}
+    if lhs.unknownFields != rhs.unknownFields {return false}
+    return true
+  }
+}
+
+extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.withUnsafeMutableBytes: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf._ProtoNameProviding {
+  static let protoMessageName: String = ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageName + ".withUnsafeMutableBytes"
+  static let _protobuf_nameMap: SwiftProtobuf._NameMap = [
+    1: .same(proto: "withUnsafeMutableBytes"),
+  ]
+
+  mutating func decodeMessage<D: SwiftProtobuf.Decoder>(decoder: inout D) throws {
+    while let fieldNumber = try decoder.nextFieldNumber() {
+      switch fieldNumber {
+      case 1: try decoder.decodeSingularInt32Field(value: &self.withUnsafeMutableBytes)
+      default: break
+      }
+    }
+  }
+
+  func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
+    try visitor.visitSingularInt32Field(value: self.withUnsafeMutableBytes, fieldNumber: 1, isDefaultValue: self.withUnsafeMutableBytes == 0)
+    try unknownFields.traverse(visitor: &visitor)
+  }
+
+  static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.withUnsafeMutableBytes, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.withUnsafeMutableBytes) -> Bool {
+    if lhs.withUnsafeMutableBytes != rhs.withUnsafeMutableBytes {return false}
     if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
@@ -25282,9 +24444,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.WrappedType: 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.wrappedType != 0 {
-      try visitor.visitSingularInt32Field(value: self.wrappedType, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.wrappedType, fieldNumber: 1, isDefaultValue: self.wrappedType == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -25311,9 +24471,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.written: Swif
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.written != 0 {
-      try visitor.visitSingularInt32Field(value: self.written, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.written, fieldNumber: 1, isDefaultValue: self.written == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 
@@ -25340,9 +24498,7 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.yday: SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if self.yday != 0 {
-      try visitor.visitSingularInt32Field(value: self.yday, fieldNumber: 1)
-    }
+    try visitor.visitSingularInt32Field(value: self.yday, fieldNumber: 1, isDefaultValue: self.yday == 0)
     try unknownFields.traverse(visitor: &visitor)
   }
 

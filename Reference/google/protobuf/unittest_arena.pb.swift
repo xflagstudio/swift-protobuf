@@ -135,12 +135,8 @@ extension Proto2ArenaUnittest_ArenaMessage: SwiftProtobuf.Message, SwiftProtobuf
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    if !self.repeatedNestedMessage.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.repeatedNestedMessage, fieldNumber: 1)
-    }
-    if !self.repeatedImportNoArenaMessage.isEmpty {
-      try visitor.visitRepeatedMessageField(value: self.repeatedImportNoArenaMessage, fieldNumber: 2)
-    }
+    try visitor.visitRepeatedMessageField(value: self.repeatedNestedMessage, fieldNumber: 1, isDefaultValue: self.repeatedNestedMessage.isEmpty)
+    try visitor.visitRepeatedMessageField(value: self.repeatedImportNoArenaMessage, fieldNumber: 2, isDefaultValue: self.repeatedImportNoArenaMessage.isEmpty)
     try unknownFields.traverse(visitor: &visitor)
   }
 
